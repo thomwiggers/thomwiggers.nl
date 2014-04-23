@@ -13,8 +13,8 @@ date: '2014-03-21 18:25:10 +0100'
 date_gmt: '2014-03-21 17:25:10 +0100'
 categories:
 - security
-tags: []
+tags: [assembly crypto]
 comments: []
 ---
 <p>For crypto code it's important that it's time-invariant, otherwise it is vulnerable to timing attacks. I've had to build this time-invariant equality test from scratch, because I couldn't find something on Google. I hope it's useful to someone else. </p>
-<p>https://gist.github.com/thomwiggers/9690984#file-linearequals-asm</p>
+{% gist 9690984 %}
