@@ -1,0 +1,10 @@
+name: ThomWiggers.nl
+markdown: redcarpet
+pygments: true
+relative_permalinks: false
+
+author:
+  name: Thom Wiggers
+  email: thom@thomwiggers.nl
+  github: thomwiggers
+  twitter: thomwiggers
