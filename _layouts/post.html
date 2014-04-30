@@ -1,9 +1,19 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<article>
 
-<div class="post">
-{{ content }}
-</div>
+  <h3><a href="#">{{ page.title }}</a></h3>
+  <h6>Written by 
+    {% if page.author %}
+    <a href="{{page.author_url}}">{{ page.author }}</a> 
+    {% else %}
+    <a href="/about.html">{{ site.author.name }}</a>
+    {% endif %}
+    on {{ page.date | date_to_string }}.</h6>
+
+  <div class="row">
+    {{ content }}
+  </div>
+
+</article>
