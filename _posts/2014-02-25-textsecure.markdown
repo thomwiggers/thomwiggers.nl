@@ -21,6 +21,8 @@ tags:
 ---
 <p>Instead of trusting Telegram (which is a bad idea, try using Google for a few minutes, or <a href="http://unhandledexpression.com/2013/12/17/telegram-stand-back-we-know-maths/">start</a> <a href="http://www.thoughtcrime.org/blog/telegram-crypto-challenge/">here</a>) I'm going to bet on TextSecure, which actually does something which resembles OTR.</p>
 
+<!-- more -->
+
 <p>If you wish to verify it, my TextSecure identity is this:</p>
 <p><a href="/files/textsecure-identity.png"><img alt="Textsecure identity QR code" src="/files/textsecure-identity.png" width="708" height="707" /></a></p>
 <p>You can verify it's me by <a href="/files/textsecure-identity.png.asc">the image's PGP signature available here</a>, if there exists a trust path between us.</p>

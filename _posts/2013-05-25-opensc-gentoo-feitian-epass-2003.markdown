@@ -18,7 +18,10 @@ tags:
 - english
 comments: []
 ---
-<p>While playing with my ePass2003 on my Gentoo installation today, I had some trouble getting it to work. As it turned out, you need the following use flags enabled:</p>
+
+<p>While playing with my ePass2003 on my Gentoo installation today, I had some
+trouble getting it to work. As it turned out, you need the following use flags
+enabled:</p>
 
 ```
 # /etc/portage/package.use

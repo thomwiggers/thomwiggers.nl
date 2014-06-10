@@ -13,6 +13,12 @@ categories:
 tags: [assembly crypto]
 comments: []
 ---
-<p>For crypto code it's important that it's time-invariant, otherwise it is vulnerable to timing attacks. I've had to build this time-invariant equality test from scratch, because I couldn't find something on Google. I hope it's useful to someone else. </p>
+
+<p>For crypto code it's important that it's time-invariant, otherwise it is
+vulnerable to timing attacks. I've had to build this time-invariant equality
+test from scratch, because I couldn't find something on Google. I hope it's
+useful to someone else. </p>
+
+<!-- more -->
 
 {% gist 9690984 %}
