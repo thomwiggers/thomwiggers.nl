@@ -4,6 +4,7 @@ task :dev do
 end
 
 
+# rake write[title,category]
 desc "Given a title as an argument, create a new post file"
 task :write, [:title, :category] do |t, args|
   filename = "#{Time.now.strftime('%Y-%m-%d')}-#{args.title.gsub(/\s/, '_').downcase}.markdown"
@@ -22,6 +23,7 @@ EOS
     puts "Now open #{path} in an editor."
 end
 
+# command: rake rsync:dryrun or rake rsync:deploy
 namespace :rsync do
   host = 'clearlyreta.rded.nl:/var/www/thomwiggers.nl'
 
