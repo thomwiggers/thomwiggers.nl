@@ -16,7 +16,7 @@ Though the characters are pretty flat and lead character Mae quickly turns from
 a smart girl with ideals into a one-dimensional surface that believes anything
 that she is told, the story was pretty captivating and chilling. The ending
 seemed pretty rushed, though, and after reading it it you just put your e-reader
-aside.
+aside. The lack of dissidence outside of Mercer also seems a bit unrealistic.
 
-At least I'll have a new argument when people say that they've got nothing to
-hide.
+It was a good read, and although the book wasn't mindblowing at least I'll have
+a new argument when people say that they've got nothing to hide.
