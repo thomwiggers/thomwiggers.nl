@@ -30,13 +30,13 @@ namespace :rsync do
   desc "--dry-run rsync"
     task :dryrun do
       puts "DRY RUN!"
-      system('cd _compass && compass clean && compass compile --force --output-style compressed && cd ..')
+      system('compass clean')
       system('jekyll build --lsi')
       system("rsync _site/ -ave ssh --dry-run --delete #{host}")
     end
   desc "rsync"
     task :deploy do
-      system('cd _compass && compass clean && compass compile --force --output-style compressed && cd ..')
+      system('compass clean')
       system('jekyll build --lsi')
       system("rsync _site/ -ave ssh --delete #{host}")
     end

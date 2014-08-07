@@ -18,10 +18,10 @@ exclude: ['bower.json', 'index.html.bak', 'Rakefile']
 excerpt_separator: "<!-- more -->"
 
 linked_pages:
-  - 
+  -
     url: "/index.html"
     title: "Home"
-  - 
+  -
     url: "/about.html"
     title: "About"
 
@@ -35,9 +35,12 @@ sitemap:
 
 defaults:
   -
-    scope: 
+    scope:
       path: ""
     values:
       author: "Thom Wiggers"
       author_url: "http://thomwiggers.nl/about.html"
 
+gems:
+  - jekyll-compass
+#  vim: set ts=4 sw=2 tw=80 et :
