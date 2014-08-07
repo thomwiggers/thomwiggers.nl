@@ -1,5 +1,5 @@
 name: Blog
-subtitle: Thom Wiggers's blog
+subtitle: Thom Wiggers' blog
 markdown: redcarpet
 highlighter: pygments
 relative_permalinks: false
