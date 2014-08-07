@@ -1,7 +1,7 @@
 ---
 layout: post
 category: linux
-title: Perfect forward secrecy with nginx
+title: Perfect forward secrecy and HSTS with nginx
 date: 2014-08-07 19:30:02
 tags:
   - linux
@@ -21,6 +21,22 @@ I just put the below config lines in a file called
 
     ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
     ssl_prefer_server_ciphers on;
-    ssl_ciphers EECDH+ECDSA+AESGCM:EECDH+aRSA+AESGCM:EECDH+ECDSA+SHA256:EECDH+aRSA+RC4:EDH+aRSA:EECDH:RC4:!aNULL:!eNULL:!LOW:!3DES:!MD5:!EXP:!PSK:!SRP:!DSS;
+    ssl_ciphers ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES128-GCM-SHA256:DHE-RSA-AES128-GCM-SHA256:DHE-DSS-AES128-GCM-SHA256:kEDH+AESGCM:ECDHE-RSA-AES128-SHA256:ECDHE-ECDSA-AES128-SHA256:ECDHE-RSA-AES128-SHA:ECDHE-ECDSA-AES128-SHA:ECDHE-RSA-AES256-SHA384:ECDHE-ECDSA-AES256-SHA384:ECDHE-RSA-AES256-SHA:ECDHE-ECDSA-AES256-SHA:DHE-RSA-AES128-SHA256:DHE-RSA-AES128-SHA:DHE-DSS-AES128-SHA256:DHE-RSA-AES256-SHA256:DHE-DSS-AES256-SHA:DHE-RSA-AES256-SHA:!aNULL:!eNULL:!EXPORT:!DES:!RC4:!3DES:!MD5:!PSK;
+    ssl_session_cache builtin:1000 shared:SSL:10m;
+    ssl_dhparam /etc/ssl/certs/dhparam.pem;
+
+
+The SSL cipher suite has been borrowed from [this Mozilla wiki][2].
+
+You need to create `dhparam.pem` by doing this in a root shell:
+
+    # openssl dhparam -out /etc/ssl/certs/dhparam.pem 4096
+
+Enable HTTP Strict Transport Security (HSTS) by putting this in the relevant site configs:
+
+    add_header Strict-Transport-Security max-age=63072000;
 
 Don't forget to restart nginx after making this change.
+
+  [1]: https://www.ssllabs.com/ssltest/
+  [2]: https://wiki.mozilla.org/Security/Server_Side_TLS
