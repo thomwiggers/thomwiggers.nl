@@ -9,6 +9,8 @@ tags:
   - ssl
   - https
   - server
+  - ocsp
+  - ocsp stapling
 ---
 
 Today, I enabled perfect forward secrecy on my `nginx` installation. I'm writing
@@ -35,6 +37,20 @@ You need to create `dhparam.pem` by doing this in a root shell:
 Enable HTTP Strict Transport Security (HSTS) by putting this in the relevant site configs:
 
     add_header Strict-Transport-Security max-age=63072000;
+
+To add OSCP stapling, also add these lines:
+
+    ssl_trusted_certificate /path/to/intermediates/plus/ca/root/certificate;
+    ssl_stapling on;
+    ssl_stapling_verify on;
+
+To prevent attacks with `<iframe>` tags, add:
+
+    add_header X-Frame-Options DENY; # or SAMEORIGIN
+
+To stop browsers from sniffing the MIME response type:
+
+    add_header X-Content-Type-Options nosniff;
 
 Don't forget to restart nginx after making this change.
 
