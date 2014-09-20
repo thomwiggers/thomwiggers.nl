@@ -1,5 +1,7 @@
 name: Blog
 subtitle: Thom Wiggers' blog
+description: Thom Wiggers' blog
+url: https://thomwiggers.nl
 markdown: redcarpet
 highlighter: pygments
 relative_permalinks: false
