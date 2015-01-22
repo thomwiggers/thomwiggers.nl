@@ -35,10 +35,10 @@ somewhere but I can't remember where, this is the one with my own modifications.
 
 ```
 [ req ]
-default_bits = 2048
+default_bits = 4096
 default_keyfile = server.rded.nl.key
 encrypt_key = no
-default_md = sha1
+default_md = sha256
 prompt = no
 utf8 = yes
 req_extensions = my_extensions
@@ -115,9 +115,17 @@ Weird stuff:
 * I had to run the signing step as root and had to add some weird files in
   `/etc/ssl/`.
 
+* You get a non-obvious error if you issue a new cert for other domains with
+  the same subject.
+
 Sources:
 --------
 
 * [Gooze tutorial](http://www.gooze.eu/howto/smartcard-quickstarter-guide/scenario-3-creating-a-self-signed-certificate-using-embedded)
 * [OpenSC wiki](https://github.com/OpenSC/OpenSC/wiki/Engine-pkcs11-quickstart)
 * `man` pages of `openssl`
+
+Edits:
+------
+
+**2015-1-22:** Updated `req.cnf` to have better defaults, added same-subject note.
