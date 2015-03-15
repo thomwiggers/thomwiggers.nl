@@ -30,13 +30,13 @@ namespace :rsync do
   desc "--dry-run rsync"
     task :dryrun do
       puts "DRY RUN!"
-      system('compass clean')
+      system('gpg --output .well-known/thomwiggers.asc --armor --export 915D4ED34871E82F')
       system('jekyll build --lsi')
       system("rsync _site/ -ave ssh --dry-run --delete #{host}")
     end
   desc "rsync"
     task :deploy do
-      system('compass clean')
+      system('gpg --output .well-known/thomwiggers.asc --armor --export 915D4ED34871E82F')
       system('jekyll build --lsi')
       system("rsync _site/ -ave ssh --delete #{host}")
     end

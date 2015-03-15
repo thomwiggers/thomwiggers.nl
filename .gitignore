@@ -4,3 +4,4 @@ _site
 *.DS_Store
 /stylesheets/*
 _compass/.sass-cache/
+.well-known/thomwiggers.asc
