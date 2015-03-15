@@ -17,6 +17,9 @@ foundation-dev-mode: false
 # don't put these on the live site
 exclude: ['bower.json', 'index.html.bak', 'Rakefile', 'README.md']
 
+# Explicitly include these
+include: ['.well-known']
+
 excerpt_separator: "<!-- more -->"
 
 linked_pages:
