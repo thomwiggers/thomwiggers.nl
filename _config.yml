@@ -29,6 +29,9 @@ linked_pages:
   -
     url: "/about.html"
     title: "About"
+  -
+    url: "/proest"
+    title: "Research"
 
 sitemap:
   file: "/sitemap.xml"
