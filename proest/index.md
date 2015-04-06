@@ -35,7 +35,7 @@ My thesis was titled [Implementing Prøst on ARM11][thesis]. The presentation ca
 [qhasm-arm]: https://github.com/thomwiggers/qhasm
 [slpsat]: https://github.com/thomwiggers/find-shortest-slp
 [slp-heuristic]: https://github.com/thomwiggers/slp-heuristic
-[proest-arm]: https://github.com/thomwiggers/proest-arm11
+[proest-arm11]: https://github.com/thomwiggers/proest-arm11
 [thesis]: bachelorthesis.pdf
 [presentation]: presentation.pdf
 [caesar]: http://competitions.cr.yp.to
