@@ -1,6 +1,6 @@
 desc 'Running Jekyll with serve -w'
 task :dev do
-  system('jekyll serve -w')
+  system('bundle exec jekyll serve')
 end
 
 
@@ -32,14 +32,14 @@ namespace :rsync do
       puts "DRY RUN!"
       system('rm -f .well-known/thomwiggers.asc')
       system('gpg --output .well-known/thomwiggers.asc --armor --export 915D4ED34871E82F')
-      system('jekyll build --lsi')
+      system('bundle exec jekyll build --lsi')
       system("rsync _site/ -ave ssh --dry-run --delete #{host}")
     end
   desc "rsync"
     task :deploy do
       system('rm -f .well-known/thomwiggers.asc')
       system('gpg --output .well-known/thomwiggers.asc --armor --export 915D4ED34871E82F')
-      system('jekyll build --lsi')
+      system('bundle exec jekyll build --lsi')
       system("rsync _site/ -ave ssh --delete #{host}")
     end
 end
