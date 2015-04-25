@@ -30,7 +30,7 @@ linked_pages:
     url: "/about.html"
     title: "About"
   -
-    url: "/proest"
+    url: "/research/"
     title: "Research"
 
 sitemap:
