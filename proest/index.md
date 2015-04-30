@@ -25,17 +25,18 @@ My thesis was titled [Implementing Prøst on ARM11][thesis]. The presentation ca
 
 ## Software
 
-* Prøst on ARM can be [found on Github here][proest-arm11]
-* My implementation of the Shortest Straight Line program finder is also [available on github][slpsat]
-* My modified version of [qhasm][qhasm] is also [available on github][qhasm-arm]. The no-stack version is available from the branch `nostack`.
+* Prøst on ARM can be [found on Github here][proest-arm11].
+* My demo implementation of Prøst in Python can be [found in this Github repository][proest-python].
+* My implementation of the Shortest Straight Line program finder is also [available on Github][slpsat].
+* My modified version of [qhasm][qhasm] is also [available on Github][qhasm-arm]. The no-stack version is available from the branch `nostack`.
 * My implementation of Boyar's heuristic for finding shorter straight line programs [can be found here][slp-heuristic].
-* My packaged version of `cpucycles4ns` can be found at [github][cpucycles4ns]
-* The LaTeX source code for the documents I've produced is [available here][fixme]
+* My packaged version of `cpucycles4ns` can be found at [Github][cpucycles4ns].
 
 [qhasm-arm]: https://github.com/thomwiggers/qhasm
 [slpsat]: https://github.com/thomwiggers/find-shortest-slp
 [slp-heuristic]: https://github.com/thomwiggers/slp-heuristic
 [proest-arm11]: https://github.com/thomwiggers/proest-arm11
+[proest-python]: https://github.com/thomwiggers/proest-python
 [thesis]: bachelorthesis.pdf
 [presentation]: presentation.pdf
 [caesar]: http://competitions.cr.yp.to
