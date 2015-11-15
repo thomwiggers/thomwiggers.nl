@@ -18,7 +18,9 @@ tags:
 
 ### Prøst on ARM11
 Prøst is an authenticated encryption cipher and a contestant in the [CAESAR][caesar] competition for Authenticated Encryption.
-For my bachelor thesis research project, I've implemented Prøst on ARM11. [More can be found here][proestpage]
+For my bachelor thesis research project, I've implemented Prøst on ARM11. This work also resulted in a paper published with the
+[Student Research Conference 2015][src]. [More can be found here.][proestpage]
+
 
 ### PRIDE in Python
 
@@ -37,3 +39,4 @@ I've implemented [PRIDE][pridepaper] in Python. This implementation can be found
 [proestpage]: /proest/
 [pridepaper]: https://eprint.iacr.org/2014/453.pdf
 [pride-python]: https://github.com/thomwiggers/pride-python/
+[src]: http://studentresearchconference.nl

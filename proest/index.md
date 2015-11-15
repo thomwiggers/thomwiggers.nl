@@ -29,6 +29,8 @@ I've had the opportunity to send in this research to the [Student Research
 Conference 2015][src], where it was accepted as a poster presentation. The paper
 can be [read here][paper]. The poster I presented [can be found here][poster].
 
+I also [wrote a bit about my experiences][srcblog]
+
 ## Software
 
 * Prøst on ARM can be [found on Github here][proest-arm11].
@@ -51,3 +53,4 @@ can be [read here][paper]. The poster I presented [can be found here][poster].
 [src]: http://studentresearchconference.nl
 [poster]: poster.pdf
 [paper]: srcpaper.pdf
+[srcblog]: {% post_url 2015-11-15-proest_at_student_research_conference %}
