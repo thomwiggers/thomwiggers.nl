@@ -55,16 +55,15 @@
           <li><a href="https://twitter.com/{{ site.author.twitter }}">Twitter</a></li>
           <li><a href="https://github.com/{{ site.author.github }}">Github</a></li>
           <li><a href="https://linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a></li>
-          <li><a href="http://ictnetwerknijmegen.nl">ICT Netwerk Nijmegen</a></li>
         </ul>
 
         <h5>Recent Posts</h5>
         <ul class="side-nav">
-        {% for post in site.posts limit:2 %}
+        {% for post in site.posts limit:3 %}
           <li><a href="{{post.url}}">{{post.title}}</a></li>
         {% endfor %}
         </ul>
-        {% if site.related_posts %}
+        {% if site.related_posts and page.title != 'Home' %}
         <h5>Related Posts</h5>
         <ul class="side-nav">
           {% for post in site.related_posts limit:5 %}

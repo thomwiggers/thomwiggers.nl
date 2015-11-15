@@ -32,6 +32,8 @@ namespace :rsync do
       puts "DRY RUN!"
       system('rm -f .well-known/thomwiggers.asc')
       system('gpg --output .well-known/thomwiggers.asc --armor --export 915D4ED34871E82F')
+      system('bundle exec jekyll clean')
+      system('bundle exec compass compile')
       system('bundle exec jekyll build --lsi')
       system("rsync _site/ -ave ssh --dry-run --delete #{host}")
     end
@@ -39,6 +41,8 @@ namespace :rsync do
     task :deploy do
       system('rm -f .well-known/thomwiggers.asc')
       system('gpg --output .well-known/thomwiggers.asc --armor --export 915D4ED34871E82F')
+      system('bundle exec jekyll clean')
+      system('bundle exec compass compile')
       system('bundle exec jekyll build --lsi')
       system("rsync _site/ -ave ssh --delete #{host}")
     end

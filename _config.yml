@@ -2,9 +2,10 @@ name: Blog
 subtitle: Thom Wiggers' blog
 description: Thom Wiggers' blog
 url: https://thomwiggers.nl
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
-relative_permalinks: false
+timezone: Europe/Amsterdam
+paginate: 5
 
 author:
   name: Thom Wiggers
@@ -15,7 +16,14 @@ author:
 foundation-dev-mode: false
 
 # don't put these on the live site
-exclude: ['bower.json', 'index.html.bak', 'Rakefile', 'README.md']
+exclude:
+  - bower.json
+  - index.html.bak
+  - Rakefile
+  - README.md
+  - config.rb
+  - Gemfile
+  - Gemfile.lock
 
 # Explicitly include these
 include: ['.well-known']
@@ -46,11 +54,13 @@ defaults:
     scope:
       path: ""
     values:
-      author: "Thom Wiggers"
-      author_url: "http://thomwiggers.nl/about.html"
+      author:
+        name: "Thom Wiggers"
+        url: "/about.html"
 
 gems:
-  - jekyll-compass
+  - jekyll-gist
+  - jekyll-paginate
   - jekyll-sitemap
 
 #  vim: set ts=4 sw=2 tw=80 et :
