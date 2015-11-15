@@ -23,6 +23,12 @@ For my bachelor thesis research project, I've implemented Prøst on ARM11.
 
 My thesis was titled [Implementing Prøst on ARM11][thesis]. The presentation can be [found here][presentation].
 
+## Student Research Conference Paper
+
+I've had the opportunity to send in this research to the [Student Research
+Conference 2015][src], where it was accepted as a poster presentation. The paper
+can be [read here][paper]. The poster I presented [can be found here][poster].
+
 ## Software
 
 * Prøst on ARM can be [found on Github here][proest-arm11].
@@ -42,4 +48,6 @@ My thesis was titled [Implementing Prøst on ARM11][thesis]. The presentation ca
 [caesar]: http://competitions.cr.yp.to
 [qhasm]: http://cr.yp.to/qhasm.html
 [cpucycles4ns]: https://github.com/thomwiggers/cpucycles4ns
-[fixme]: http://wpformation.com/wp-content/uploads/2014/03/todo1.jpg
+[src]: http://studentresearchconference.nl
+[poster]: poster.pdf
+[paper]: srcpaper.pdf
