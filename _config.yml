@@ -2,7 +2,7 @@ name: Blog
 subtitle: Thom Wiggers' blog
 description: Thom Wiggers' blog
 url: https://thomwiggers.nl
-markdown: kramdown
+markdown: pandoc
 highlighter: pygments
 timezone: Europe/Amsterdam
 paginate: 5
@@ -14,6 +14,14 @@ author:
   twitter: thomwiggers
 
 foundation-dev-mode: false
+
+pandoc:
+  extensions:
+    - normalize
+    - smart
+    - mathjax
+    - bibliography: _tex/bibliography.bib
+    - csl: _tex/lncs.csl
 
 # don't put these on the live site
 exclude:
@@ -59,6 +67,7 @@ defaults:
         url: "/about.html"
 
 gems:
+  - jekyll-pandoc
   - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap

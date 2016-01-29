@@ -1,5 +1,6 @@
 desc 'Running Jekyll with serve -w'
 task :dev do
+  system('bundle exec compass compile')
   system('bundle exec jekyll serve')
 end
 
