@@ -17,7 +17,7 @@ task :write, [:title, :category] do |t, args|
 layout: post
 category: #{args.category}
 title: #{args.title}
-date: #{Time.now.strftime('%Y-%m-%d %k:%M:%S')}
+date: #{Time.now.strftime('%Y-%m-%d %k:%M:%S %z')}
 ---
 EOS
     end
