@@ -1,0 +1,6 @@
+* text=auto
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+/.well-known/openpgpkey/hu/* binary

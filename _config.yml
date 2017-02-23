@@ -2,7 +2,7 @@ name: Blog
 subtitle: Thom Wiggers' blog
 description: Thom Wiggers' blog
 url: https://thomwiggers.nl
-markdown: pandoc
+markdown: Pandoc
 highlighter: pygments
 timezone: Europe/Amsterdam
 paginate: 5

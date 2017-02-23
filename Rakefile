@@ -33,6 +33,7 @@ namespace :rsync do
       puts "DRY RUN!"
       system('rm -f .well-known/thomwiggers.asc')
       system('gpg --output .well-known/thomwiggers.asc --armor --export 915D4ED34871E82F')
+      system('./_tools/generate-openpgpkey-hu thomwiggers.nl .well-known/openpgpkey/hu')
       system('bundle exec jekyll clean')
       system('bundle exec compass compile')
       system('bundle exec jekyll build --lsi')
@@ -42,6 +43,7 @@ namespace :rsync do
     task :deploy do
       system('rm -f .well-known/thomwiggers.asc')
       system('gpg --output .well-known/thomwiggers.asc --armor --export 915D4ED34871E82F')
+      system('./_tools/generate-openpgpkey-hu thomwiggers.nl .well-known/openpgpkey/hu')
       system('bundle exec jekyll clean')
       system('bundle exec compass compile')
       system('bundle exec jekyll build --lsi')

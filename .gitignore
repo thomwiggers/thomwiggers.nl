@@ -5,6 +5,8 @@ _site
 /stylesheets/*
 _compass/.sass-cache/
 .well-known/thomwiggers.asc
-.bundle
+.bundle/*
+!/.bundle/config
 _vendor/
+vendor/bundle
 .jekyll-metadata
