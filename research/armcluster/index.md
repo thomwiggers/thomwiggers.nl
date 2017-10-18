@@ -18,7 +18,9 @@ tags:
 # ODROID-C2 Cluster
 
 This page accompanies my Latincrypt 2017 paper *Energy-efficient ARM64 Cluster with Cryptanalytic Applications: 80 cores that do not cost you an ARM and a leg*.
-I will upload the paper when it is available.
+
+* [Paper (preliminary)][paper]
+* [Presentation][presentation]
 
 ## Software
 
@@ -33,5 +35,7 @@ It is a dependency to many of the programs below.
 [ansibleplaybooks]: https://github.com/thomwiggers/odroid-playbooks/
 [microbenchmark]: https://github.com/thomwiggers/microbenchmark-aarch64/
 [multipliers]: https://github.com/thomwiggers/aarch64_multipliers/
+[presentation]: presentation.pdf
+[paper]: paper.pdf
 
 <!-- vim: set wrap : -->
