@@ -94,6 +94,7 @@ PLATFORMS
 DEPENDENCIES
   classifier-reborn
   compass
+  compass-import-once
   jekyll
   jekyll-gist
   jekyll-paginate

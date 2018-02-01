@@ -1,6 +1,7 @@
 source "http://rubygems.org"
 
 gem 'compass'
+gem 'compass-import-once'
 gem 'classifier-reborn'
 gem 'rake'
 gem 'jekyll'
