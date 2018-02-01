@@ -17,8 +17,6 @@ foundation-dev-mode: false
 
 pandoc:
   extensions:
-    - normalize
-    - smart
     - mathjax
     - bibliography: _tex/bibliography.bib
     - csl: _tex/lncs.csl
