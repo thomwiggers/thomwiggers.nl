@@ -43,7 +43,7 @@ I've implemented [PRIDE][pridepaper] in Python. This implementation can be found
 [qhasm]: http://cr.yp.to/qhasm.html
 [cpucycles4ns]: https://github.com/thomwiggers/cpucycles4ns
 [fixme]: http://wpformation.com/wp-content/uploads/2014/03/todo1.jpg
-[proestpage]: /proest/
+[proestpage]: proest/
 [pridepaper]: https://eprint.iacr.org/2014/453.pdf
 [pride-python]: https://github.com/thomwiggers/pride-python/
 [src]: http://studentresearchconference.nl

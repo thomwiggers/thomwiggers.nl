@@ -12,6 +12,8 @@ tags:
     - proest
     - research
     - thesis
+redirect_from:
+    - /proest/
 ---
 
 # Prøst
