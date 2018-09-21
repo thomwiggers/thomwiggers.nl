@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thom Wiggers on Thom Wiggers</title>
+    <link>/</link>
+    <description>Recent content in Thom Wiggers on Thom Wiggers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&amp;copy; 2018 -- CC-BY 4.0</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0200</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Implementing CAESAR candidate Prøst on ARM11</title>
+      <link>/publication/bsc-src-paper/</link>
+      <pubDate>Fri, 20 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/bsc-src-paper/</guid>
+      <description>&lt;p&gt;See the project page for more information.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Implementing Prøst on ARM11</title>
+      <link>/publication/bachelors-thesis/</link>
+      <pubDate>Fri, 10 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/bachelors-thesis/</guid>
+      <description>&lt;p&gt;See the project page for more information.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bachelor&#39;s thesis</title>
+      <link>/project/bachelors-thesis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/bachelors-thesis/</guid>
+      <description>
+
+&lt;p&gt;This page lists the products of my Bachelor&amp;rsquo;s thesis research.&lt;/p&gt;
+
+&lt;h2 id=&#34;prøst&#34;&gt;Prøst&lt;/h2&gt;
+
+&lt;p&gt;Prøst is an authenticated encryption cipher and a contestant in the CAESAR competition for Authenticated Encryption. For my bachelor thesis research project, I’ve implemented Prøst on ARM11.&lt;/p&gt;
+
+&lt;h2 id=&#34;software&#34;&gt;Software&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Prøst on ARM can be &lt;a href=&#34;https://github.com/thomwiggers/proest-arm11&#34; target=&#34;_blank&#34;&gt;found on Github here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;My demo implementation of Prøst in Python can be &lt;a href=&#34;https://github.com/thomwiggers/proest-python&#34; target=&#34;_blank&#34;&gt;found in this Github repository&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;My implementation of the Shortest Straight Line program finder is also &lt;a href=&#34;https://github.com/thomwiggers/find-shortest-slp&#34; target=&#34;_blank&#34;&gt;available on Github&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;My modified version of &lt;a href=&#34;http://cr.yp.to/qhasm.html&#34; target=&#34;_blank&#34;&gt;qhasm&lt;/a&gt; is also &lt;a href=&#34;https://github.com/thomwiggers/qhasm&#34; target=&#34;_blank&#34;&gt;available on Github&lt;/a&gt;. The no-stack version is available from the branch &lt;code&gt;nostack&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;My implementation of Boyar&amp;rsquo;s heuristic for finding shorter straight line programs &lt;a href=&#34;https://github.com/thomwiggers/slp-heuristic&#34; target=&#34;_blank&#34;&gt;can be found here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;My packaged version of &lt;code&gt;cpucycles4ns&lt;/code&gt; can be found at &lt;a href=&#34;https://github.com/thomwiggers/cpucycles4ns&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

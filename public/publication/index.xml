@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Thom Wiggers</title>
+    <link>/publication/</link>
+    <description>Recent content in Publications on Thom Wiggers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&amp;copy; 2018 -- CC-BY 4.0</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Implementing CAESAR candidate Prøst on ARM11</title>
+      <link>/publication/bsc-src-paper/</link>
+      <pubDate>Fri, 20 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/bsc-src-paper/</guid>
+      <description>See the project page for more information.</description>
+    </item>
+    
+    <item>
+      <title>Implementing Prøst on ARM11</title>
+      <link>/publication/bachelors-thesis/</link>
+      <pubDate>Fri, 10 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/bachelors-thesis/</guid>
+      <description>See the project page for more information.</description>
+    </item>
+    
+  </channel>
+</rss>
