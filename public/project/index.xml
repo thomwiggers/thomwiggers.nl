@@ -1,26 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Projects on Thom Wiggers</title>
-    <link>/project/</link>
-    <description>Recent content in Projects on Thom Wiggers</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <copyright>&amp;copy; 2018 -- CC-BY 4.0</copyright>
-    
-	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Bachelor&#39;s thesis</title>
-      <link>/project/bachelors-thesis/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/project/bachelors-thesis/</guid>
-      <description>This page lists the products of my Bachelor&amp;rsquo;s thesis research.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Thom Wiggers</title><link>/project/</link><description>Recent content in Projects on Thom Wiggers</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><copyright>&amp;copy; 2018 -- CC-BY 4.0</copyright><atom:link href="/project/index.xml" rel="self" type="application/rss+xml"/><item><title>Bachelor&#39;s thesis</title><link>/project/bachelors-thesis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/project/bachelors-thesis/</guid><description>This page lists the products of my Bachelor&amp;rsquo;s thesis research.
 Prøst Prøst is an authenticated encryption cipher and a contestant in the CAESAR competition for Authenticated Encryption. For my bachelor thesis research project, I’ve implemented Prøst on ARM11.
-Software  Prøst on ARM can be found on Github here. My demo implementation of Prøst in Python can be found in this Github repository. My implementation of the Shortest Straight Line program finder is also available on Github.</description>
-    </item>
-    
-  </channel>
-</rss>
+Software Prøst on ARM can be found on Github here. My demo implementation of Prøst in Python can be found in this Github repository. My implementation of the Shortest Straight Line program finder is also available on Github.</description></item></channel></rss>

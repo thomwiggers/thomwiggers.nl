@@ -1,67 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>security on Thom Wiggers</title>
-    <link>/categories/security/</link>
-    <description>Recent content in security on Thom Wiggers</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <copyright>&amp;copy; 2018 -- CC-BY 4.0</copyright>
-    <lastBuildDate>Fri, 21 Mar 2014 18:25:10 +0100</lastBuildDate>
-    
-	<atom:link href="/categories/security/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Time-invariant equality in assembly</title>
-      <link>/post/2014-03-21-time-invariant-equality-in-assembly/</link>
-      <pubDate>Fri, 21 Mar 2014 18:25:10 +0100</pubDate>
-      
-      <guid>/post/2014-03-21-time-invariant-equality-in-assembly/</guid>
-      <description>&lt;p&gt;For crypto code it&#39;s important that it&#39;s time-invariant, otherwise it is
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>security on Thom Wiggers</title><link>/categories/security/</link><description>Recent content in security on Thom Wiggers</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><copyright>&amp;copy; 2018 -- CC-BY 4.0</copyright><lastBuildDate>Fri, 21 Mar 2014 18:25:10 +0100</lastBuildDate><atom:link href="/categories/security/index.xml" rel="self" type="application/rss+xml"/><item><title>Time-invariant equality in assembly</title><link>/post/2014-03-21-time-invariant-equality-in-assembly/</link><pubDate>Fri, 21 Mar 2014 18:25:10 +0100</pubDate><guid>/post/2014-03-21-time-invariant-equality-in-assembly/</guid><description>&lt;p&gt;For crypto code it&#39;s important that it&#39;s time-invariant, otherwise it is
 vulnerable to timing attacks. I&#39;ve had to build this time-invariant equality
 test from scratch, because I couldn&#39;t find something on Google. I hope it&#39;s
 useful to someone else. &lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>TextSecure</title>
-      <link>/post/2014-02-25-textsecure/</link>
-      <pubDate>Tue, 25 Feb 2014 01:51:46 +0100</pubDate>
-      
-      <guid>/post/2014-02-25-textsecure/</guid>
-      <description>&lt;p&gt;Instead of trusting Telegram (which is a bad idea, try using Google for a few
+&lt;p&gt;&lt;/p&gt;</description></item><item><title>TextSecure</title><link>/post/2014-02-25-textsecure/</link><pubDate>Tue, 25 Feb 2014 01:51:46 +0100</pubDate><guid>/post/2014-02-25-textsecure/</guid><description>&lt;p&gt;Instead of trusting Telegram (which is a bad idea, try using Google for a few
 minutes, or &lt;a
 href=&#34;http://unhandledexpression.com/2013/12/17/telegram-stand-back-we-know-maths/&#34;&gt;start&lt;/a&gt;
 &lt;a href=&#34;http://www.thoughtcrime.org/blog/telegram-crypto-challenge/&#34;&gt;here&lt;/a&gt;)
 I&#39;m going to bet on TextSecure, which actually does something other
 cryptographers agree with..&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Certificate signing with an ePass2003</title>
-      <link>/post/2014-06-10-certificate-signing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2014-06-10-certificate-signing/</guid>
-      <description>&lt;p&gt;I have a fairly creative ssl setup on my webserver:&lt;/p&gt;
-
+&lt;p&gt;&lt;/p&gt;</description></item><item><title>Certificate signing with an ePass2003</title><link>/post/2014-06-10-certificate-signing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/post/2014-06-10-certificate-signing/</guid><description>&lt;p&gt;I have a fairly creative ssl setup on my webserver:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;I run my own &amp;lsquo;certificate authority&amp;rsquo; which signs the server certificate;&lt;/li&gt;
 &lt;li&gt;I have a bunch of alternative names specified;&lt;/li&gt;
 &lt;li&gt;The CA certificate sits on an ePass 2003 PKI token.&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;I&amp;rsquo;m writing down how I sign certificates in this context so I can use this to
 look up the procedure instead of spending hours in DuckDuckGo. This is more of
 a tutorial than elegant prose.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;p&gt;&lt;/p&gt;</description></item></channel></rss>

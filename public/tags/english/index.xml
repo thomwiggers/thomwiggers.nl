@@ -1,26 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>english on Thom Wiggers</title>
-    <link>/tags/english/</link>
-    <description>Recent content in english on Thom Wiggers</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <copyright>&amp;copy; 2018 -- CC-BY 4.0</copyright>
-    <lastBuildDate>Sat, 25 May 2013 22:29:55 +0200</lastBuildDate>
-    
-	<atom:link href="/tags/english/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>OpenSC, Gentoo &amp; Feitian ePass 2003</title>
-      <link>/post/2013-05-25-opensc-gentoo-feitian-epass-2003/</link>
-      <pubDate>Sat, 25 May 2013 22:29:55 +0200</pubDate>
-      
-      <guid>/post/2013-05-25-opensc-gentoo-feitian-epass-2003/</guid>
-      <description>While playing with my ePass2003 on my Gentoo installation today, I had some trouble getting it to work. As it turned out, you need the following use flags enabled:
-# /etc/portage/package.use dev-libs/opensc pcsc-lite secure-messaging  Hope this helps someone.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>english on Thom Wiggers</title><link>/tags/english/</link><description>Recent content in english on Thom Wiggers</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><copyright>&amp;copy; 2018 -- CC-BY 4.0</copyright><lastBuildDate>Sat, 25 May 2013 22:29:55 +0200</lastBuildDate><atom:link href="/tags/english/index.xml" rel="self" type="application/rss+xml"/><item><title>OpenSC, Gentoo &amp; Feitian ePass 2003</title><link>/post/2013-05-25-opensc-gentoo-feitian-epass-2003/</link><pubDate>Sat, 25 May 2013 22:29:55 +0200</pubDate><guid>/post/2013-05-25-opensc-gentoo-feitian-epass-2003/</guid><description>While playing with my ePass2003 on my Gentoo installation today, I had some trouble getting it to work. As it turned out, you need the following use flags enabled:
+# /etc/portage/package.use dev-libs/opensc pcsc-lite secure-messaging Hope this helps someone.</description></item></channel></rss>
