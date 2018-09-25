@@ -20,7 +20,7 @@ publication_types = ["1"]
 
 # Publication name and optional abbreviated version
 # i.e. published in
-publication = "to appear in the proceedings of LATINCRYPT 2017"
+publication = "To appear in the proceedings of LATINCRYPT 2017"
 
 # Abstract and optional short version
 abstract = """Getting a lot of CPU power used to be an expensive under-taking.
@@ -46,7 +46,7 @@ selected = true
 projects = []
 
 # Links
-url_preprint = ""
+url_preprint = "https://eprint.iacr.org/2018/888/"
 url_pdf = "pdf/armcluster/paper.pdf"
 url_code = ""
 url_dataset = ""

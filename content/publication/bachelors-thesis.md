@@ -48,6 +48,9 @@ url_video = ""
 url_poster = ""
 url_source = ""
 
+# DOI
+doi = "10.5281/zenodo.1423260"
+
 # Custom links (optional)
 # url_custom = [{name = "Custom Link", url = "http://example.org"}]
 
