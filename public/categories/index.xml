@@ -11,5 +11,41 @@
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Linux</title>
+      <link>/categories/linux/</link>
+      <pubDate>Sat, 25 May 2013 22:29:55 +0200</pubDate>
+      
+      <guid>/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Music</title>
+      <link>/categories/music/</link>
+      <pubDate>Sun, 29 Sep 2013 21:00:42 +0200</pubDate>
+      
+      <guid>/categories/music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>/categories/security/</link>
+      <pubDate>Sun, 16 Mar 2014 13:12:27 +0100</pubDate>
+      
+      <guid>/categories/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>security</title>
+      <link>/categories/security/</link>
+      <pubDate>Fri, 21 Mar 2014 18:25:10 +0100</pubDate>
+      
+      <guid>/categories/security/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

@@ -12,5 +12,220 @@
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Latincrypt paper!</title>
+      <link>/post/2017-08-24-latincrypt_paper/</link>
+      <pubDate>Thu, 24 Aug 2017 20:35:33 +0200</pubDate>
+      
+      <guid>/post/2017-08-24-latincrypt_paper/</guid>
+      <description>I&amp;rsquo;m going to Cuba as my submission to Latincrypt 2017 was accepted! The paper is called Energy-efficient ARM64 Cluster with Cryptanalytic Applications: 80 cores that do not cost you an ARM and a leg. Visit the accompanying page to view the software. I&amp;rsquo;ll upload the paper once I&amp;rsquo;m done editing.</description>
+    </item>
+    
+    <item>
+      <title>Securing OpenSSH</title>
+      <link>/post/2016-01-29-securing_openssh/</link>
+      <pubDate>Fri, 29 Jan 2016 16:27:03 +0100</pubDate>
+      
+      <guid>/post/2016-01-29-securing_openssh/</guid>
+      <description>You can set up SSH to prefer Elliptic Curve cryptography over RSA, and use modern key exchange algorithms without exposing yourself to Logjam-style attacks. It&amp;rsquo;s also good to get rid of SHA1 and MD5.
+A good resource is the OpenSSH Guidelines page on the Mozilla wiki. You can basically copy the config.
+Caveat: I found out that the version of Paramiko in Debian Jessie does not support SHA2 hashes or ECC in the key exchange.</description>
+    </item>
+    
+    <item>
+      <title>Prøst at Student Research Conference</title>
+      <link>/post/2015-11-15-proest_at_student_research_conference/</link>
+      <pubDate>Sun, 15 Nov 2015 15:32:55 +0000</pubDate>
+      
+      <guid>/post/2015-11-15-proest_at_student_research_conference/</guid>
+      <description>In July, Peter Schwabe, who supervised my Bachelor&amp;rsquo;s thesis project, suggested to submit my work to the Student Research Conference. It then turned out that the deadline was the next day, so I had to work hard to convert 28 pages of thesis into a paper of 4 pages.
+To my own suprise my paper was accepted for a poster presentation. It was very interesting and challenging to tell the people at the conference (which was at Tilburg University) about my research: I had a very technical story, and a lot of people in the humanities already are scared by the word &amp;ldquo;encryption&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Bitcoin private key qrcode scraper</title>
+      <link>/post/2015-11-01-bitcoin_private_key_qrcode_scraper/</link>
+      <pubDate>Sun, 01 Nov 2015 21:28:36 +0000</pubDate>
+      
+      <guid>/post/2015-11-01-bitcoin_private_key_qrcode_scraper/</guid>
+      <description>Tegenlicht today had an episode about Bitcoin where they announced they were going to give away €100 in Bitcoin. They were going to put up a Bitcoin wallet private key as a QR-code on the screen.
+It seemed to me like a fun project to try and grab that Bitcoin. I coded an app that takes a screenshot every couple seconds and then tries to detect all QR-codes in it. If any of the codes look like a private key, I then used the Blockcypher API to determine the balance and empty the account into my own wallet.</description>
+    </item>
+    
+    <item>
+      <title>Deprecating fields in MongoEngine Documents</title>
+      <link>/post/2015-07-26-deprecating_fields_in_mongoengine_documents/</link>
+      <pubDate>Sun, 26 Jul 2015 17:01:45 +0000</pubDate>
+      
+      <guid>/post/2015-07-26-deprecating_fields_in_mongoengine_documents/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve had to rename some fields today with MongoEngine. Using the
+following approach, I was able to raise &lt;code&gt;DeprecationWarning&lt;/code&gt;s
+when old version were used.&lt;/p&gt;
+
+&lt;p&gt;Create the following function. It returns a property that will access
+the new variable name.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Prøst</title>
+      <link>/post/2015-04-25-pr%C3%B8st/</link>
+      <pubDate>Sat, 25 Apr 2015 14:39:20 +0000</pubDate>
+      
+      <guid>/post/2015-04-25-pr%C3%B8st/</guid>
+      <description>Prøst is an authenticated encryption cipher and a contestant in the CAESAR competition for Authenticated Encryption. For my bachelor thesis research project, I&amp;rsquo;ve implemented Prøst on ARM11.
+You can find more information about this project on this page.</description>
+    </item>
+    
+    <item>
+      <title>Globally install powerline</title>
+      <link>/post/2014-09-25-globally_install_powerline/</link>
+      <pubDate>Thu, 25 Sep 2014 23:50:18 +0000</pubDate>
+      
+      <guid>/post/2014-09-25-globally_install_powerline/</guid>
+      <description>Today I&amp;rsquo;ve tried to globally install Powerline. That was a bit of a pain because it has no global config files.
+Quick and dirty how-to:
+ Add XDG_CONFIG_DIRS=/etc/xdg to /etc/environment if it isn&amp;rsquo;t already set, Copy the config to /etc/xdg/powerline, Customize config, Load powerline from /etc/bash.bashrc, ~/.zshrc, etc.  My config can be found at on Github</description>
+    </item>
+    
+    <item>
+      <title>Perfect forward secrecy and HSTS with nginx</title>
+      <link>/post/2014-08-07-perfect_forward_secrecy_with_nginx/</link>
+      <pubDate>Thu, 07 Aug 2014 19:30:02 +0000</pubDate>
+      
+      <guid>/post/2014-08-07-perfect_forward_secrecy_with_nginx/</guid>
+      <description>&lt;p&gt;Today, I enabled perfect forward secrecy on my &lt;code&gt;nginx&lt;/code&gt; installation. I&amp;rsquo;m writing
+down the config so I can easily find it later.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Dave Eggers – The Circle</title>
+      <link>/post/2014-08-05-the_circle/</link>
+      <pubDate>Tue, 05 Aug 2014 17:43:53 +0000</pubDate>
+      
+      <guid>/post/2014-08-05-the_circle/</guid>
+      <description>&lt;p&gt;I recently read &lt;em&gt;The Circle&lt;/em&gt; by Dave Eggers. It is a bit like the classic
+dystopian novel 1984 being brought up to date in the age of smartphones, apps
+and Google, Facebook and Twitter. Though it does not have very novel ideas,
+Eggers paints a picture of the tyranny of the masses and of the consequences of
+a society that only has a surface level.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Blendle</title>
+      <link>/post/2014-05-01-blendle/</link>
+      <pubDate>Thu, 01 May 2014 15:50:15 +0000</pubDate>
+      
+      <guid>/post/2014-05-01-blendle/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http//blendle.nl&#34; target=&#34;_blank&#34;&gt;Blendle&lt;/a&gt; is een kort geleden gelanceerde website waarop je digitaal door
+kranten en tijdschriften kan bladeren. Denk je &amp;ldquo;goh, dit wil ik wel lezen&amp;rdquo;, dan
+kun je met één klik het artikel openen en tegen betaling van zo&amp;rsquo;n € 0,10 het
+artikel lezen. Dit alles in een simpele, maar heel effectieve website.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jekyll</title>
+      <link>/post/2014-04-30-jekyll/</link>
+      <pubDate>Wed, 30 Apr 2014 17:44:06 +0000</pubDate>
+      
+      <guid>/post/2014-04-30-jekyll/</guid>
+      <description>As you can see, this site has been overhauled! I am now using the pretty awesome Jekyll static site generator.
+The source of my website is on Github.</description>
+    </item>
+    
+    <item>
+      <title>Time-invariant equality in assembly</title>
+      <link>/post/2014-03-21-time-invariant-equality-in-assembly/</link>
+      <pubDate>Fri, 21 Mar 2014 18:25:10 +0100</pubDate>
+      
+      <guid>/post/2014-03-21-time-invariant-equality-in-assembly/</guid>
+      <description>&lt;p&gt;For crypto code it&#39;s important that it&#39;s time-invariant, otherwise it is
+vulnerable to timing attacks. I&#39;ve had to build this time-invariant equality
+test from scratch, because I couldn&#39;t find something on Google. I hope it&#39;s
+useful to someone else. &lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Keybase.io</title>
+      <link>/post/2014-03-16-keybase-io/</link>
+      <pubDate>Sun, 16 Mar 2014 13:12:27 +0100</pubDate>
+      
+      <guid>/post/2014-03-16-keybase-io/</guid>
+      <description>&lt;p&gt;Users of PGP will be aware of the many keyservers around the web. &lt;a
+href=&#34;http://keybase.io&#34; target=&#34;_blank&#34;&gt;Keybase.io&lt;/a&gt; has launched as an
+interesting alternative to the &#39;boring&#39; and complicated keyservers. They provide
+an easy CLI client and web client (if you choose to share your private key
+- I didn&#39;t) for PGP crypto, where you don&#39;t need to know someone&#39;s key id - just
+    their username on Twitter or GitHub.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>TextSecure</title>
+      <link>/post/2014-02-25-textsecure/</link>
+      <pubDate>Tue, 25 Feb 2014 01:51:46 +0100</pubDate>
+      
+      <guid>/post/2014-02-25-textsecure/</guid>
+      <description>&lt;p&gt;Instead of trusting Telegram (which is a bad idea, try using Google for a few
+minutes, or &lt;a
+href=&#34;http://unhandledexpression.com/2013/12/17/telegram-stand-back-we-know-maths/&#34;&gt;start&lt;/a&gt;
+&lt;a href=&#34;http://www.thoughtcrime.org/blog/telegram-crypto-challenge/&#34;&gt;here&lt;/a&gt;)
+I&#39;m going to bet on TextSecure, which actually does something other
+cryptographers agree with..&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Music Review</title>
+      <link>/post/2013-09-29-music-review/</link>
+      <pubDate>Sun, 29 Sep 2013 21:00:42 +0200</pubDate>
+      
+      <guid>/post/2013-09-29-music-review/</guid>
+      <description>It&#39;s been a while since I posted. Today I decided it was time to behave myself a bit like the pretentious hipster I secretly am and post a bit about the music that I discovered lately.
+ London Grammar - If You Wait (2013)  London Grammar are an UK based indie pop band. They released their debut album If You Wait a couple of weeks ago. Pitchfork already wrote a great review about them, so I&#39;m not going to repeat that, but I&#39;d like to highlight their great cover of Kavinsky&#39;s Nightcall, capturing the feeling of the original track so nicely.</description>
+    </item>
+    
+    <item>
+      <title>OpenSC, Gentoo &amp; Feitian ePass 2003</title>
+      <link>/post/2013-05-25-opensc-gentoo-feitian-epass-2003/</link>
+      <pubDate>Sat, 25 May 2013 22:29:55 +0200</pubDate>
+      
+      <guid>/post/2013-05-25-opensc-gentoo-feitian-epass-2003/</guid>
+      <description>While playing with my ePass2003 on my Gentoo installation today, I had some trouble getting it to work. As it turned out, you need the following use flags enabled:
+# /etc/portage/package.use dev-libs/opensc pcsc-lite secure-messaging  Hope this helps someone.</description>
+    </item>
+    
+    <item>
+      <title>Certificate signing with an ePass2003</title>
+      <link>/post/2014-06-10-certificate-signing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2014-06-10-certificate-signing/</guid>
+      <description>&lt;p&gt;I have a fairly creative ssl setup on my webserver:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I run my own &amp;lsquo;certificate authority&amp;rsquo; which signs the server certificate;&lt;/li&gt;
+&lt;li&gt;I have a bunch of alternative names specified;&lt;/li&gt;
+&lt;li&gt;The CA certificate sits on an ePass 2003 PKI token.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I&amp;rsquo;m writing down how I sign certificates in this context so I can use this to
+look up the procedure instead of spending hours in DuckDuckGo. This is more of
+a tutorial than elegant prose.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,82 @@
+==================================================================
+https://keybase.io/thomwiggers
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://thomwiggers.nl
+  * I am thomwiggers (https://keybase.io/thomwiggers) on keybase.
+  * I have a public key with fingerprint C313 856D 66DA 0DDD DC5C  6203 915D 4ED3 4871 E82F
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.3.2"
+        },
+        "key": {
+            "fingerprint": "c313856d66da0ddddc5c6203915d4ed34871e82f",
+            "host": "keybase.io",
+            "key_id": "915D4ED34871E82F",
+            "uid": "63fc39bfe3cdf6468cf0001b76cde800",
+            "username": "thomwiggers"
+        },
+        "merkle_root": {
+            "ctime": 1398935876,
+            "hash": "b147b482f7702713b6d35365aa71278229a1b40add57b4462174bb317ff3622f25b5325483d8cde9cc35e3abba6b56127510f13d0f9c53627ead1005a6cc2c58",
+            "seqno": 3277
+        },
+        "service": {
+            "hostname": "thomwiggers.nl",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1398936503,
+    "expire_in": 157680000,
+    "prev": "544a080428140cfd8de2428ad781cae735438c59d886caee21e663b96bca3f65",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2.0.22 (GNU/Linux)
+
+owFlkn9QFGUYx+8oMTTiyolUsME9tbE5z9333X13F0uzPIdyIkxitMRrf7zLLR67
+x90JIlGnmDNkKTA4mmFlQzNBaOqkQ4BllJ0eE2pkTqCZGQJZKGkK6mjvMjbltH/t
++z6f5/t+v8/7VibeZYuzV+VmdmYU9s20t/fLtkXyuNZSSjbVEiq9lFL8OjbC1p8h
+FWAqnVqOS2QphN26mWaYKnbnh9JuMy6qCAdDumkQinZDN6DKXBZuNWu6kYeDgaBu
+aVEKZKDAIRUhVaJV8imcggANRYZTWaxCVuAZLACNSPrMUPiOU6kRTa+ukl3Cz2M9
+80Z4jwDmk9qKkQKCmgJFWcNQUTXEIkHRaJpmZB4pKhZo2gJDOHg7UthnFhTrecRg
+yLJcgIPL/dgbNM2R3EpYtygGioIIOYFHxJQU8pE+mWF5mSU+eZ4GPANlpEIOIk6S
+eAbwAgCixMgsLakqRzgWAYZnZRkyvKZBBIAGOJmDgGMFqArEl6gokMNQkmUJyRwi
+EhxDawxUaU1UiC7gsaQyNM1JSFGAwgkkRQgXGiaVDgHPl1mrYJGuYMu1Nbf/x3Mb
+ftIUCJphUzH9pOYLhwPpVuhwScBii3dh2Xtbxivrhkru7b8XyxD0joEgjoYuCq8M
+6EHs1S2C4xGZME1b5+AiosmxrEQLNAsEhqUVTRVUDMhCUnmBUSTMQ46FgsKJqiAg
+ssaAwQhBWUSyIkENcf/GFIlPKY9IhvQ8QwqvCGKqrCIu9W6bPc4WPyrOerm2MQmO
+f55z109JN2dPv+bc8sXXj6f0Ll0W6xydnXV5UWLljmZ7whu77ftusHt3so4xx7K3
+/Lggf/ZVYWHLnCfW3KSP1ty7Ho4//3FkqO93/GrW6LelCuhYcb2+f6xzyjOvN0T7
+a4d76tmundXxm3/79HzVlLE4M3HXqcJP1iVP2DS4ZlzblydOn3Rs5vc/e/mPtq88
+jWtPRHefzdSLXx7159b8dVW5de3NaCCWcqb8qR0bYjnHrzjXTxrDftdYMe/QoSV5
+D6cdT83ubZTGDjTO2Be/ve5S/6mexTPPmHVmBzvxpdap9mXD4ra+6JGc1BrfLFf3
+h3po3NI9rbMWRUat7OnIyCx3HnO7jpY2OA/E1vqf/AAsOTdtwze299uiCyNN/sI2
+5DiXuySh99SU8qdrL65q2x6ZmpKVcHCVkZIR69qT6MmfTLU2dvcdbhc3/eKrfKh9
+fs+lbQ21rqGfu/wLNosDq1vScm4tPjlkHP7reMGEve3T9t93rC6Q9MP6qy8WzR0q
+6R1805ldNSf3kcXd4N13Os8+Wl1zreHAEVBL544fbr5w8C3x25PP7b0VBL610cdi
+yV0Dq8+VvzDYYZReyDo9scyJZgS8v05wVIOmV2zT37v40edN18NXIkmtFzpLhZbP
+bMkN9YWDTfu29UYSK2ZvNbC3bOOD9z///aQFDxgtzTfvMepbmOjc1ybH+7wbu1tz
+0z3OaZ4bdGbN3w==
+=IEeX
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/thomwiggers
+
+==================================================================

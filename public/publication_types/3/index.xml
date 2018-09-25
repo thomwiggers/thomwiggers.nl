@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&amp;copy; 2018 -- CC-BY 4.0</copyright>
-    <lastBuildDate>Fri, 20 Nov 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Solving LPN using Large Covering Codes</title>
+      <link>/publication/masters-thesis/</link>
+      <pubDate>Tue, 25 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/masters-thesis/</guid>
+      <description> Master&amp;rsquo;s thesis written under the supervision of Simona Samardjiska.
+Software  The Rust bindings for M4RI can be found on crates.io and Github. The implementations of attacks on LPN can be found on crates.io and Github (documentation).  </description>
+    </item>
     
     <item>
       <title>Implementing CAESAR candidate Prøst on ARM11</title>
@@ -27,7 +37,8 @@
       <pubDate>Fri, 10 Apr 2015 00:00:00 +0000</pubDate>
       
       <guid>/publication/bachelors-thesis/</guid>
-      <description>See the project page for more information.</description>
+      <description>Bachelor&amp;rsquo;s thesis written under the supervision of Peter Schwabe.
+See the project page for more information.</description>
     </item>
     
   </channel>
