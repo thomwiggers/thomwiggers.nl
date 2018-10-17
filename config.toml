@@ -149,7 +149,7 @@ enableGitInfo = true
   #
   #   For more info on the highlighting options, see:
   #   https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
-  highlight = true
+  highlight = false
   highlight_languages = ['rust', 'c', 'armasm', 'bash', 'python']
   # highlight_style = "github"
 
@@ -159,7 +159,7 @@ enableGitInfo = true
   # Privacy pack
   #   Show a cookie consent message to visitors
   #   Anonymize IP in Google Analytics (if enabled)
-  privacy_pack = true
+  privacy_pack = false
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)

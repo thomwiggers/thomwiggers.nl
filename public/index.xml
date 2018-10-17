@@ -1,4 +1,74 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thom Wiggers on Thom Wiggers</title><link>/</link><description>Recent content in Thom Wiggers on Thom Wiggers</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><copyright>&amp;copy; 2018 -- CC-BY 4.0</copyright><lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0200</lastBuildDate><atom:link href="/" rel="self" type="application/rss+xml"/><item><title>Solving LPN using Large Covering Codes</title><link>/publication/masters-thesis/</link><pubDate>Tue, 25 Sep 2018 00:00:00 +0000</pubDate><guid>/publication/masters-thesis/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thom Wiggers on Thom Wiggers</title><link>/</link><description>Recent content in Thom Wiggers on Thom Wiggers</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><copyright>&amp;copy; 2018 -- CC-BY 4.0</copyright><lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0200</lastBuildDate><atom:link href="/" rel="self" type="application/rss+xml"/><item><title>Using (post-quantum) KEMs in TLS 1.3</title><link>/post/kems_in_tls_1.3/</link><pubDate>Wed, 17 Oct 2018 09:34:44 +0200</pubDate><guid>/post/kems_in_tls_1.3/</guid><description>&lt;p&gt;The new TLS 1.3 standard [1] does not yet provide any support for
+post-quantum algorithms. In this blog post we&amp;rsquo;ll be talking about how we
+could negotiate a post-quantum key exchange using a (post-quantum) Key
+Encapsulation Mechanism (KEM). In the NIST Standardisation effort [2],
+many KEMs are currently under consideration.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;h2 id=&#34;what-is-a-kem&#34;&gt;What is a KEM&lt;/h2&gt;
+&lt;p&gt;A KEM is a set of functions that can be used to obtain a symmetric
+encryption key from asymmetric keys. It should provide the following
+functions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;$\operatorname{KeyGen}$&lt;/em&gt;: Generates a public key $pk$ and a private
+key $sk$&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;$\operatorname{Encapsulate(pk)}$&lt;/em&gt; Returns symmetric key $K$ and
+ciphertext $ct$.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;$\operatorname{Decapsulate}(sk, ct)$&lt;/em&gt;: Returns $K$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This can be used, for example in the following protocol.&lt;/p&gt;
+&lt;figure&gt;
+&lt;img src=&#34;kem.svg&#34; /&gt;
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+&lt;h4&gt;KEM key exchange&lt;/h4&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;After exchanging these messages, $A$ and $B$ will have derived the same
+key, much like the classic Diffie-Hellman key exchange.&lt;/p&gt;
+&lt;h2 id=&#34;the-tls-1-3-handshake-protocol&#34;&gt;The TLS 1.3 handshake protocol&lt;/h2&gt;
+&lt;figure&gt;
+&lt;img src=&#34;tls_13.svg&#34; /&gt;
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+&lt;h4&gt;The typical TLS 1.3 handshake&lt;/h4&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;The typical TLS 1.3 handshake has the client and the server include key
+shares in the first messages. These key shares, typically ephemeral ECDH
+public keys, are used to compute a shared secret key. The server can
+already do that in the second message. This allows very early submission
+of data.&lt;/p&gt;
+&lt;p&gt;However, if we want to use KEMs, we run in the problem that the client
+can not send the encrypted ciphertext $ct$ as it does not have the
+public key of the server. This prevents us from using KEMs in this
+setting of TLS.&lt;/p&gt;
+&lt;h3 id=&#34;using-an-extra-round-trip&#34;&gt;Using an extra round trip&lt;/h3&gt;
+&lt;p&gt;TLS allows us to let the server pick the key shares we&amp;rsquo;re going to use,
+at the cost of an extra round trip. We can do this by sending a
+&lt;tt&gt;ClientHello&lt;/tt&gt; that does not contain any key shares, but indicates
+support for the KEM. The server will then send
+&lt;tt&gt;HelloRetryRequest&lt;/tt&gt;, indicating the server should try again. In
+the &lt;tt&gt;HelloRetryRequest&lt;/tt&gt;, it will include the public key we need.&lt;/p&gt;
+&lt;p&gt;This leads to the following protocol.&lt;/p&gt;
+&lt;figure&gt;
+&lt;img src=&#34;tls_13_2rtt_kem.svg&#34; /&gt;
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+&lt;h4&gt;Using the extra roundtrip to obtain the necessary public key&lt;/h4&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Of course, this extra round trip increases latency. In fact, one of the
+main improvements of TLS 1.3 over TLS 1.2 was the getting rid of this
+extra round trip. The client can&amp;rsquo;t prepare their messages before the
+server replied with the &lt;tt&gt;HelloRetryRequest&lt;/tt&gt; either. This is why
+we think it&amp;rsquo;s worth it to look into how we can get KEMs into TLS while
+preserving the single-round trip protocol.&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Rescorla, Eric: The Transport Layer Security (TLS) Protocol Version 1.3, &lt;a href=&#34;https://rfc-editor.org/rfc/rfc8446.txt&#34; target=&#34;_blank&#34;&gt;https://rfc-editor.org/rfc/rfc8446.txt&lt;/a&gt;, (2018).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Natinonal Institute for Standardization of Technology: Round 1
+submissions - post-quantum cryptography,
+&lt;a href=&#34;https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Round-1-Submissions&#34; target=&#34;_blank&#34;&gt;https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Round-1-Submissions&lt;/a&gt;,
+(2017).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Langley, Adam: Post-quantum confidentiality for TLS, &lt;a href=&#34;https://www.imperialviolet.org/2018/04/11/pqconftls.html&#34; target=&#34;_blank&#34;&gt;https://www.imperialviolet.org/2018/04/11/pqconftls.html&lt;/a&gt;, (2018).&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>Solving LPN using Large Covering Codes</title><link>/publication/masters-thesis/</link><pubDate>Tue, 25 Sep 2018 00:00:00 +0000</pubDate><guid>/publication/masters-thesis/</guid><description>
 &lt;p&gt;Master&amp;rsquo;s thesis written under the supervision of Simona Samardjiska.&lt;/p&gt;
 &lt;h2 id=&#34;software&#34;&gt;Software&lt;/h2&gt;
 &lt;ul&gt;
@@ -151,6 +221,4 @@ media. Ik zou echter graag de volgende dingen zien:&lt;/p&gt;
 &lt;li&gt;&lt;em&gt;all you can read&lt;/em&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Vooral dat laatste zou een &lt;em&gt;instant buy&lt;/em&gt; opleveren, mits het een beetje schappelijk
-geprijsd is.&lt;/p&gt;</description></item><item><title>Jekyll</title><link>/post/2014-04-30-jekyll/</link><pubDate>Wed, 30 Apr 2014 17:44:06 +0000</pubDate><guid>/post/2014-04-30-jekyll/</guid><description>&lt;p&gt;As you can see, this site has been overhauled! I am now using the pretty
-awesome &lt;a href=&#34;http://jekyllrb.com/&#34; target=&#34;_blank&#34;&gt;Jekyll&lt;/a&gt; static site generator.&lt;/p&gt;
-&lt;p&gt;The source of my website is on &lt;a href=&#34;https://github.com/thomwiggers/thomwiggers.nl/&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;</description></item></channel></rss>
+geprijsd is.&lt;/p&gt;</description></item></channel></rss>
