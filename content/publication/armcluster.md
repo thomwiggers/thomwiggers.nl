@@ -76,6 +76,10 @@ highlight = false
 
 # Tags
 tags = []
+
+aliases = [
+  '/research/armcluster/',
+]
 +++
 
 To appear in the proceedings of LATINCRYPT 2017.
