@@ -93,7 +93,7 @@ preserving the single-round trip protocol.
 
 1. Rescorla, Eric: The Transport Layer Security (TLS) Protocol Version 1.3, <https://rfc-editor.org/rfc/rfc8446.txt>, (2018).
 
-2. Natinonal Institute for Standardization of Technology: Round 1
+2. National Institute for Standardization of Technology: Round 1
 submissions - post-quantum cryptography,
 <https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Round-1-Submissions>,
 (2017).

@@ -15,11 +15,11 @@ static/.well-known/openpgpgey/hu/sse5gyx9eaexk3pndqafyju99sru31bh:
 
 .PHONY: site
 site: .well-known
-	~/go/bin/hugo --enableGitInfo --minify
+	hugo --enableGitInfo --minify
 
 .PHONY: serve
 serve:
-	~/go/bin/hugo server --buildDrafts --buildFuture
+	hugo server --buildDrafts --buildFuture
 
 .PHONY: rsync
 rsync: site
