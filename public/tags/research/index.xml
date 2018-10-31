@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>research on Thom Wiggers</title><link>/tags/research/</link><description>Recent content in research on Thom Wiggers</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><copyright>&amp;copy; 2018 -- CC-BY 4.0</copyright><lastBuildDate>Wed, 17 Oct 2018 09:34:44 +0200</lastBuildDate><atom:link href="/tags/research/index.xml" rel="self" type="application/rss+xml"/><item><title>Using (post-quantum) KEMs in TLS 1.3</title><link>/post/kems_in_tls_1.3/</link><pubDate>Wed, 17 Oct 2018 09:34:44 +0200</pubDate><guid>/post/kems_in_tls_1.3/</guid><description>&lt;p&gt;The new TLS 1.3 standard [1] does not yet provide any support for
-post-quantum algorithms. In this blog post we&amp;rsquo;ll be talking about how we
-could negotiate a post-quantum key exchange using a (post-quantum) Key
-Encapsulation Mechanism (KEM). In the NIST Standardisation effort [2],
-many KEMs are currently under consideration.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;</description></item></channel></rss>

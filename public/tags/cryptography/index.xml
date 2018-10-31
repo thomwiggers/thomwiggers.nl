@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>cryptography on Thom Wiggers</title><link>/tags/cryptography/</link><description>Recent content in cryptography on Thom Wiggers</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><copyright>&amp;copy; 2018 -- CC-BY 4.0</copyright><lastBuildDate>Fri, 21 Mar 2014 18:25:10 +0100</lastBuildDate><atom:link href="/tags/cryptography/index.xml" rel="self" type="application/rss+xml"/><item><title>Time-invariant equality in assembly</title><link>/post/2014-03-21-time-invariant-equality-in-assembly/</link><pubDate>Fri, 21 Mar 2014 18:25:10 +0100</pubDate><guid>/post/2014-03-21-time-invariant-equality-in-assembly/</guid><description>&lt;p&gt;For crypto code it&#39;s important that it&#39;s time-invariant, otherwise it is
-vulnerable to timing attacks. I&#39;ve had to build this time-invariant equality
-test from scratch, because I couldn&#39;t find something on Google. I hope it&#39;s
-useful to someone else. &lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;</description></item></channel></rss>
