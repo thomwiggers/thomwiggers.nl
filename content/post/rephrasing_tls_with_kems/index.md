@@ -1,4 +1,6 @@
 +++
+# vim: set ft=markdown ts=2 sw=2 tw=0 et :
+
 title = "Rephrasing TLS key shares in terms of KEMs"
 date = 2018-11-21T14:35:15+01:00
 draft = false
@@ -23,8 +25,6 @@ categories = ["research"]
   focal_point = ""
 +++
 
-# Rephrasing TLS key shares in terms of KEMs
-
 In the RFC for TLS 1.3 ([RFC8446][rfc8446]) especially, the key exchange is defined in terms of (EC)DH key shares being exchanged.
 This limits us to algorithms which support non-interactive key exchanges, while this is not necessary for the security of TLS 1.3 as defined by RFC8446.[^NIKEs]
 As we would like to implement (post-quantum) KEMs into TLS 1.3, we will now describe the changes to the spec that would be required.
@@ -35,24 +35,25 @@ We define a KEM as a set of three functions, as follows:
 
 | Operation                                                                          | Description                                                                              |
 |------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
-| $(pk, sk) \leftarrow \mathtt{\operatorname{KEM-KeyGen}}()$                         | Generates a public/secret key pair.                                                      |
-| $(K, ct) \leftarrow \mathtt{\operatorname{KEM-Encaps}}(pk)$                        | Generates shared key $K$ and encapsulates it to public key pk as $ct$.                   |
-| $K \leftarrow \mathtt{\operatorname{KEM-Decaps}}(ct, sk)$                          | Decapsulates $ct$ using $sk$ to obtain $K$                                               |
+| $(pk, sk) \leftarrow {\operatorname{KEM-KeyGen}}()$                                | Generates a public/private key pair.                                                      |
+| $(K, ct) \leftarrow {\operatorname{KEM-Encaps}}(pk)$                               | Generates shared key $K$ and encapsulates it to public key pk as $ct$.                   |
+| $K \leftarrow {\operatorname{KEM-Decaps}}(ct, sk)$                                 | Decapsulates $ct$ using $sk$ to obtain $K$                                               |
 
 We can instantiate (EC)DH key exchange using a KEM as follows:
 
-$g$ is a generator for the DH group.
 
 | Operation                                                                          | Description                                                                              |
 |------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
-| $(pk, sk) = (g^x, x) \leftarrow \mathtt{\operatorname{DH-KEM-KeyGen}}()$           | Generating secret value $x$, obtain public key as $g^x$                                  |
-| $(K, ct) = ({(g^x)}^y, g^y) \leftarrow \mathtt{\operatorname{DH-KEM-Encaps}}(pk)$  | Generate secret $y$, obtain $K$ as ${pk}^y = {(g^x)}^y$ and generate $ct$ as $g^y$       |
-| $K = {(g^y)}^x \leftarrow \mathtt{\operatorname{DH-KEM-Decaps}}(ct, sk)$           | Obtain $K$ from $ct=g^y$ and the secret $x$                                              |
+| $(pk, sk) = (g^x, x) \leftarrow {\operatorname{DH-KEM-KeyGen}}()$                  | Generating secret value $x$, obtain public key as $g^x$                                  |
+| $(K, ct) = ({(g^x)}^y, g^y) \leftarrow {\operatorname{DH-KEM-Encaps}}(pk)$         | Generate secret $y$, obtain $K$ as ${pk}^y = {(g^x)}^y$ and generate $ct$ as $g^y$       |
+| $K = {(g^y)}^x \leftarrow {\operatorname{DH-KEM-Decaps}}(ct, sk)$                  | Obtain $K$ from $ct=g^y$ and the secret $x$                                              |
+
+Here, $g$ is a shared generator for the (EC)DH group.
 
 In TLS 1.3, we now change the following protocol messages[^keyshares]:
 
-    1. In the ClientHello, the client sends over KEM public key(s) as key share(s).
-    2. For the ServerHello, the server uses Encapsulate and sends $ct$ as keyshare. 
+ 1. In the `ClientHello`, the client sends over KEM public key(s) as key share(s).
+ 2. For the `ServerHello`, the server uses $\text{KEM-Encaps}(pk)$ and sends $ct$ as keyshare. 
        The subsequent messages are encrypted under the obtained $K$.
 
 This would then for example allow us to plug in [Kyber 1024][kyber] instead of ECDH and do a post-quantum key exchange.
@@ -66,9 +67,7 @@ OPTLS could be an alternative for these schemes, but we would need to change the
 Current proposals for post-quantum NIKEs are just too slow to work in practice.
 
 [^NIKEs]: If you want to do key exchanges where one of the key shares is a certified (EC)DH parameter, like in the OPTLS proposals, then RFC8446 DOES require non-interactive key exchang and KEMs don't work.
-[^keyshares]: The TLS handhake defines the public keys sent over as "keyshares" and the algorithms supported as "supported groups", which is a bit unfortunate. There was a [pull request to change this to "supported key exchange methods"][kempr], but it never got adopted.
-    It was recognised that this name may need to change at some point.
-
+[^keyshares]: The TLS handhake defines the public keys sent over as "keyshares" and the algorithms supported as "supported groups". This naming is a bit unfortunate. There was a [pull request to change this to "supported key exchange methods"][kempr], but it never got adopted. It was recognised that this name may need to change at some point.
 [rfc8446]: https://tools.ietf.org/html/rfc8446
 [kyber]: https://pq-crystals.org/kyber/
 [kempr]: https://mailarchive.ietf.org/arch/msg/tls/AnSksztK1vSaWB1Fzqdph0hryxw
