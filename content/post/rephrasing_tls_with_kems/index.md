@@ -1,7 +1,7 @@
 +++
 # vim: set ft=markdown ts=2 sw=2 tw=0 et :
 
-title = "Rephrasing TLS key shares in terms of KEMs"
+title = "Rephrasing TLS key exchange in terms of KEMs"
 date = 2018-11-21T14:35:15+01:00
 draft = false
 math = true

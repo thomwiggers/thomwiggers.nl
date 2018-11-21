@@ -5,7 +5,7 @@ all: site
 
 
 static/.well-known/thomwiggers.asc:
-	--batch --output "$@" --armor --export 915D4ED34871E82F
+	gpg --batch --output "$@" --armor --export 915D4ED34871E82F
 
 static/.well-known/openpgpgey/hu/sse5gyx9eaexk3pndqafyju99sru31bh:
 	./generate-openpgpkey-hu.py --exist-ok --output-dir static/.well-known/openpgpkey/hu/ --mail-domain thomwiggers.nl
@@ -15,6 +15,7 @@ static/.well-known/openpgpgey/hu/sse5gyx9eaexk3pndqafyju99sru31bh:
 
 .PHONY: site
 site: .well-known
+	#pipenv run academic import --assets
 	hugo --enableGitInfo --minify
 
 .PHONY: serve
@@ -29,4 +30,4 @@ rsync: site
 rsync-dry: site
 	rsync public/ -ave ssh --dry-run --delete "${SERVER}"
 
-# vim : ft=make noet :
+# vim : set ft=make noet :
