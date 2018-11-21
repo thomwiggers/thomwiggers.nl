@@ -6,25 +6,37 @@ date = 2017-09-20T00:00:00
 # Activate this widget? true/false
 active = false
 
-title = ""
+title = "Skills"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 20
+weight = 7
 
+# Showcase personal skills or business features.
+# 
 # Add/remove as many `[[feature]]` blocks below as you like.
-# See `config.toml` for more info on available icons.
+# 
+# Available icon packs and icons:
+# * fas - Font Awesome standard icons (see https://fontawesome.com/icons)
+# * fab - Font Awesome brand icons (see https://fontawesome.com/icons)
+# * ai - academic icons (see https://jpswalsh.github.io/academicons/)
 
 [[feature]]
-  icon = "files-o"
-  icon_pack = "fa"
-  name = "Data Driven"
-  description = "..."
+  icon = "r-project"
+  icon_pack = "fab"
+  name = "R"
+  description = "90%"
   
 [[feature]]
-  icon = "pencil"
-  icon_pack = "fa"
-  name = "Math"
-  description = "..."
+  icon = "chart-line"
+  icon_pack = "fas"
+  name = "Statistics"
+  description = "100%"  
+  
+[[feature]]
+  icon = "camera-retro"
+  icon_pack = "fas"
+  name = "Photography"
+  description = "10%"
 
 +++
