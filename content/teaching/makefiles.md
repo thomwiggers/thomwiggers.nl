@@ -317,7 +317,9 @@ target: ingredients
 ```
 
 `target` should normally be something on the filesystem, unless you want to always have it execute when you try to build it.
-`ingredients` should be other `target`s or files on the filesystem.
+Don't forget the `:` after `target`.
+`ingredients` should be other `target`s or files on the filesystem, and it should be all on one line.
+Again: the indentation should be with **tabs**.
 
 ### Indentation
 `Makefile`s **must** be indented with **tabs**. If you indent them with spaces you may get errors
