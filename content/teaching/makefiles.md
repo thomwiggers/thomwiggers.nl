@@ -280,7 +280,7 @@ Hello, world! from say_hello.c
 ```
 
 That worked great!
-We can now also see that make is smart, if we change for example `say_hello.c`.
+We can now also see that `make` is smart, if we change for example `say_hello.c`.
 Lets change `say_hello()`:
 
 ```c
@@ -298,7 +298,7 @@ gcc -c say_hello.c -o say_hello.o
 gcc -o hello hello.o say_hello.o
 ```
 
-Make realised that only `say_hello.c` changed and only rebuild `say_hello.o`.
+`make` realised that only `say_hello.c` changed and only rebuild `say_hello.o`.
 As a result of that, it also needed to link `hello` again, but it **skipped** building `hello.o`!
 It's easy to see that as your program grows, this can be very helpful.[^parallel]
 
@@ -309,7 +309,7 @@ It's easy to see that as your program grows, this can be very helpful.[^parallel
 Finally, lets discuss some of the problems you may run into.
 
 ### Makefile template
-As a reminder, your Makefile should look as follows:
+As a reminder, your `Makefile` should look as follows:
 
 ```Makefile
 target: ingredients
@@ -372,3 +372,7 @@ zay_hello.o: say_hello.o
 But that is a bit silly. 
 Better fix the typo, in this case.
 
+### No targets specified and no makefile found.
+
+This error occurs if you don't have a `Makefile` in your current folder.
+Check if a `Makefile` exists, the name is spelled correctly (exactly `Makefile`) and make sure it has a capital `M`!
