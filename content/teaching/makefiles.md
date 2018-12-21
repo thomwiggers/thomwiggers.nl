@@ -378,3 +378,10 @@ Better fix the typo, in this case.
 
 This error occurs if you don't have a `Makefile` in your current folder.
 Check if a `Makefile` exists, the name is spelled correctly (exactly `Makefile`) and make sure it has a capital `M`!
+
+
+### Suggestions
+
+If you have suggestions for further improvement, [find the source here][src] and send in a pull request.
+
+[src]: https://github.com/thomwiggers/thomwiggers.nl/blob/new-site/content/teaching/makefiles.md
