@@ -99,13 +99,15 @@ enableGitInfo = true
   # Color theme.
   #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`.
   color_theme = "default"
+  # Enable users to switch between day and night mode?
+  day_night = true
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
   font = "default"
 
    # Description for social sharing and search engines. If undefined, author role is used in place.
-  description = ""
+  description = "Thom Wiggers, PhD candidate at Radboud University"
 
    # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
   sharing_image = ""
