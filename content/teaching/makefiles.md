@@ -174,7 +174,7 @@ We are lazy and want to be able to just type `make`.
 
 ```
 /tmp/src $ touch Makefile  # Should have a capital M!
-/tmp/src $ edit Makefile
+/tmp/src $ your-editor-here Makefile   # e.g. vim, gedit or nano
 ```
 
 Then we enter the following as our build recipe:
