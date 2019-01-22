@@ -4,7 +4,7 @@ SERVER=clearlyreta.rded.nl:/var/www/thomwiggers.nl
 all: site
 
 .PHONY: site
-site: .well-known
+site:
 	#pipenv run academic import --assets
 	hugo --enableGitInfo --minify
 
