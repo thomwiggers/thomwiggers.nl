@@ -379,7 +379,21 @@ Better fix the typo, in this case.
 This error occurs if you don't have a `Makefile` in your current folder.
 Check if a `Makefile` exists, the name is spelled correctly (exactly `Makefile`) and make sure it has a capital `M`!
 
+### The wrong thing is built!
 
+`make`, without options, builds the first target it finds.
+You can build a specific target by typing `make target`, or you can move around the rules.
+A common trick is adding a target `all` to the top:
+
+```Makefile
+
+all: mything
+
+#[..]
+
+mything: ...
+  ...
+```
 ### Suggestions
 
 If you have suggestions for further improvement, [find the source here][src] and send in a pull request.
