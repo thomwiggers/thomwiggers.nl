@@ -6,7 +6,7 @@ title = "Implementing Prøst on ARM11"
 date = "2015-04-10"
 
 # Authors
-authors = ["Thom Wiggers"]
+authors = ["thom"]
 
 # Publication type
 # 0: Uncategorized

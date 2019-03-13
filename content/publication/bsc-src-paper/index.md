@@ -6,7 +6,7 @@ title = "Implementing CAESAR candidate Prøst on ARM11"
 date = "2015-11-20"
 
 # Authors
-authors = ["Thom Wiggers"]
+authors = ["thom"]
 
 # Publication type
 # 0: Uncategorized

@@ -6,7 +6,7 @@ title = "Solving LPN using Large Covering Codes"
 date = "2018-09-25"
 
 # Authors
-authors = ["Thom Wiggers"]
+authors = ["thom"]
 
 # Publication type
 # 0: Uncategorized

@@ -6,7 +6,7 @@ title = "Energy-efficient ARM64 Cluster with Cryptanalytic Applications: 80 core
 date = "2017-10-20"
 
 # Authors
-authors = ["Thom Wiggers"]
+authors = ["thom"]
 
 # Publication type
 # 0: Uncategorized

@@ -3,7 +3,7 @@ layout: post
 status: publish
 published: true
 title: Time-invariant equality in assembly
-author: Thom Wiggers
+authors: ["thom"]
 author_login: Thom Wiggers
 author_url: http://thomwiggers.nl
 date: '2014-03-21 18:25:10 +0100'

@@ -3,7 +3,7 @@ layout: post
 status: publish
 published: true
 title: Keybase.io
-author: Thom Wiggers
+authors: ["thom"]
 author_login: Thom Wiggers
 author_url: http://thomwiggers.nl
 date: '2014-03-16 13:12:27 +0100'
