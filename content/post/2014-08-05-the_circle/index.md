@@ -7,7 +7,8 @@ tags:
  - books
  - review
  - fiction
-
+authors:
+ - thom
 ---
 
 I recently read *The Circle* by Dave Eggers. It is a bit like the classic

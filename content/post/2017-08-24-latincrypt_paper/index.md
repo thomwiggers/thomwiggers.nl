@@ -3,6 +3,7 @@ layout: post
 category: research
 title: Latincrypt paper!
 date: 2017-08-24 20:35:33 +0200
+authors: ["thom"]
 ---
 
 I'm going to Cuba as my submission to Latincrypt 2017 was accepted!

@@ -3,6 +3,7 @@ layout: post
 category: security
 title: Securing OpenSSH
 date: 2016-01-29 16:27:03 +0100
+authors: ["thom"]
 ---
 
 You can set up SSH to prefer Elliptic Curve cryptography over RSA, and use

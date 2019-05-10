@@ -3,6 +3,7 @@ layout: post
 category: linux
 title: Globally install powerline
 date: 2014-09-25 23:50:18
+authors: ["thom"]
 ---
 
 Today I've tried to globally install [Powerline][1]. That was a bit of a pain

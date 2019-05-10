@@ -48,11 +48,6 @@ user_groups = ["Researchers", "Visitors"]
   course = "BSc in Information Sciences (Informatiekunde)"
   institution = "Radboud University Nijmegen"
   year = 2015
- 
-[[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
-  year = 2012
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
