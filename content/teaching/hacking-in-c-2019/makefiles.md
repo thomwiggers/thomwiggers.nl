@@ -10,8 +10,9 @@ type = "docs"
 highlight = true
 highlight_languages = ["c", "makefile", "shell", "plaintext"]
 
-authors:
-  - thom
+authors= [
+  "thom",
+]
 
 [menu.teaching]
   name = "Makefile"
