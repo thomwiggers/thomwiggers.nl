@@ -3,6 +3,7 @@ layout: post
 category: code
 title: Bitcoin private key qrcode scraper
 date: 2015-11-01 21:28:36
+lastmod: 2015-11-01 21:28:36
 authors: ["thom"]
 ---
 [Tegenlicht][0] today had an [episode about Bitcoin][1] where they announced

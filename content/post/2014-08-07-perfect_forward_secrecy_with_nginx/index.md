@@ -3,6 +3,7 @@ layout: post
 category: linux
 title: Perfect forward secrecy and HSTS with nginx
 date: 2014-08-07 19:30:02
+lastmod: 2014-08-07 19:30:02
 tags:
   - linux
   - nginx

@@ -13,6 +13,9 @@ categories:
 authors: ["thom"]
 author_url: http://thomwiggers.nl/about.html
 
+date: 2014-06-10
+lastmod: 2015-01-22
+
 ---
 
 I have a fairly creative ssl setup on my webserver:

@@ -7,6 +7,7 @@ authors: ["thom"]
 author_login: Thom Wiggers
 author_url: http://thomwiggers.nl
 date: '2014-03-21 18:25:10 +0100'
+lastmod: '2014-03-21 18:25:10 +0100'
 date_gmt: '2014-03-21 17:25:10 +0100'
 categories:
 - security

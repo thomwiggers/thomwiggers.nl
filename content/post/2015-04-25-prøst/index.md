@@ -3,6 +3,7 @@ layout: post
 category: research
 title: Prøst
 date: 2015-04-25 14:39:20
+lastmod: 2015-04-25 14:39:20
 authors: ["thom"]
 ---
 

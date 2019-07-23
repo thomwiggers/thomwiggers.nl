@@ -3,6 +3,7 @@ layout: post
 category: Research
 title: Prøst at Student Research Conference
 date: 2015-11-15 15:32:55
+lastmod: 2015-11-15 15:32:55
 authors: ["thom"]
 ---
 

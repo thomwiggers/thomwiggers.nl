@@ -3,6 +3,7 @@ layout: post
 category: reviews
 title: Dave Eggers – The Circle
 date: 2014-08-05 17:43:53
+lastmod: 2014-08-05 17:43:53
 tags:
  - books
  - review

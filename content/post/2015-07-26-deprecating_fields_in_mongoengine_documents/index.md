@@ -3,6 +3,7 @@ layout: post
 category: code
 title: Deprecating fields in MongoEngine Documents
 date: 2015-07-26 17:01:45
+lastmod: 2015-07-26 17:01:45
 highlight: true
 authors: ["thom"]
 ---

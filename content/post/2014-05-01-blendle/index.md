@@ -3,6 +3,7 @@ layout: post
 category: media
 title: Blendle
 date: 2014-05-01 15:50:15
+lastmod: 2014-05-01 15:50:15
 tags: [blendle media kranten tijdschriften]
 authors: ["thom"]
 ---

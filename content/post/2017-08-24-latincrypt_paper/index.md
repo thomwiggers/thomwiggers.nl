@@ -2,8 +2,11 @@
 layout: post
 category: research
 title: Latincrypt paper!
-date: 2017-08-24 20:35:33 +0200
+date: 2017-08-24
+lastmod: 2017-08-24
 authors: ["thom"]
+
+enableGitInfo: false
 ---
 
 I'm going to Cuba as my submission to Latincrypt 2017 was accepted!
