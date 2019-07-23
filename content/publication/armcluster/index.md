@@ -3,7 +3,7 @@
 title = "Energy-efficient ARM64 Cluster with Cryptanalytic Applications: 80 cores that do not cost you an ARM and a leg"
 
 # Date first published.
-date = "2017-10-20"
+date = "2019-06-20"
 
 # Authors
 authors = ["thom"]
@@ -20,7 +20,8 @@ publication_types = ["1"]
 
 # Publication name and optional abbreviated version
 # i.e. published in
-publication = "To appear in the proceedings of LATINCRYPT 2017"
+publication="Progress in Cryptology -- LATINCRYPT 2017"
+publication_short="LATINCRYPT 2017"
 
 # Abstract and optional short version
 abstract = """Getting a lot of CPU power used to be an expensive under-taking.
@@ -57,7 +58,7 @@ url_poster = ""
 url_source = ""
 
 # doi
-doi = ""
+doi="10.1007/978-3-030-25283-0_10"
 
 # Custom links (optional)
 # url_custom = [{name = "Custom Link", url = "http://example.org"}]
@@ -81,8 +82,6 @@ aliases = [
   '/research/armcluster/',
 ]
 +++
-
-To appear in the proceedings of LATINCRYPT 2017.
 
 ## Software
 
