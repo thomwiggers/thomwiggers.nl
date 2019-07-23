@@ -168,12 +168,12 @@ sharing = false
   #   0: No search engine
   #   1: Academic (built-in)
   #   2: Algolia (https://www.algolia.com)
-  engine = 2
+  engine = 1
 
   # Configuration of Algolia search engine.
   # Paste the values from your Algolia dashboard.
   [search.algolia]
-    app_id = "2P35UARBBQ"
-    api_key = "3f7fa49866d4c52058248e82abafd015"
-    index_name = "thomwiggers.nl"
+    app_id = ""
+    api_key = ""
+    index_name = ""
     show_logo = false
