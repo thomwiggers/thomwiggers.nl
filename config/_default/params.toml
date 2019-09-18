@@ -1,28 +1,56 @@
 # SITE SETUP
 # Documentation: https://sourcethemes.com/academic/
 
-# Color theme.
-#   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`.
-color_theme = "default"
+############################
+## Theme
+############################
+
+# Choose a theme.
+#   Latest themes (may require updating): https://sourcethemes.com/academic/themes/
+#   Browse built-in themes in `themes/academic/data/themes/`
+#   Browse user installed themes in `data/themes/`
+theme = "minimal"
+
 # Enable users to switch between day and night mode?
 day_night = true
 
-# Font style.
-#   Choose from `default`, `classic`, or `playfair`.
-font = "default"
+# Override the theme's font set (optional).
+#   Latest font sets (may require updating): https://sourcethemes.com/academic/themes/
+#   Browse built-in font sets in `themes/academic/data/fonts/`
+#   Browse user installed font sets in `data/fonts/`
+font = ""
+
+# Choose a font size.
+# Sizes: XS (extra small), S (small), M (medium), L (large - DEFAULT), XL (extra large)
+font_size = "L"
+
+############################
+## Basic Info
+############################
+
+# Website type
+#   Improve how search engines understand your site.
+#   For personal sites, choose "Person".
+#   For organizations and projects, choose from https://schema.org/Organization#subtypes
+#   E.g. Person, Organization, LocalBusiness, Project, EducationalOrganization
+site_type = "Person"
+
+# Local business type (optional)
+# If you entered "LocalBusiness" above, choose the type of business from https://schema.org/LocalBusiness#subtypes
+local_business_type = ""
+
+# Organization name (optional)
+# Enter an organization or project name. Defaults to the site title from `config.toml`.
+org_name = ""
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 description = "Thom Wiggers, PhD candidate at Radboud University"
 
-# Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
-sharing_image = ""
-
-# Twitter username (without @). Used when a vistor shares your site on Twitter.
-twitter = "thomwiggers"
-
-# Diplay a logo in navigation bar rather than title (optional).
+# Display a logo in navigation bar rather than title (optional).
 #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
 logo = ""
+
+
 
 # Enable global source code highlighting? true/false
 # Documentation: https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
@@ -45,7 +73,7 @@ privacy_pack = false
 
 # Enable visitors to edit pages?
 # `repo` defines the repository URL. `editable` defines which page types can be edited.
-edit_page = {repo_url = "https://github.com/thomwiggers/thomwiggers.nl", editable = {docs = true, page = false, post = false}}
+edit_page = {repo_url = "https://github.com/thomwiggers/thomwiggers.nl", repo_branch = "new-site", editable = {docs = true, page = false, post = false}}
 
 # Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
 #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
@@ -60,10 +88,14 @@ time_format = "15:04"
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "thom@thomwiggers.nl"
 phone = ""
-address = "Room M1.3.11b, Mercator I building, Toernooiveld 212, Nijmegen"
+address = { room = "Room 3.11b", street = "Toernooiveld 212", city = "Nijmegen", postcode = "6525 EC", country = "The Netherlands", country_code = "NL" }
+
+coordinates = { latitude = "51.825385", longitude = "5.868570" }
+
+directions = "Third floor of the Mercator I building, next to the break room."
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
-office_hours = ""
+office_hours = []
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
 #appointment_url = "https://calendly.com"
@@ -90,11 +122,21 @@ contact_links = [
 #   1: Google Maps
 #   2: OpenStreetMap (Mapnik)
 #   3: OpenStreetMap (Mapbox)
-map = 1
-map_api_key = "AIzaSyC1HMSQJif9HPHfmXQ2BGHNJsmxtSXvn9I"
-latitude = "51.825385"
-longitude = "5.868570"
-zoom = 15
+[map]
+  engine = 1
+  api_key = "AIzaSyC1HMSQJif9HPHfmXQ2BGHNJsmxtSXvn9I"
+  zoom = 15
+
+############################
+## Social
+############################
+
+# Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
+sharing_image = ""
+
+# Twitter username (without @). Used when a vistor shares your site on Twitter.
+twitter = "thomwiggers"
+
 
 ############################
 ## Plugins                ##
