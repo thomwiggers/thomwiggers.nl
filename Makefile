@@ -1,4 +1,4 @@
-SERVER=clearlyreta.rded.nl:/var/www/thomwiggers.nl
+SERVER=archeron.wg.rded.nl:/var/www/thomwiggers.nl
 
 .PHONY: all
 all: site

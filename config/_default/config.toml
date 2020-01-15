@@ -15,9 +15,6 @@ baseurl = "/"
 # To display a copyright symbol, type `&copy;`.
 copyright = "&copy; {year} Thom Wiggers -- CC-BY 4.0"
 
-# Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
-
 ############################
 ## Advanced options below ##
 ############################
@@ -50,21 +47,21 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   mediaType = "application/manifest+json"
   rel = "manifest"
 
-# Configure BlackFriday Markdown rendering.
-#   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
-[blackfriday]
-  hrefTargetBlank = true  # `true` opens external links in a new tab. See https://github.com/gohugoio/hugo/issues/2424
-	angledQuotes = false
-	latexDashes = true
-  smartypants = true
-  fractions = true
-  noreferrerLinks = true
-  extensions = ["backslashLineBreak"]
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe=true
+    [markup.highlight]
+      codeFences = false
+    [markup.tableOfContents]
+      startLevel = 2
+      endLevel = 3
 
 [imaging]
   resampleFilter = "lanczos"
   quality = 90
-  anchor = "smart"  # Anchor for cropping. Options include Smart and Center.
+  anchor = "smart"
 
 # Taxonomies.
 [taxonomies]

@@ -73,13 +73,7 @@ privacy_pack = false
 
 # Enable visitors to edit pages?
 # `repo` defines the repository URL. `editable` defines which page types can be edited.
-edit_page = {repo_url = "https://github.com/thomwiggers/thomwiggers.nl", repo_branch = "new-site", editable = {docs = true, page = false, post = false}}
-
-# Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
-#   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-date_format = "2006-01-02"
-#   Examples: "3:04 pm" or "15:04"
-time_format = "15:04"
+edit_page = {repo_url = "https://github.com/thomwiggers/thomwiggers.nl", content_dir = "", repo_branch = "new-site", editable = {docs = true, page = false, post = false}}
 
 ############################
 ## Contact Widget setup   ##
@@ -107,26 +101,6 @@ contact_links = [
   # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
   ]
 
-# Display a map.
-# To show your address on a map in the contact widget, you need to enter your latitude, longitude and choose
-# a map provider below.
-# To use Google Maps, set `map = 1` and enter your API key that can be obtained here:
-#   https://developers.google.com/maps/documentation/javascript/get-api-key
-# To use OpenStreetMap tiles, set `map = 2`.
-# To use OpenStreetMap on a high traffic site, set `map = 3` and enter your API key that can be obtained here:
-#   https://www.mapbox.com/studio/account/tokens
-# To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-#
-# Map provider:
-#   0: No map
-#   1: Google Maps
-#   2: OpenStreetMap (Mapnik)
-#   3: OpenStreetMap (Mapbox)
-[map]
-  engine = 1
-  api_key = "AIzaSyC1HMSQJif9HPHfmXQ2BGHNJsmxtSXvn9I"
-  zoom = 15
-
 ############################
 ## Social
 ############################
@@ -139,24 +113,24 @@ twitter = "thomwiggers"
 
 
 ############################
-## Plugins                ##
+## Regional Settings
 ############################
 
-# Load CSS and JS plugins
-#   E.g. To load `/assets/css/custom.css`, set `plugins_css = ["custom"]`.
-#   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
-plugins_css = []
-plugins_js  = []
+# Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
+#   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+date_format = "2020-01-15"
+#   Examples: "3:04 pm" or "15:04"
+time_format = "16:04"
+
+# Address format (choose from the [address_formats] list below or add you own to the list).
+address_format = "nl"
 
 ############################
-## Advanced options       ##
+## Advanced
 ############################
 
-# Get user avatars from Gravatar.com? (true/false)
-gravatar = false
-
-# Align the main menu to the right of the page? (true/false)
-menu_align_right = false
+# Main menu alignment (l = left, c = center, r = right) and logo options.
+main_menu = {align = "l", show_logo = true}
 
 # Show estimated reading time for posts? (true/false)
 reading_time = true
@@ -168,11 +142,37 @@ docs_section_pager = true  # Display pager in Docs layout (e.g. tutorials)?
 # Enable in-built social sharing buttons? (true/false)
 sharing = false
 
+# Link authors to their profile page? (true/false)
+link_authors = true
+
+# Load JS plugins
+#   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
+plugins_js  = ["stats"]
+
+# Avatars.
+# An avatar is an image that appears next to a user's name.
+# An avatar can be uploaded as an image named `avatar` to each user's profile or fetched from Gravatar.com.
+[avatar]
+  # Get user avatars from Gravatar.com? (true/false)
+  gravatar = false
+
+  # Choose a shape for avatar images. Options: circle, square.
+  shape = "circle"
+
+# Available address formats.
+[address_formats]
+  en-us = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ' ', '']}
+  en-gb = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ', ', '']}
+  de = {order = ['street', 'postcode', 'city'], delimiters = ['<br>', ' ', '']}
+  fr-fr = {order = ['street', 'postcode', 'city'], delimiters = ['<br>', ' ', '']}
+  zh = {order = ['postcode', 'region', 'city', 'street'], delimiters = [' ', ' ', ' ', '']}
+  nl = {order = ['room', 'street', 'postcode', 'city'], delimiters = ['<br>', '<br>', ' ', '']}
+
 # Configuration of publication pages.
 [publications]
   # Date format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-  date_format = "January 2006"
+  date_format = "2006-01-02"
 
   # Citation style ("apa" or "mla")
   citation_style = "apa"
@@ -188,7 +188,9 @@ sharing = false
   publication_view = 2
   talk_view = 2
 
-# Comments.
+############################
+## Comments
+############################
 [comments]
   # Comment provider:
   #   0: Disabled
@@ -197,14 +199,21 @@ sharing = false
   engine = 0
 
   # Which page types are commentable?
-  commentable = {page = true, post = true, docs = true}
+  commentable = {page = true, post = true, docs = true, project = true, publication = true, talk = true}
 
   # Configuration of Disqus.
   [comments.disqus]
     shortname = ""  # Paste the shortname from your Disqus dashboard.
     show_count = true  # Show comment count in page header? (true/false)
 
-# Search.
+  # Configuration of Commento.
+  [comments.commento]
+    # If self-hosting Commento, enter its URL here (e.g. "https://commento.?.com"), otherwise leave empty.
+    url = ""
+
+############################
+## Search
+############################
 [search]
   # Search provider:
   #   0: No search engine
@@ -219,3 +228,32 @@ sharing = false
     api_key = ""
     index_name = ""
     show_logo = false
+
+############################
+## Maps
+############################
+[map]
+  # To show your address on a map in the Contact widget, enter your latitude and longitude (above)
+  # and choose a map provider below.
+  #
+  # To use Google Maps, set `engine` to 1 and enter your API key that can be obtained here:
+  #   https://developers.google.com/maps/documentation/javascript/get-api-key
+  # To use OpenStreetMap tiles, set `engine` to 2.
+  # To use OpenStreetMap on a high traffic site, set `engine` to 3 and enter your API key that can be obtained here:
+  #   https://www.mapbox.com/studio/account/tokens
+  #
+  # Map provider:
+  #   0: No map
+  #   1: Google Maps
+  #   2: OpenStreetMap (Mapnik)
+  #   3: OpenStreetMap (Mapbox)
+  engine = 1
+  api_key = "AIzaSyC1HMSQJif9HPHfmXQ2BGHNJsmxtSXvn9I"
+  zoom = 15
+
+############################
+## Marketing
+############################
+[marketing]
+  google_analytics = ""
+  google_tag_manager = ""
