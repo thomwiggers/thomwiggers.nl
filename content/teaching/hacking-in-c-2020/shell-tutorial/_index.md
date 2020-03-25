@@ -22,4 +22,6 @@ authors= [
 
 [These are the slides I used during the workshop][slides]
 
+{{< youtube id=I1N4T0UXuaA >}}
+
 [slides]: tutorial.pdf
