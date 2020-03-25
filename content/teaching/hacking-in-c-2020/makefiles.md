@@ -14,7 +14,7 @@ authors= [
   "thom",
 ]
 
-[menu.hic2019]
+[menu.hic2020]
   name = "Makefile"
   weight = 2
   parent = "Hacking in C"
@@ -33,7 +33,7 @@ A recipe to cook an apple pie[^pie] might look as follows:
 [^pie]: I mostly made up the ingredients, so it may not be a good idea to serve a pie you made using this recipe to your grandmother or lecturer.
 
 > ### Ingredients
-> 
+>
 > * 200 grams of butter
 > * 20 grams of sugar
 > * 400 grams of self-raising flower
@@ -43,43 +43,43 @@ A recipe to cook an apple pie[^pie] might look as follows:
 > * 1 Kg apples
 > * 75 grams of raisins
 > * cinnamon
-> 
+>
 > ### Making the pie
-> 
+>
 > #### Melting the butter
 > 1. Put the butter in a microwave and slowly melt it, stir it once in a while
-> 
-> #### Making the dough 
+>
+> #### Making the dough
 > _Prequisites: melting the butter_
-> 
+>
 > 1. Mix the molten butter, the flower and 2/3s of the egg
 > 2. Knead the dough until it's consistent
-> 
+>
 > #### Preparing the raisins
 > 1. Put the raisins in lukewarm water
 > 2. Wait 15 minutes
 > 3. Dry them off
-> 
+>
 > #### Preparing the apples
-> 1. Skin the apples 
+> 1. Skin the apples
 > 2. dice them
-> 
+>
 > #### Making the filling
 > _Prequisites: preparing the raisins, preparing the apples_
-> 
+>
 > 1. Mix the diced apples with the sugar and the prepared raisins
-> 
-> 
+>
+>
 > #### Making the pie
 > _Prequisites: Making the dough, making the filling_
-> 
+>
 > 1. Cover the springform using 2/3s of the dough
 > 2. Put the filling in the pie
 > 3. Cover the pie with the remainder of the dough
-> 
+>
 > #### Baking the pie
 > _Prequisites: Making the pie_
-> 
+>
 > 1. Put the pie in the oven that's been pre-heated to 200 degrees Celcius
 > 2. Take it out after 60 minutes
 
@@ -375,7 +375,7 @@ zay_hello.o: say_hello.o
 	mv say_hello.o zay_hello.o
 ```
 
-But that is a bit silly. 
+But that is a bit silly.
 Better fix the typo, in this case.
 
 ### No targets specified and no makefile found.
