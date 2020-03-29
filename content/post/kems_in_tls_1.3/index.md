@@ -49,7 +49,7 @@ functions:
 
 This can be used, for example in the following protocol.
 
-{{< figure src="kem.svg" title="KEM key exchange" >}}
+{{< figure src="images/kem.png" title="KEM key exchange" caption="KEM key exchange" >}}
 
 After exchanging these messages, $A$ and $B$ will have derived the same
 key, much like the classic Diffie-Hellman key exchange.
@@ -57,7 +57,7 @@ key, much like the classic Diffie-Hellman key exchange.
 The TLS 1.3 handshake protocol
 ------------------------------
 
-{{<figure src="tls_13.svg" title="The typical TLS 1.3 handshake">}}
+{{< figure src="images/tls_13.png" title="The typical TLS 1.3 handshake" caption="The typical TLS 1.3 handshake" >}}
 
 The typical TLS 1.3 handshake has the client and the server include key
 shares in the first messages. These key shares, typically ephemeral ECDH
@@ -81,7 +81,7 @@ the <tt>HelloRetryRequest</tt>, it will include the public key we need.
 
 This leads to the following protocol.
 
-{{<figure src="tls_13_2rtt_kem.svg" title="Using the extra roundtrip to obtain the necessary public key">}}
+{{< figure src="images/tls_13_2rtt_kem.png" caption="Using the extra roundtrip to obtain the necessary public key" >}}
 
 Of course, this extra round trip increases latency. In fact, one of the
 main improvements of TLS 1.3 over TLS 1.2 was the getting rid of this
