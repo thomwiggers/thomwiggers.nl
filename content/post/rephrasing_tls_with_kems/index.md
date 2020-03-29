@@ -69,6 +69,7 @@ Current proposals for post-quantum NIKEs are just too slow to work in practice.
 
 [^NIKEs]: If you want to do key exchanges where one of the key shares is a certified (EC)DH parameter, like in the OPTLS proposals, then RFC8446 DOES require non-interactive key exchang and KEMs don't work.
 [^keyshares]: The TLS handhake defines the public keys sent over as "keyshares" and the algorithms supported as "supported groups". This naming is a bit unfortunate. There was a [pull request to change this to "supported key exchange methods"][kempr], but it never got adopted. It was recognised that this name may need to change at some point.
+
 [rfc8446]: https://tools.ietf.org/html/rfc8446
 [kyber]: https://pq-crystals.org/kyber/
 [kempr]: https://mailarchive.ietf.org/arch/msg/tls/AnSksztK1vSaWB1Fzqdph0hryxw
