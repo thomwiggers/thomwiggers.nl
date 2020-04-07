@@ -63,7 +63,7 @@ abstract: |
 #projects = []
 
 # Links
-url_pdf: "thesis.pdf"
+#url_pdf: "thesis.pdf"
 url_preprint: ""
 url_code: ""
 url_dataset: ""
