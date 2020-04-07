@@ -20,8 +20,8 @@ publication_types = ["1"]
 
 # Publication name and optional abbreviated version
 # i.e. published in
-publication="Progress in Cryptology -- LATINCRYPT 2017"
-publication_short="LATINCRYPT 2017"
+publication = "Progress in Cryptology -- LATINCRYPT 2017"
+publication_short = "LATINCRYPT 2017"
 
 # Abstract and optional short version
 abstract = """Getting a lot of CPU power used to be an expensive under-taking.
@@ -48,7 +48,7 @@ projects = []
 
 # Links
 url_preprint = "https://eprint.iacr.org/2018/888/"
-url_pdf = "paper.pdf"
+#url_pdf = "paper.pdf"
 url_code = ""
 url_dataset = ""
 url_project = ""

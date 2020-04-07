@@ -30,15 +30,12 @@ abstract_short = ""
 # Featured image 
 #image_preview = ""
 
-# Is this a selected publication (true/false)
-#selected = true
-
 # Associated projects
 #   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
 projects = ['bachelors-thesis']
 
 # Links
-url_preprint = "srcpaper.pdf"
+url_preprint = "bsc-src-paper.pdf"
 url_pdf = "https://journals.open.tudelft.nl/sure/article/view/1070"
 url_code = ""
 url_dataset = ""
