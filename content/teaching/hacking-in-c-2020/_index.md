@@ -17,4 +17,8 @@ menu:
 
 ---
 
-This is some stuff for Hacking in C
+This is the course website for Hacking in C 2019--2020 at Radboud University.
+
+To the left you can find some resources, such as the [Syllabus][] and some tutorials.
+
+[Syllabus]: {{< ref "syllabus.md" >}}
