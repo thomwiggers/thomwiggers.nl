@@ -48,11 +48,11 @@ projects = []
 
 # Links
 url_preprint = "https://eprint.iacr.org/2018/888/"
-url_pdf = "pdf/armcluster/paper.pdf"
+url_pdf = "paper.pdf"
 url_code = ""
 url_dataset = ""
 url_project = ""
-url_slides = "pdf/armcluster/presentation.pdf"
+url_slides = "presentation.pdf"
 url_video = ""
 url_poster = ""
 url_source = ""

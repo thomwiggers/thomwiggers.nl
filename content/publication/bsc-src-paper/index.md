@@ -38,14 +38,14 @@ abstract_short = ""
 projects = ['bachelors-thesis']
 
 # Links
-url_preprint = "pdf/bsc/srcpaper.pdf"
-url_pdf = "http://ojs-lib.tudelft.nl/index.php/sure/article/viewFile/1070/1213"
+url_preprint = "srcpaper.pdf"
+url_pdf = "https://journals.open.tudelft.nl/sure/article/view/1070"
 url_code = ""
 url_dataset = ""
 url_project = ""
 url_slides = ""
 url_video = ""
-url_poster = "pdf/bsc/poster.pdf"
+url_poster = "poster.pdf"
 url_source = ""
 
 # doi

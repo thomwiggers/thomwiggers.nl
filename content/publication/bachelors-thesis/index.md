@@ -38,12 +38,12 @@ abstract_short = ""
 projects = ['bachelors-thesis']
 
 # Links
-url_pdf = "pdf/bsc/bachelorthesis.pdf"
+url_pdf = "bachelorthesis.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
 url_project = ""
-url_slides = "pdf/bsc/presentation.pdf"
+url_slides = "presentation.pdf"
 url_video = ""
 url_poster = ""
 url_source = ""
