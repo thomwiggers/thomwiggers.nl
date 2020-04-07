@@ -5,7 +5,7 @@ frontend:
     build:
       commands:
         - export VERSION_HUGO="$(hugo version | grep -o '[[:digit:]]\.[[:digit:]]\+\.[[:digit:]]\+')"
-        - wget https://github.com/gohugoio/hugo/releases/download/v${VERSION_HUGO}/hugo_extended_${VERSION_HUGO}_Linux-64bit.tar.gz
+        - wget --quiet https://github.com/gohugoio/hugo/releases/download/v${VERSION_HUGO}/hugo_extended_${VERSION_HUGO}_Linux-64bit.tar.gz
         - tar -xf hugo_extended_${VERSION_HUGO}_Linux-64bit.tar.gz -C /
         - mv /hugo /usr/bin/hugo
         - rm -rf hugo_extended_${VERSION_HUGO}_Linux-64bit.tar.gz
