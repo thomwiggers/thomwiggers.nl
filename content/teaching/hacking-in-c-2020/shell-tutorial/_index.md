@@ -33,3 +33,4 @@ authors= [
 * [Cheat sheet](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh)
 * [Bash scripting cheat sheet](https://devhints.io/bash)
 * [The Linux Command Line (free book)](http://linuxcommand.org/tlcl.php)
+* [Extensive shell scripting tutorial](https://www.shellscript.sh/)
