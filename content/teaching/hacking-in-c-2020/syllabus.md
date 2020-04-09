@@ -15,8 +15,10 @@ authors:
 menu:
   hic2020:
     name: "Syllabus"
-    weight: 1
+    weight: 10
     parent: "Hacking in C"
+
+weight: 10
 ---
 # Syllabus Hacking in C 2020
 

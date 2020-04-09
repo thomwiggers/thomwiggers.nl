@@ -15,9 +15,8 @@ authors= [
 ]
 
 [menu.hic2020]
-  name = "Makefile"
-  weight = 2
-  parent = "Hacking in C"
+  name = "Writing Makefile"
+  parent = "Tutorials"
 +++
 
 
@@ -396,10 +395,12 @@ all: mything
 #[..]
 
 mything: ...
-  ...
+	...
 ```
 ### Suggestions
 
 If you have suggestions for further improvement, [find the source here][src] and send in a pull request.
 
 [src]: https://github.com/thomwiggers/thomwiggers.nl/blob/new-site/content/teaching/makefiles.md
+
+<!-- vim: set ft=markdown ts=2 sw=2 tw=0 noet :-->

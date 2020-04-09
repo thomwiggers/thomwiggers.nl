@@ -1,0 +1,29 @@
++++
+title = "Assignments"
+date = 2020-03-19
+summary = "Assignments for HiC"
+
+draft = false
+toc = true
+type = "docs"
+
+highlight = true
+highlight_languages = ["c", "makefile", "shell", "plaintext"]
+
+authors= [
+  "thom",
+]
+
+[menu.hic2020]
+  name = "Assignments"
+  parent = "Hacking in C"
+
+weight = 30
++++
+
+
+## Assignment 1
+
+* **Download:** [Assignment 1](assignment1.pdf)
+* **Deadline:** April 14, **12:30**.
+* **Hand-in:** [Brightspace](https://brightspace.ru.nl/d2l/le/calendar/88557/event/111680/detailsview#111680)

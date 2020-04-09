@@ -16,8 +16,7 @@ authors= [
 
 [menu.hic2020]
   name = "Shell tutorial"
-  weight = 2
-  parent = "Hacking in C"
+  parent = "Tutorials"
 +++
 
 {{< youtube id=I1N4T0UXuaA >}}

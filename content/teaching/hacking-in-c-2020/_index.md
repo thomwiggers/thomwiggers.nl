@@ -14,6 +14,9 @@ menu:
   hic2020:
     name: Hacking in C
     weight: 1
+    tutorials:
+      name: Tutorials
+      weight: 1
 
 ---
 
