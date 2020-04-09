@@ -1,23 +1,22 @@
-+++
-title = "Syllabus Hacking in C 2020"
-date = 2020-04-07
-summary = "The course outline"
+---
+title: "Syllabus Hacking in C 2020"
+date: 2020-04-07
+summary: "The course outline"
 
-draft = false
-toc = true
-type = "docs"
+draft: false
+toc: true
+type: "docs"
 
-highlight = false
+highlight: false
 
-authors= [
-  "thom",
-]
+authors:
+  - "thom"
 
-[menu.hic2020]
-  name = "Syllabus"
-  weight = 1
-  parent = "Hacking in C"
-+++
+menu:
+  hic2020:
+    name: "Syllabus"
+    weight: 1
+    parent: "Hacking in C"
 ---
 # Syllabus Hacking in C 2020
 
@@ -32,8 +31,8 @@ authors= [
 * **Schedule**: Fourth Quarter of 2019--2020
     * **Start:** 13 April 2020
     * **Exam date:** 24 June 2020 (for now)
-* **Main lecturer:** Thom Wiggers <thom@thomwiggers.nl>
-* **Supporting lecturers:** Denisa Greconici <D.Greconici@cs.ru.nl>
+* **Main lecturer:** Thom Wiggers [``<thom@thomwiggers.nl>``][thom email]
+* **Supporting lecturers:** Denisa Greconici [``<D.Greconici@cs.ru.nl>``][denisa email]
 * **Course URLs (clickable):**
     * [Discord][] (tutorials)
     * [Brightspace][] (handing in assignments)
@@ -146,3 +145,6 @@ We have also not decided yet on how much time you will have to complete this.
 [Makefile tutorial]: https://thomwiggers.nl/teaching/hacking-in-c-2020/makefiles/
 [Shell tutorial]: https://thomwiggers.nl/teaching/hacking-in-c-2020/shell-tutorial/
 [course website on github]: https://github.com/thomwiggers/thomwiggers.nl/tree/new-site/content/teaching/hacking-in-c-2020
+
+[thom email]: mailto:Thom Wiggers <thom@thomwiggers.nl>
+[denisa email]: mailto:Denisa Greconici <D.Greconici@cs.ru.nl>
