@@ -20,8 +20,16 @@ authors= [
   parent = "Hacking in C"
 +++
 
-[These are the slides I used during the workshop][slides]
-
 {{< youtube id=I1N4T0UXuaA >}}
 
+[These are the slides I used during the workshop][slides]
+
+
 [slides]: tutorial.pdf
+
+## Other resources
+
+* [MIT's Missing Semester](https://missing.csail.mit.edu/2020/course-shell/)
+* [Cheat sheet](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh)
+* [Bash scripting cheat sheet](https://devhints.io/bash)
+* [The Linux Command Line (free book)](http://linuxcommand.org/tlcl.php)
