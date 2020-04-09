@@ -146,5 +146,5 @@ We have also not decided yet on how much time you will have to complete this.
 [Shell tutorial]: https://thomwiggers.nl/teaching/hacking-in-c-2020/shell-tutorial/
 [course website on github]: https://github.com/thomwiggers/thomwiggers.nl/tree/new-site/content/teaching/hacking-in-c-2020
 
-[thom email]: mailto:Thom Wiggers <thom@thomwiggers.nl>
-[denisa email]: mailto:Denisa Greconici <D.Greconici@cs.ru.nl>
+[thom email]: mailto:thom@thomwiggers.nl
+[denisa email]: mailto:D.Greconici@cs.ru.nl
