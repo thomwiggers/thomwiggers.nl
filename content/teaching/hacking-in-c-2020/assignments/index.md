@@ -31,3 +31,4 @@ weight = 30
 ### Extra resources
 
 * [(YouTube) Writing your first shell script](https://www.youtube.com/watch?v=eiBVlxxu3so)
+* [Counting word occurences in a file](https://www.tecmint.com/count-word-occurrences-in-linux-text-file/)
