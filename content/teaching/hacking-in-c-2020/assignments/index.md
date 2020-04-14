@@ -25,5 +25,5 @@ weight = 30
 ## Assignment 1
 
 * **Download:** [Assignment 1](assignment1.pdf)
-* **Deadline:** April 14, **12:30**.
+* **Deadline:** April 21, **12:30**.
 * **Hand-in:** [Brightspace](https://brightspace.ru.nl/d2l/le/calendar/88557/event/111680/detailsview#111680)
