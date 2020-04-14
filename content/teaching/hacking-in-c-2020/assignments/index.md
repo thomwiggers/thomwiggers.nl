@@ -27,3 +27,7 @@ weight = 30
 * **Download:** [Assignment 1](assignment1.pdf)
 * **Deadline:** April 21, **12:30**.
 * **Hand-in:** [Brightspace](https://brightspace.ru.nl/d2l/le/calendar/88557/event/111680/detailsview#111680)
+
+### Extra resources
+
+* [(YouTube) Writing your first shell script](https://www.youtube.com/watch?v=eiBVlxxu3so)
