@@ -31,3 +31,4 @@ weight = 30
 ### Extra resources
 
 * [(YouTube) Writing your first shell script](https://www.youtube.com/watch?v=eiBVlxxu3so)
+* [Reading bytes from binary file](https://cboard.cprogramming.com/c-programming/84251-read-2-bytes-file.html)
