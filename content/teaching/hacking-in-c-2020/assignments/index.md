@@ -31,3 +31,4 @@ weight = 30
 ### Extra resources
 
 * [(YouTube) Writing your first shell script](https://www.youtube.com/watch?v=eiBVlxxu3so)
+* [Documentation for different printf() types](https://icecube.wisc.edu/~dglo/c_class/printf.html)
