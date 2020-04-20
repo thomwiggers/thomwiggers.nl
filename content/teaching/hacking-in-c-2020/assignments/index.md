@@ -1,6 +1,6 @@
 +++
 title = "Assignments"
-date = 2020-03-19
+date = 2020-03-20
 summary = "Assignments for HiC"
 
 draft = false
@@ -26,9 +26,17 @@ weight = 30
 
 * **Download:** [Assignment 1](assignment1.pdf)
 * **Deadline:** April 21, **12:30**.
-* **Hand-in:** [Brightspace](https://brightspace.ru.nl/d2l/le/calendar/88557/event/111680/detailsview#111680)
+* **Hand-in:** [Brightspace][]
 
 ### Extra resources
 
 * [(YouTube) Writing your first shell script](https://www.youtube.com/watch?v=eiBVlxxu3so)
 * [Documentation for different printf() types](https://icecube.wisc.edu/~dglo/c_class/printf.html)
+
+## Assignment 2
+
+* **Download:** [Assignment 2](assignment2.pdf)
+* **Deadline:** May 12, **12:30**.
+* **Hand-in:** [Brightspace][]
+
+[Brightspace]: https://brightspace.ru.nl/d2l/home/88557
