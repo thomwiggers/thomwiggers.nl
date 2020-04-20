@@ -32,6 +32,7 @@ weight = 30
 
 * [(YouTube) Writing your first shell script](https://www.youtube.com/watch?v=eiBVlxxu3so)
 * [Documentation for different printf() types](https://icecube.wisc.edu/~dglo/c_class/printf.html)
+* [`man man` (how to use the manual command)](https://manpage.me/index.cgi?apropos=0&q=man&sektion=0&manpath=Debian+8.1.0&arch=default&format=html)
 
 ## Assignment 2
 
