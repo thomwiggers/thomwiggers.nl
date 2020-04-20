@@ -301,7 +301,7 @@ gcc -c say_hello.c -o say_hello.o
 gcc -o hello hello.o say_hello.o
 ```
 
-`make` realised that only `say_hello.c` changed and only rebuild `say_hello.o`.
+`make` realised that only `say_hello.c` changed and only rebuilt `say_hello.o`.
 As a result of that, it also needed to link `hello` again, but it **skipped** building `hello.o`!
 It's easy to see that as your program grows, this can be very helpful.[^parallel]
 
@@ -399,8 +399,6 @@ mything: ...
 ```
 ### Suggestions
 
-If you have suggestions for further improvement, [find the source here][src] and send in a pull request.
-
-[src]: https://github.com/thomwiggers/thomwiggers.nl/blob/new-site/content/teaching/makefiles.md
+If you have suggestions for further improvement, click the edit link below and send in a pull request.
 
 <!-- vim: set ft=markdown ts=2 sw=2 tw=0 noet :-->
