@@ -25,6 +25,7 @@ weight: 10
 | Version | Changes         |
 |---------|-----------------|
 | 07-04   | Initial version |
+| 20-04   | Fixed lecture time |
 
 ## TL;DR
 
@@ -48,9 +49,9 @@ weight: 10
 |------|----------|-----------------------------|-------------|
 | 13-4 | ~~Lecture~~  | Easter Monday           |             |
 | 14-4 | Tutorial | C programming, Shell, Make  | 21-4 12:30 |
-| 20-4 | Lecture  | Hello, C, pointers, alignment |          |
+| 20-4 | Lecture  | Hello, C, types, pointers I |          |
 | 21-4 | Tutorial | C programming, Shell, Make  | 12-5 12:30 |
-| 04-5 | Lecture  | Hello, C, pointers, alignment |          |
+| 04-5 | Lecture  | Pointers, buffers, memory   |          |
 | 05-5 | ~~Tutorial~~ | Liberation Day |    |
 | 11-5 | Lecture  | Attacks 1: printf, buffers  |             |
 | 12-5 | Tutorial | Stack, Heap, printf         | 19-5 12:30  |
@@ -78,7 +79,7 @@ Contributions will be reviewed by Thom via the GitHub pull request system.
 
 ## Lectures
 
-Lectures will be done at the scheduled time on Mondays, 10:45.
+Lectures will be done at the scheduled time on Mondays, 15:45.
 We will follow the 'regular' concept of lectures, including the scheduled break.
 They will be live-streamed on YouTube and we will be able to interact via chat.
 Although recordings will be made available, it would be appreciated if you are present for the lectures.
