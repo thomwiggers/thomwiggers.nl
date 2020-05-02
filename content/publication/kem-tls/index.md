@@ -8,7 +8,7 @@ authors:
   - peterschwabe
   - douglasstebila
   - thom
-date: 2020
+date: 2020-05-04
 doi: ""
 
 # Schedule page publish date (NOT publication's date).

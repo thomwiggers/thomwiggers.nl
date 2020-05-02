@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Post-Quantum TLS without handshake signatures"
+title: "Post-Quantum TLS with KEMs"
 summary: "We investigate getting rid of signatures in TLS"
 authors: ['thom']
 tags: 

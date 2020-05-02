@@ -25,8 +25,6 @@ categories = ["research"]
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point = ""
 
-
-projects = ['kem-tls']
 +++
 
 In the RFC for TLS 1.3 ([RFC8446][rfc8446]) especially, the key exchange is defined in terms of (EC)DH key shares being exchanged.
