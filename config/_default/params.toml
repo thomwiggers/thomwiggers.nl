@@ -112,9 +112,9 @@ twitter = "thomwiggers"
 
 # Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
 #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-date_format = "2020-01-15"
+date_format = "2006-01-02"
 #   Examples: "3:04 pm" or "15:04"
-time_format = "16:04"
+time_format = "15:04"
 
 # Address format (choose from the [address_formats] list below or add you own to the list).
 address_format = "nl"

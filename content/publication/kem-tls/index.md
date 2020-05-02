@@ -8,7 +8,7 @@ authors:
   - peterschwabe
   - douglasstebila
   - thom
-date: 2020-05-02T14:06:14+02:00
+date: 2020
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -87,3 +87,8 @@ slides: ""
 ---
 
 Submitted to ACM CCS
+
+
+## Software
+
+Software that accompanies this publication can be found at [Github](https://github.com/thomwiggers/kemtls-experiment/).
