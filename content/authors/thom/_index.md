@@ -88,7 +88,7 @@ user_groups = ["Researchers", "Visitors"]
 
 +++
 
-Thom Wiggers is a PhD Candidate at Radboud University in The Netherlands.
+Thom Wiggers is a PhD Candidate at the Institute of Computing and Information Sciences, Radboud University in The Netherlands.
 He is working on the interactions of post-quantum cryptography with protocols, under the supervision of [Peter Schwabe][cryptojedi].
 
 [cryptojedi]: https://cryptojedi.org/peter/
