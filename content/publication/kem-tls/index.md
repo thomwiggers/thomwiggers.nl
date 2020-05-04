@@ -86,9 +86,6 @@ projects: ['kem-tls']
 slides: ""
 ---
 
-Submitted to ACM CCS
-
-
 ## Software
 
-Software that accompanies this publication can be found at [Github](https://github.com/thomwiggers/kemtls-experiment/).
+The raw data and software that accompanies this publication can be found at [Github](https://github.com/thomwiggers/kemtls-experiment/).
