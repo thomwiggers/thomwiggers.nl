@@ -32,3 +32,13 @@ We will provide recordings and slides of the lectures on these pages
 * C programming language slides
   * [Animated](c-programming-overlays-nonotes.pdf)
   * [Handout](c-programming-handout-nonotes.pdf)
+
+## Lecture 2
+
+{{< youtube id=G2Ip2svWKUc >}}
+
+### Slides
+
+* Accessing memory
+  * [Animated](pointers-overlays-nonotes.pdf)
+  * [Handout](pointers-handout-nonotes.pdf)
