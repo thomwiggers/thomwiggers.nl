@@ -1,7 +1,8 @@
 ---
 layout: post
-status: publish
-published: true
+#status: publish
+draft: true
+#published: true
 title: Keybase.io
 authors: ["thom"]
 author_login: Thom Wiggers
@@ -10,7 +11,7 @@ date: '2014-03-16 13:12:27 +0100'
 lastmod: '2014-03-16 13:12:27 +0100'
 date_gmt: '2014-03-16 12:12:27 +0100'
 categories:
-- Security
+- security
 tags: ['pki', 'crypto', 'pgp', 'gpg']
 comments: []
 ---
