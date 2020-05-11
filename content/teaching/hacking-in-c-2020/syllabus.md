@@ -22,10 +22,11 @@ weight: 10
 ---
 # Syllabus Hacking in C 2020
 
-| Version | Changes         |
-|---------|-----------------|
-| 07-04   | Initial version |
-| 20-04   | Fixed lecture time |
+| Version | Changes                  |
+|---------|--------------------------|
+| 07-04   | Initial version          |
+| 20-04   | Fixed lecture time       |
+| 11-05   | Updated topics schedule  |
 
 ## TL;DR
 
@@ -52,15 +53,15 @@ weight: 10
 | 20-4 | Lecture  | Hello, C, types, pointers I |          |
 | 21-4 | Tutorial | C programming, Shell, Make  | 12-5 12:30 |
 | 04-5 | Lecture  | Pointers, buffers, memory   |          |
-| 05-5 | ~~Tutorial~~ | Liberation Day |    |
-| 11-5 | Lecture  | Attacks 1: printf, buffers  |             |
-| 12-5 | Tutorial | Stack, Heap, printf         | 19-5 12:30  |
+| 05-5 | ~~Tutorial~~ | Liberation Day          |    |
+| 11-5 | Lecture  | Stack, Heap, printf         |             |
+| 12-5 | Tutorial | Stack, Heap                 | 19-5 12:30  |
 | 18-5 | Lecture  | Attacks 2: overflowing the return address |             |
-| 19-5 | Tutorial | More attacks                | 26-5 12:30  |
+| 19-5 | Tutorial | Buffer overflows            | 26-5 12:30  |
 | 25-5 | Lecture  | Attacks 3: ROP, ASLR        |             |
 | 26-5 | Tutorial | Attacks, cont.              | 2-6 12:30   |
 | 01-6 | ~~Lecture~~ | Pentecost Monday         |             |
-| 02-6 | Tutorial | Attacks, wrapup             |   8-6 12:30 |
+| 02-6 | Tutorial | Attacks, wrap-up            |   8-6 12:30 |
 | 08-6 | Lecture  | Safety (probably not in exam) |   |
 | 09-6 | Tutorial | Introduction Exam?          | 24-6 12:30 ?|
 
