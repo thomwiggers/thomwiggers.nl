@@ -49,4 +49,6 @@ We will provide recordings and slides of the lectures on these pages
 
 ### Slides
 
-* To appear
+* Stack and Heap
+  * [Animated](memory-overlays-nonotes.pdf)
+  * [Handout](memory-handout-nonotes.pdf)
