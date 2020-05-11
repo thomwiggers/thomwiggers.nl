@@ -54,4 +54,16 @@ weight = 30
 * [Two's complement](https://www.cs.cornell.edu/~tomf/notes/cps104/twoscomp.html)
 * [Writing out binary numbers](https://stackoverflow.com/questions/6373093/how-to-print-binary-number-via-printf)
 
+## Assignment 3
+
+* **Download:** [Assignment 3](assignment3.pdf)
+* **Deadline:** May 19, **12:30**.
+* **Hand-in:** [Brightspace][]
+
+### Extra resources
+
+* [``man malloc``](http://man7.org/linux/man-pages/man3/malloc.3.html)
+* [An annotated example of local variables on the stack](https://www.cs.rutgers.edu/~pxk/419/notes/frames.html)
+
+
 [Brightspace]: https://brightspace.ru.nl/d2l/home/88557
