@@ -42,3 +42,11 @@ We will provide recordings and slides of the lectures on these pages
 * Accessing memory
   * [Animated](pointers-overlays-nonotes.pdf)
   * [Handout](pointers-handout-nonotes.pdf)
+
+## Lecture 3
+
+{{< youtube id=QsTMxzx9LOE >}}
+
+### Slides
+
+* To appear
