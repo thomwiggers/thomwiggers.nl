@@ -64,6 +64,12 @@ weight = 30
 
 * [``man malloc``](http://man7.org/linux/man-pages/man3/malloc.3.html)
 * [An annotated example of local variables on the stack](https://www.cs.rutgers.edu/~pxk/419/notes/frames.html)
-* [Designated Inits for easy array initialization](https://gcc.gnu.org/onlinedocs/gcc-4.1.2/gcc/Designated-Inits.html)
+
+#### Initializing an array with a fixed value
+
+The below code will initialize the whole of ``array`` with the value ``0x42``.
+```c
+unsigned char array[SIZE] = {0x42};
+```
 
 [Brightspace]: https://brightspace.ru.nl/d2l/home/88557
