@@ -72,4 +72,12 @@ The below code will initialize the whole of ``array`` with the value ``0x42``.
 unsigned char array[SIZE] = {0x42};
 ```
 
+## Assignment 4
+
+* **Download:** [Assignment 4](assignment4.pdf)
+* **Deadline:** May 26, **12:30**.
+* **Hand-in:** [Brightspace][]
+
+
+
 [Brightspace]: https://brightspace.ru.nl/d2l/home/88557
