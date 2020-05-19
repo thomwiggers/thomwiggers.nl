@@ -86,6 +86,16 @@ memset(array, 0, SIZE);
 * **Deadline:** May 26, **12:30**.
 * **Hand-in:** [Brightspace][]
 
+### Extra resources
+
+#### Thom's hacking utilities
+
+These scripts can help you do some menial stuff, like printing addresses in little-endian order, as demonstrated in the lecture.
+Follow the instructions in the ``README.md`` to install them.
+
+ * [Thom's hacking utilities](utilities.tar.gz)
+
+
 
 
 [Brightspace]: https://brightspace.ru.nl/d2l/home/88557
