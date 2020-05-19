@@ -52,3 +52,15 @@ We will provide recordings and slides of the lectures on these pages
 * Stack and Heap
   * [Animated](memory-overlays-nonotes.pdf)
   * [Handout](memory-handout-nonotes.pdf)
+
+## Lecture 4
+
+{{< youtube id=86nI5dTt2LU >}}
+
+### Slides
+
+* Attacks 1
+  * [Animated, no notes](attacks1-overlays-nonotes.pdf)
+  * [Animated, with notes](attacks1-overlays-notes.pdf)
+  * [Handout, no notes](attacks1-handout-nonotes.pdf)
+  * [Handout, with notes](attacks1-handout-notes.pdf)
