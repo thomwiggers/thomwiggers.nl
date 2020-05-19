@@ -67,9 +67,17 @@ weight = 30
 
 #### Initializing an array with a fixed value
 
-The below code will initialize the whole of ``array`` with the value ``0x42``.
+The below code will initialize the whole of ``array`` with the value ``0``.
 ```c
-unsigned char array[SIZE] = {0x42};
+unsigned char array[SIZE] = {0};
+```
+
+**Unfortunately**, I was mistaken, and this only works for zero!
+Setting other values will only set that value for the first element and the rest will still be zero.
+
+If you want to set a value on the whole array, try using ``memset``:
+```c
+memset(array, 0, SIZE);
 ```
 
 ## Assignment 4
