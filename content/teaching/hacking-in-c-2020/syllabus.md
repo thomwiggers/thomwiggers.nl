@@ -1,6 +1,7 @@
 ---
 title: "Syllabus Hacking in C 2020"
 date: 2020-04-07
+lastmod: 2020-05-22
 summary: "The course outline"
 
 draft: false
@@ -27,6 +28,7 @@ weight: 10
 | 07-04   | Initial version          |
 | 20-04   | Fixed lecture time       |
 | 11-05   | Updated topics schedule  |
+| 22-05   | Updated topics schedule  |
 
 ## TL;DR
 
@@ -56,13 +58,13 @@ weight: 10
 | 05-5 | ~~Tutorial~~ | Liberation Day          |    |
 | 11-5 | Lecture  | Stack, Heap, printf         |             |
 | 12-5 | Tutorial | Stack, Heap                 | 19-5 12:30  |
-| 18-5 | Lecture  | Attacks 2: overflowing the return address |             |
+| 18-5 | Lecture  | Buffer overflows, prinf continued |             |
 | 19-5 | Tutorial | Buffer overflows            | 26-5 12:30  |
-| 25-5 | Lecture  | Attacks 3: ROP, ASLR        |             |
+| 25-5 | Lecture  | Taking control of the return address        |             |
 | 26-5 | Tutorial | Attacks, cont.              | 2-6 12:30   |
 | 01-6 | ~~Lecture~~ | Pentecost Monday         |             |
 | 02-6 | Tutorial | Attacks, wrap-up            |   8-6 12:30 |
-| 08-6 | Lecture  | Safety (probably not in exam) |   |
+| 08-6 | Lecture  | Beating W$\oplus$X with ROP |   |
 | 09-6 | Tutorial | Introduction Exam?          | 24-6 12:30 ?|
 
 ## Course website
