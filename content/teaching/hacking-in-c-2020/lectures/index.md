@@ -64,3 +64,14 @@ We will provide recordings and slides of the lectures on these pages
   * [Animated, with notes](attacks1-overlays-notes.pdf)
   * [Handout, no notes](attacks1-handout-nonotes.pdf)
   * [Handout, with notes](attacks1-handout-notes.pdf)
+
+## Lecture 5
+
+{{< youtube id=XInjkghGvfo >}}
+
+* Attacks 2
+  * [Animated, no notes](attacks2-overlays-nonotes.pdf)
+  * [Animated, with notes](attacks2-overlays-notes.pdf)
+  * [Handout, no notes](attacks2-handout-nonotes.pdf)
+  * [Handout, with notes](attacks2-handout-notes.pdf)
+
