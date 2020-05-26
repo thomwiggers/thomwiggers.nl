@@ -59,6 +59,7 @@ weight = 30
 * **Download:** [Assignment 3](assignment3.pdf)
 * **Deadline:** May 19, **12:30**.
 * **Hand-in:** [Brightspace][]
+* **Writeup:** [Writeup](writeup-ass3/)
 
 ### Extra resources
 
