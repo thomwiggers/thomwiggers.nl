@@ -104,6 +104,9 @@ This week we traditionally have the remote buffer overflow challenge, which more
 
 Sign up at https://hackme.rded.nl. You will need to fill in your student number and you can only sign up once. Please terminate your running processes after you're done with them. This weeks homework is completing the two challenges that are posted there.
 
+### Extra resources
+
+* [utf to Bytes converter](https://onlineutf8tools.com/convert-utf8-to-bytes)
 
 
 [Brightspace]: https://brightspace.ru.nl/d2l/home/88557
