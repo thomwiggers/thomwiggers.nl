@@ -105,5 +105,8 @@ This week we traditionally have the remote buffer overflow challenge, which more
 Sign up at https://hackme.rded.nl. You will need to fill in your student number and you can only sign up once. Please terminate your running processes after you're done with them. This weeks homework is completing the two challenges that are posted there.
 
 
+### Extra resources
+
+* Classic tutorial on buffer overflows. Note that it is a bit outdated, because it's from way before AMD64 (1996). [Smashing the stack for fun and profit](https://insecure.org/stf/smashstack.html)
 
 [Brightspace]: https://brightspace.ru.nl/d2l/home/88557
