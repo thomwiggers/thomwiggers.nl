@@ -106,10 +106,7 @@ Sign up at https://hackme.rded.nl. You will need to fill in your student number 
 
 ### Extra resources
 
-* [utf to Bytes converter](https://onlineutf8tools.com/convert-utf8-to-bytes)
-
-### Extra resources
-
+* [ASCII/Hex encoder / Decoder](https://www.convertstring.com/EncodeDecode/HexDecode). This encoder doesn't chocke on null bytes or weird characters. Note that it doesn't like ``0x`` in its input.
 * Classic tutorial on buffer overflows. Note that it is a bit outdated, because it's from way before AMD64 (1996). [Smashing the stack for fun and profit](https://insecure.org/stf/smashstack.html)
 
 [Brightspace]: https://brightspace.ru.nl/d2l/home/88557
