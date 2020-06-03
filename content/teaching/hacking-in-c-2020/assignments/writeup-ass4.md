@@ -29,17 +29,17 @@ For this exercise we have to give an input to the program such that it executes 
 Therefore, the stack would look like this:
 ```plaintext
 +---------------------------+ higher addresses
-| ... |
+| ...                       |
 +---------------------------+
-| return address | |
+| return address            |
 +---------------------------+ |
-| base pointer | | stack growth
+| base pointer              | | stack growth
 +---------------------------+ |
-| command[10] | |
+| command[10]               | |
 +---------------------------+ V
 | alignment padding (maybe) |
 +---------------------------+
-|buffer[100] |
+|buffer[100]                |
 +---------------------------+ lower addresses
 ```
 
@@ -86,23 +86,23 @@ Another useful gdb command is `x/s address` which help us read strings from a sp
 Dump of assembler code for function main:
 ...46 <+0>: push rbp
 ...47 <+1>: mov rbp,rsp
-...4a <+4>: sub rsp,0x20 |->allocate 32 bytes on the stack
-...4e <+8>: mov DWORD PTR [rbp-0x4],0x0 |-> set ok and i to 0 
-...55 <+15>: mov DWORD PTR [rbp-0x8],0x0 _|_
-...5c <+22>: jmp 0x401c6c <main+38> |
-...5e <+24>: mov eax,DWORD PTR [rbp-0x8] |
-...61 <+27>: cdqe |
-=> ...63 <+29>: mov BYTE PTR [rbp+rax*1-0x20],0x0 |-> for i=0 to 19 
-...68 <+34>: add DWORD PTR [rbp-0x8],0x1 | buf[i] = 0
-...6c <+38>: cmp DWORD PTR [rbp-0x8],0x13 |
-...70 <+42>: jle 0x401c5e <main+24> _|_
-...72 <+44>: lea rdi,[rip+0x803c7] # 0x482040 |->printf("Please enter your password")
-...79 <+51>: mov eax,0x0 |
-...7e <+56>: call 0x40c880 <printf> _|_ | 
-...83 <+61>: lea rax,[rbp-0x20] |-> load in rax the address of buffer
-...87 <+65>: mov rdi,rax |
-...8a <+68>: mov eax,0x0 |
-...8f <+73>: call 0x40d380 <gets> _|-> read password into buffer
+...4a <+4>: sub rsp,0x20                                    |->allocate 32 bytes on the stack
+...4e <+8>: mov DWORD PTR [rbp-0x4],0x0                     |-> set ok and i to 0 
+...55 <+15>: mov DWORD PTR [rbp-0x8],0x0                   _|_
+...5c <+22>: jmp 0x401c6c <main+38>                         |
+...5e <+24>: mov eax,DWORD PTR [rbp-0x8]                    |
+...61 <+27>: cdqe                                           |
+=> ...63 <+29>: mov BYTE PTR [rbp+rax*1-0x20],0x0           |-> for i=0 to 19 
+...68 <+34>: add DWORD PTR [rbp-0x8],0x1                    | buf[i] = 0
+...6c <+38>: cmp DWORD PTR [rbp-0x8],0x13                   |
+...70 <+42>: jle 0x401c5e <main+24>                        _|_
+...72 <+44>: lea rdi,[rip+0x803c7] # 0x482040               |->printf("Please enter your password")
+...79 <+51>: mov eax,0x0                                    |
+...7e <+56>: call 0x40c880 <printf>                        _|_ 
+...83 <+61>: lea rax,[rbp-0x20]                             |-> load in rax the address of buffer
+...87 <+65>: mov rdi,rax                                    |
+...8a <+68>: mov eax,0x0                                    |
+...8f <+73>: call 0x40d380 <gets>                          _|_-> read password into buffer
 ...94 <+78>: lea rax,[rbp-0x20] |-> rax = buffer address
 ...98 <+82>: mov edx,0x14 |-> edx = 20 (size of buffer +1)
 ...9d <+87>: mov rsi,rax |-> rsi = buffer address 
