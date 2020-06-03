@@ -103,24 +103,25 @@ Dump of assembler code for function main:
 ...87 <+65>: mov rdi,rax                                    |
 ...8a <+68>: mov eax,0x0                                    |
 ...8f <+73>: call 0x40d380 <gets>                          _|_-> read password into buffer
-...94 <+78>: lea rax,[rbp-0x20] |-> rax = buffer address
-...98 <+82>: mov edx,0x14 |-> edx = 20 (size of buffer +1)
-...9d <+87>: mov rsi,rax |-> rsi = buffer address 
-...a0 <+90>: lea rdi,[rip+0xaa659] # 0x4ac300 <hash>
-...a7 <+97>: call 0x40573a <sha256> _|_->compute hash of password and put it into address 0x4ac300 <hash>
-...ac <+102>: lea rsi,[rip+0x8036d] # 0x482020 <okhash> | 
-...b3 <+109>: lea rdi,[rip+0xaa646] # 0x4ac300 <hash> |-> compare computed hash with correct hash
-...ba <+116>: call 0x401bf5 <hash_equals> _|_ and return result
-...bf <+121>: test eax,eax |-> if result of hash_equals is not 0 
-...c1 <+123>: je 0x401cca <main+132> | ok == 1 
-...c3 <+125>: mov DWORD PTR [rbp-0x4],0x1 | if ok ==0 
-...ca <+132>: cmp DWORD PTR [rbp-0x4],0x0 | then print wrong pass and exit # 0x48206a
-...ce <+136>: je 0x401cde <main+152> | else 
-...d0 <+138>: lea rdi,[rip+0x80386] # 0x48205d | print You're root! # 0x48205d
-...d7 <+145>: call 0x40d4f0 <puts> |
-...dc <+150>: jmp 0x401cea <main+164> |
-...de <+152>: lea rdi,[rip+0x80385] # 0x48206a | 
-...e5 <+159>: call 0x40d4f0 <puts> _|_
+...94 <+78>: lea rax,[rbp-0x20]                             |-> rax = buffer address
+...98 <+82>: mov edx,0x14                                   |-> edx = 20 (size of buffer +1)
+...9d <+87>: mov rsi,rax                                    |-> rsi = buffer address 
+...a0 <+90>: lea rdi,[rip+0xaa659] # 0x4ac300 <hash>        |
+...a7 <+97>: call 0x40573a <sha256>                        _|_->compute hash of password and put 
+                                                                it into address 0x4ac300 <hash>
+...ac <+102>: lea rsi,[rip+0x8036d] # 0x482020 <okhash>     | 
+...b3 <+109>: lea rdi,[rip+0xaa646] # 0x4ac300 <hash>       |-> compare computed hash with correct hash
+...ba <+116>: call 0x401bf5 <hash_equals>                  _|_ and return result
+...bf <+121>: test eax,eax                                  |-> if result of hash_equals is not 0 
+...c1 <+123>: je 0x401cca <main+132>                        | ok == 1 
+...c3 <+125>: mov DWORD PTR [rbp-0x4],0x1                   | if ok ==0 
+...ca <+132>: cmp DWORD PTR [rbp-0x4],0x0                   | then print wrong pass and exit # 0x48206a
+...ce <+136>: je 0x401cde <main+152>                        | else 
+...d0 <+138>: lea rdi,[rip+0x80386] # 0x48205d              | print You're root! # 0x48205d
+...d7 <+145>: call 0x40d4f0 <puts>                          |
+...dc <+150>: jmp 0x401cea <main+164>                       |
+...de <+152>: lea rdi,[rip+0x80385] # 0x48206a              | 
+...e5 <+159>: call 0x40d4f0 <puts>                         _|_
 ...ea <+164>: mov eax,0x0
 ...ef <+169>: leave 
 ...f0 <+170>: ret 
