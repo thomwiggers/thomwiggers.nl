@@ -86,6 +86,7 @@ memset(array, 0, SIZE);
 * **Download:** [Assignment 4](assignment4.pdf)
 * **Deadline:** May 26, **12:30**.
 * **Hand-in:** [Brightspace][]
+* **Writeup:** [Writeup](writeup-ass4/)
 
 ### Extra resources
 
