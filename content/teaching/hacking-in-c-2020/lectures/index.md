@@ -69,9 +69,18 @@ We will provide recordings and slides of the lectures on these pages
 
 {{< youtube id=XInjkghGvfo >}}
 
+### Slides
 * Attacks 2
   * [Animated, no notes](attacks2-overlays-nonotes.pdf)
   * [Animated, with notes](attacks2-overlays-notes.pdf)
   * [Handout, no notes](attacks2-handout-nonotes.pdf)
   * [Handout, with notes](attacks2-handout-notes.pdf)
 
+## Lecture 6
+
+{{< youtube id=tH7-ilfb_DQ >}}
+
+### Slides
+* Attacks 3
+  * [Animated, no notes](safety-overlays-nonotes.pdf)
+  * [Handout, no notes](safety-handout-nonotes.pdf)
