@@ -99,6 +99,8 @@ Follow the instructions in the ``README.md`` to install them.
 
 ## Assignment 5
 
+* **Writeup:** [Writeup](writeup-ass5/)
+
 The last homework assignment will be a bit different from the previous ones. I have spent the last weeks creating a website to host "capture the flag" style hacking challenges, which is where I will run the graded challenges on. I demoed it a little bit in the lecture.
 
 This week we traditionally have the remote buffer overflow challenge, which more or less asks of you to do the same thing as I did in the lecture. You can submit your write-up through the site as well.
