@@ -23,3 +23,13 @@
   for = "index.xml"
   [headers.values]
     Content-Type = "application/rss+xml"
+
+[[redirects]]
+  from = "https://thomwiggers.com/*"
+  to = "https://thomwiggers.nl/:splat"
+  status = 301
+
+[[redirects]]
+  from = "https://www.thomwiggers.com/*"
+  to = "https://thomwiggers.nl/:splat"
+  status = 301
