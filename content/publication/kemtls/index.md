@@ -9,6 +9,7 @@ authors:
   - douglasstebila
   - thom
 date: 2020-05-05
+lastmod: 2020-08-27
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -88,7 +89,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: ['kem-tls']
+projects: ['kemtls']
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
@@ -96,6 +97,10 @@ projects: ['kem-tls']
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
 slides: ""
+
+
+aliases:
+  - /publication/kem-tls/
 ---
 
 ## Software
