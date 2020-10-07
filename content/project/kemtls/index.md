@@ -43,6 +43,9 @@ url_video: ""
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 slides: ""
+
+aliases:
+  - /project/kem-tls/
 ---
 
 We investigate alternate ways to bring TLS into the post-quantum age.

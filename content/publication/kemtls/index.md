@@ -98,7 +98,6 @@ projects: ['kemtls']
 #   Otherwise, set `slides: ""`.
 slides: ""
 
-
 aliases:
   - /publication/kem-tls/
 ---
