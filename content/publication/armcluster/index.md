@@ -40,7 +40,7 @@ abstract_short = "Doing cryptanalysis on  a small cluster built from 20 ODROID-C
 #image_preview = ""
 
 # Is this a selected publication (true/false)
-featured = true
+featured = false
 
 # Associated projects
 #   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
