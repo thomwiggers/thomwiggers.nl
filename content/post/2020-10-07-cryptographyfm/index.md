@@ -29,6 +29,8 @@ projects: ['kemtls']
 
 Douglas and I appeared on Nadim Kobeissi's new podcast Cryptography FM to talk about [KEMTLS][kemtls].
 
+<iframe src="https://fireside.fm/player/v2/UhS0As4h+DiurhTRm?theme=dark" sandbox="allow-scripts allow-downloads" width="100%" height="200" frameborder="0" scrolling="no"></iframe>
+
 You can find the episode [on the Cryptography.fm website](https://www.cryptography.fm/1).
 
 [kemtls]: {{< ref "publication/kemtls" >}}
