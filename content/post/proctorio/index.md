@@ -53,7 +53,8 @@ One big difference between an exam in HAL2 and an exam at home is the fact that 
 
 ### The sticky note
 It remains unclear to the author how thorough the room scan is. Can you hide a sticky note under your keyboard, and take it out during the exam? Or what if I stick it under the table? Can I carefully aim the laptop to keep part of my desk out of view?
-The virtual machine
+
+### The virtual machine
 You may have seen the attack by Peter Schwabe and Veelasha Moonsamy where they ran Proctorio in a virtual machine. This obviously defeats the screen recording, as only the screen inside the virtual machine can be seen by Proctorio. This allowed them to look up the answer to a question on Wikipedia.
 
 This is not an attack that Proctorio can solve. If it had direct access to the ``CPUID`` registers of the CPU, it could figure out if it was run using hardware virtualisation. However, the Chromium ``system.cpu`` API only exposes fairly generic CPU features such as AVX2 support, which will not be influenced by virtualisation. What remains are the other system properties it can read. This includes the names of microphones, number of cores, screen resolutions, disk sizes and power status. These properties can be used to develop heuristics to detect virtual machines, but it is easy to see that these can be defeated by tweaking some settings in the virtualisation software and running the VM at the full screen resolution.
