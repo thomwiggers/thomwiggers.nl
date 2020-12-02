@@ -64,7 +64,7 @@ Using what we know of the stack and what we learnt, we can draw this picture of 
     ```
 
     2. We know that the first few arguments are register values, so we ignore them.
-    3. We see then a bunch of ``0x702520` values: we hex decode this and see it's the hex encoding of `p`, `%` and `space` in ASCII.
+    3. We see then a bunch of ``0x702520`` values: we hex decode this and see it's the hex encoding of `p`, `%` and `space` in ASCII.
     4. We see that there is a value `0x555555555236` which we hypothesise is the return address of our stack frame
         1. we see another similar address behind it, probably another stack frame.
     5. We see ``0x7fffffffec60`` before it that could very well be the frame pointer: it's a stack address because it starts with `0x7ff`.
