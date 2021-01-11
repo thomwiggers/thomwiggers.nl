@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Post-Quantum TLS without handshake signatures"
+title: "Lunch talk: Post-Quantum TLS without handshake signatures"
 event: Lunch Talk
 event_url: https://www.ru.nl/dis/research/lunch-colloquium/
 location: Virtual
