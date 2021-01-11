@@ -83,7 +83,7 @@ _This article has also been posted to [Sofía Celi's blog](https://claucece.gith
 
 Fundamentally, the Transport Layer Security protocol (TLS), which
 secures most of the Internet connections, has mainly been a key exchange
-authenticated by digital signatures[^1]. Even though it has undergone
+authenticated by digital signatures.[^1] Even though it has undergone
 major changes since 1994, when SSL 1.0 was introduced by Netscape, it's
 main mechanism has remained the same. The key exchange that is used was
 first based on RSA and later on (elliptic curve) Diffie-Hellman. The
