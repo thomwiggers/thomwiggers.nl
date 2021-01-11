@@ -3,3 +3,4 @@ resources/_gen/
 static/.well-known/
 static/css/vendor/
 static/js/vendor/
+assets/jsconfig.json
