@@ -199,7 +199,7 @@ If we were to replace X25519 by the post-quantum KEM
 [Kyber512](https://pq-crystals.org/kyber/) and RSA by the post-quantum
 signature [Dilithium II](https://pq-crystals.org/dilithium/), two of
 the more efficient proposals, the size transmitted data would increase
-to 10036 bytes. The increase is mostly due to the size of the
+to 10036 bytes.[^2] The increase is mostly due to the size of the
 post-quantum signature algorithm.
 
 The question then is: how can we achieve full post-quantum security and
@@ -371,3 +371,5 @@ cryptography team.
 [^1]:  It is worth noting that the RSA key transport in TLS ≤1.2 authenticates
   the server by RSA public key encryption, although the server's RSA public key
   is certified using RSA signatures by Certificate Authorities.
+
+[^2]: These numbers, as we do in the paper, are based on the round-2 submissions.
