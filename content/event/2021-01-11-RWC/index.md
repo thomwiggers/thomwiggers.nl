@@ -79,7 +79,7 @@ highlight_languages:
 
 # Post-Quantum TLS with KEMs instead of signatures
 
-_This article has also been posted to [Sofía Celi's blog](https://claucece.github.io/2021/01/10/cf-kemtls.html)._
+_This article has also been posted to [Sofía Celi's blog](https://claucece.github.io/2021/01/10/cf-kemtls.html) and the [Cloudflare blog](https://blog.cloudflare.com/kemtls-post-quantum-tls-without-signatures/)._
 
 Fundamentally, the Transport Layer Security protocol (TLS), which
 secures most of the Internet connections, has mainly been a key exchange
