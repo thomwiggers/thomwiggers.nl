@@ -34,7 +34,7 @@ footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [outputs]
-  home = [ "HTML", "RSS", "JSON", "WebAppManifest" ]
+  home = [ "HTML", "RSS", "JSON", "WebAppManifest", "headers" ]
   section = [ "HTML", "RSS" ]
 
 [mediaTypes."application/manifest+json"]

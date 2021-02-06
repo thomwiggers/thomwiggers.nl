@@ -295,3 +295,10 @@ plugins_js  = ["stats"]
 ############################
 [icon.pack]
   ai = true  # Academicons icon pack https://jpswalsh.github.io/academicons/
+
+
+############################
+# Security settings
+############################
+[security.permissions]
+  policy = "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
