@@ -38,3 +38,18 @@
   from = "https://www.thomwiggers.com/*"
   to = "https://thomwiggers.nl/:splat"
   status = 301
+
+[[redirects]]
+  from = "https://wggrs.nl/p/*"
+  to = "https://thomwiggers.nl/publication/:splat"
+  status = 301
+
+[[redirects]]
+  from = "https://wggrs.nl/*"
+  to = "https://thomwiggers.nl/:splat"
+  status = 301
+
+[[redirects]]
+  from = "https://www.wggrs.nl/*"
+  to = "https://thomwiggers.nl/:splat"
+  status = 301
