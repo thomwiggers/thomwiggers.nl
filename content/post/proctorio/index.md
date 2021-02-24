@@ -8,7 +8,7 @@ authors: ['thom']
 tags: []
 categories: []
 date: 2020-09-30T12:40:28+02:00
-lastmod: 2020-09-30T12:40:28+02:00
+lastmod: 2021-02-23T12:35:28+02:00
 featured: false
 draft: false
 
@@ -28,7 +28,12 @@ image:
 projects: []
 ---
 
-_This article previously appeared in [Thalia](https://thalia.nu)'s Thabloid, in the [2019–2020 issue number 5](https://thalia.nu/media/public/thabloids/thabloid-2019-2020-5.pdf). It was written at the end of May and may not reflect current practice at the Radboud University._
+_This article previously appeared in [Thalia](https://thalia.nu)'s Thabloid, in the [2019–2020 issue number 5](https://thalia.nu/media/public/thabloids/thabloid-2019-2020-5.pdf). It was written at the end of May and may not reflect current practice at Radboud University._
+
+> This article is getting a lot of traffic from people who appear to be looking for a way to defeat Proctorio.
+> This article is discussion of some of the technical and ethical issues about online proctoring.
+> It will not tell you how to cheat on your exam.
+> I also do not have a modified version of Proctorio that defeats any of its countermeasures.
 
 
 Desperate times seem to call for desperate measures. Faced with a closed campus, universities have been scrambling to find a suitable alternative for the classic pen-and-paper exam. Digital exams, for example via Brightspace or Cirrus, are a more-or-less easily solvable problem. However, when taking the exam at home it may be slightly too tempting to leave the book and your phone on the table. Sending the people who monitor exams in the Gymnasion’s HAL2 to everyone’s homes obviously wouldn’t work, especially since a lot of them seem to be in the at-risk categories...
@@ -82,7 +87,7 @@ Alternatives for pen-and-paper exams may sometimes be hard to come up with and m
 
 ## References
 
-[^BWK+20]: Andrea Bonarius, Evelien Westerbeek, Jeroen Kassenberg, Muriël Deuss, Roel van Uden. Online-proctoring: voorstel gebruik online-proctoring voor veilige digitale toetsafname off-campus met toetssoftware Cirrus. 8 april 2020. https://www.ru.nl/publish/pages/973551/2020408_voorstel_gebruik_online_proctoring_en_digitaal_toetsen_1_0.pdf 
+[^BWK+20]: Andrea Bonarius, Evelien Westerbeek, Jeroen Kassenberg, Muriël Deuss, Roel van Uden. Online-proctoring: voorstel gebruik online-proctoring voor veilige digitale toetsafname off-campus met toetssoftware Cirrus. 8 april 2020.
 [^GV745]: CvB GV 745 - Antwoorden op UGV: Vragen over Privacy in tijden van corona en digitaal onderwijs. 20 april 2020
 [^SURF20]: SURF Whitepaper online proctoring: vragen en antwoorden bij surveilleren op afstand. april 2020. https://www.surf.nl/files/2020-04/surf-rapport-online-proctoring_2020_update-april-2020.pdf
 [^Chrome20]: https://developer.chrome.com/extensions/api_index
