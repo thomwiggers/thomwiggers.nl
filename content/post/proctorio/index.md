@@ -30,11 +30,12 @@ projects: []
 
 _This article previously appeared in [Thalia](https://thalia.nu)'s Thabloid, in the [2019–2020 issue number 5](https://thalia.nu/media/public/thabloids/thabloid-2019-2020-5.pdf). It was written at the end of May and may not reflect current practice at Radboud University._
 
-> This article is getting a lot of traffic from people who appear to be looking for a way to defeat Proctorio.
-> This article is discussion of some of the technical and ethical issues about online proctoring.
-> It will not tell you how to cheat on your exam.
-> I also do not have a modified version of Proctorio that defeats any of its countermeasures.
-
+{{% callout note %}
+This article is getting a lot of traffic from people who appear to be looking for a way to defeat Proctorio.
+This article is discussion of some of the technical and ethical issues about online proctoring.
+It will not tell you how to cheat on your exam.
+I also do not have a modified version of Proctorio that defeats any of its countermeasures.
+{{% /callout %}}
 
 Desperate times seem to call for desperate measures. Faced with a closed campus, universities have been scrambling to find a suitable alternative for the classic pen-and-paper exam. Digital exams, for example via Brightspace or Cirrus, are a more-or-less easily solvable problem. However, when taking the exam at home it may be slightly too tempting to leave the book and your phone on the table. Sending the people who monitor exams in the Gymnasion’s HAL2 to everyone’s homes obviously wouldn’t work, especially since a lot of them seem to be in the at-risk categories...
 
