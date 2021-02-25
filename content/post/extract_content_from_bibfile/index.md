@@ -28,6 +28,10 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
+
+highlight:
+highlight_languages:
+  - Makefile
 ---
 
 I like to use [cryptobib][cryptobib], because it gives me consistent results and it contains almost everything relevant to me.

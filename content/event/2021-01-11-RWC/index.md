@@ -73,6 +73,7 @@ slides: ""
 projects:
   - 'kemtls'
 
+highlight: true
 highlight_languages:
  - go
 ---

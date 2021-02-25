@@ -30,7 +30,7 @@ projects: []
 
 _This article previously appeared in [Thalia](https://thalia.nu)'s Thabloid, in the [2019–2020 issue number 5](https://thalia.nu/media/public/thabloids/thabloid-2019-2020-5.pdf). It was written at the end of May and may not reflect current practice at Radboud University._
 
-{{% callout note %}
+{{% callout note %}}
 This article is getting a lot of traffic from people who appear to be looking for a way to defeat Proctorio.
 This article is discussion of some of the technical and ethical issues about online proctoring.
 It will not tell you how to cheat on your exam.

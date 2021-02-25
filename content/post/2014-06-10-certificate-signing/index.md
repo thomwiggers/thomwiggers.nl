@@ -15,6 +15,7 @@ author_url: http://thomwiggers.nl/about.html
 
 date: 2014-06-10
 lastmod: 2015-01-22
+highlight: true
 
 ---
 
@@ -36,7 +37,7 @@ Creating the certificate request:
 I use this openssl config, saved as `req.cnf`. I found an example version file
 somewhere but I can't remember where, this is the one with my own modifications.
 
-```
+```plain
 [ req ]
 default_bits = 4096
 default_keyfile = server.rded.nl.key
@@ -69,7 +70,7 @@ DNS.5 = *.clearlyreta.rded.nl
 
 I use this command to then create a new certificate request:
 
-```
+```sh
 openssl req -new -key /etc/ssl/private/wildcard_private.key \
    -out server.csr -config req.cnf -days 365
 ```
@@ -82,7 +83,7 @@ Sign the certificate request:
 
 Step 1: figure out the key id:
 
-```
+```sh
 $ pkcs15-tool --list-keys
 ```
 (Thom, it's the one with `a16`)
@@ -91,7 +92,7 @@ $ pkcs15-tool --list-keys
 Then start the openssl console and execute the following (be sure to replace
 `<id>`):
 
-```
+```sh
 $ openssl
 OpenSSL> engine dynamic \
   -pre SO_PATH:/usr/lib/engines/engine_pkcs11.so \
