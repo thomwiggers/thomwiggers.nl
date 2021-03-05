@@ -45,12 +45,12 @@ featured: false
 #   icon: twitter
 
 url_pdf:
-url_code:
+url_code: https://github.com/thomwiggers/lpn/
 url_dataset:
 url_poster:
 url_project:
 url_slides:
-url_source: https://github.com/thomwiggers/lpn/
+url_source:
 url_video:
 
 # Featured image
