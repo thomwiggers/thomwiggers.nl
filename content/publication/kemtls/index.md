@@ -68,8 +68,8 @@ featured: true
 #   icon: twitter
 
 url_pdf:
-url_code: https://github.com/thomwiggers/kemtls-experiment/
-url_dataset: https://github.com/thomwiggers/kemtls-experiment/tree/initial-submission/measuring/archived-results/data-2020-05-03
+url_code: https://github.com/thomwiggers/kemtls-experiment/tree/acmccs
+url_dataset: https://kemtls.s3.amazonaws.com/archived-results/data-2020-06-12.tar.xz
 url_poster:
 url_project:
 url_slides:
