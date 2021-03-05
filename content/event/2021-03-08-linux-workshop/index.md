@@ -12,7 +12,9 @@ address:
   postcode:
   country:
 summary: |
-  Introduction to some basic Linux concepts.
+  Workshop on getting around on the command line.
+  As a good prep for the course Hacking in C, I will show you how to get around on the command line, how to manage your files and how to run programs.
+
 abstract:
 
 # Talk start and end times.
@@ -68,9 +70,11 @@ slides: ""
 projects: []
 ---
 
+Do you associate black screens with green text on them with the "hacker known as 4chan"? Is the first thing you do when the lab computer booted Linux rebooting the PC to your Windows safe space? Do you panic whenever you see ``cmd.exe``? And are you taking Hacking in C soon?
 
-See also [last year's video](https://youtu.be/I1N4T0UXuaA) where we went a bit further than during this workshop.
+Then this command line boot camp is probably a good idea. As a good prep for the course Hacking in C, I will show you how to get around on the command line, how to manage your files and how to run programs.
 
+This workshop is aimed at first-year students who have never really touched any command line before. It is recommended, but not required, for Hacking in C. If you have done any intermediate-level stuff in Windows .bat files, or know what `cd` and `ls` are, you are possibly already overqualified. If you know how `grep`, `find` and/or pipes work, you are definitely overqualified.
 
 ## Required preparation
 
@@ -94,6 +98,7 @@ However, it **will not** be sufficient for Hacking in C: due to differences in t
 
 ## Other resources
 
+* [last year's video](https://youtu.be/I1N4T0UXuaA) where we went a bit further than during this year's (shorter) workshop.
 * [MIT's Missing Semester](https://missing.csail.mit.edu/2020/course-shell/)
 * [Cheat sheet](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh)
 * [Bash scripting cheat sheet](https://devhints.io/bash)
