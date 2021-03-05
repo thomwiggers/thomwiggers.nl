@@ -56,7 +56,7 @@ url_slides: "presentation.pdf"
 
 url_code:
 url_pdf:
-url_video:
+url_video: https://youtu.be/TZMgRnSV3pk?t=3175
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
