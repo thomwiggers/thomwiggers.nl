@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Thalia's Linux Workshop"
+title: "Thalia's Linux Workshop 2021"
 event: Studievereniging Thalia Lunch Talk
 event_url: https://thalia.nu/events/723/
 location: virtual
