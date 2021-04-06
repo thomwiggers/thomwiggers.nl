@@ -59,7 +59,7 @@ weight = 30
 * **Download:** [Assignment 3](assignment3.pdf)
 * **Deadline:** May 19, **12:30**.
 * **Hand-in:** [Brightspace][]
-* **Writeup:** [Writeup](writeup-ass3/)
+<!-- * **Writeup:** [Writeup](writeup-ass3/) -->
 
 ### Extra resources
 
@@ -86,7 +86,7 @@ memset(array, 0, SIZE);
 * **Download:** [Assignment 4](assignment4.pdf)
 * **Deadline:** May 26, **12:30**.
 * **Hand-in:** [Brightspace][]
-* **Writeup:** [Writeup](writeup-ass4/)
+<!-- * **Writeup:** [Writeup](writeup-ass4/) -->
 
 ### Extra resources
 
@@ -99,7 +99,7 @@ Follow the instructions in the ``README.md`` to install them.
 
 ## Assignment 5
 
-* **Writeup:** [Writeup](writeup-ass5/)
+<!-- * **Writeup:** [Writeup](writeup-ass5/) -->
 
 The last homework assignment will be a bit different from the previous ones. I have spent the last weeks creating a website to host "capture the flag" style hacking challenges, which is where I will run the graded challenges on. I demoed it a little bit in the lecture.
 

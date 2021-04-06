@@ -3,7 +3,7 @@ title = "Writeup for assignment 4"
 date = 2020-06-03
 summary = "Solutions and explanations for assignment 4"
 
-draft = false
+draft = true
 toc = true
 type = "docs"
 
