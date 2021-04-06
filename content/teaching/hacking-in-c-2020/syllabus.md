@@ -147,7 +147,7 @@ We have also not decided yet on how much time you will have to complete this.
 [Brightspace]: https://brightspace.ru.nl/d2l/home/88557
 [Course Website]: https://thomwiggers.nl/teaching/hacking-in-c-2020/
 [thom on youtube]: https://www.youtube.com/channel/UCwwbVGvvWeGDUuCRuTHaENQ/
-[OSIRIS]: https://www.youtube.com/channel/UCwwbVGvvWeGDUuCRuTHaENQ/
+[OSIRIS]: https://www.ru.nl/courseguides/2019/science/vm/osirislinks/ipc/nwi-ipc025/
 [Makefile tutorial]: https://thomwiggers.nl/teaching/hacking-in-c-2020/makefiles/
 [Shell tutorial]: https://thomwiggers.nl/teaching/hacking-in-c-2020/shell-tutorial/
 [course website on github]: https://github.com/thomwiggers/thomwiggers.nl/tree/new-site/content/teaching/hacking-in-c-2020
