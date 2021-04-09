@@ -29,6 +29,11 @@
   [headers.values]
     Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
 
+[[headers]]
+  for = "/.well-known/matrix/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+
 [[redirects]]
   from = "https://thomwiggers.com/*"
   to = "https://thomwiggers.nl/:splat"
