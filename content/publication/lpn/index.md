@@ -5,7 +5,7 @@ title: "Practically Solving LPN"
 authors:
   - thom
   - simonasamardjiska
-date: 2021-02-06T11:14:42+01:00
+date: 2021-07-12
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -15,11 +15,11 @@ publishDate: 2021-02-06T11:14:42+01:00
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
-publication_short: ""
+publication: "Practically Solving LPN"
+#publication_short: ""
 
 abstract: |
    The best algorithms for the Learning Parity with Noise (LPN) problem require sub-exponential time and memory.
@@ -45,8 +45,8 @@ featured: false
 #   icon: twitter
 
 url_pdf:
-url_code: https://github.com/thomwiggers/lpn/
-url_dataset:
+url_code: "/publication/lpn/#software"
+url_dataset: "/publication/lpn/#chains-found-by-our-algorithm"
 url_poster:
 url_project:
 url_slides:
@@ -76,6 +76,28 @@ projects: []
 slides: ""
 ---
 
-In submission.
+Accepted at IEEE ISIT 2021.
 
-* [LPN cryptanalysis implementations](https://github.com/thomwiggers/lpn/)
+Part of this work originally appeared in my [master's thesis][]
+
+[master's thesis]: {{< relref "masters-thesis" >}}
+
+## Software
+
+### LPN cryptanalysis implementations
+
+We have an efficient software implementation in Rust that allows to compose attacks on LPN.
+It is [available from github][lpn software].
+
+[lpn software]: https://github.com/thomwiggers/lpn/
+
+### Efficient LPN chain finding algorithm
+
+We hope to make our implementation available soon — it requires a bit of cleanup.
+Contact us if you want earlier access.
+
+### Chains found by our algorithm
+
+We need to document the output format before we make this available.
+Contact us if you want earlier access.
+
