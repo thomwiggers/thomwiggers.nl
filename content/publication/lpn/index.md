@@ -10,6 +10,7 @@ doi: ""
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2021-02-06T11:14:42+01:00
+lastmod: 2021-02-10
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
