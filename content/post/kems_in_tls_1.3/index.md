@@ -25,6 +25,8 @@ header:
   caption: ""
   preview: true
 
+diagram: false
+
 projects: ['kemtls']
 ---
 
@@ -52,6 +54,21 @@ functions:
 This can be used, for example in the following protocol.
 
 {{< figure src="images/kem.png" title="KEM key exchange" caption="KEM key exchange.  Erratum: Alice should be decapsulating using $sk_A$." >}}
+
+<!--
+```mermaid
+sequenceDiagram
+  note left of Alice: (pkA, skA) <- KeyGen
+  note right of Bob: (pkB, skB) <- KeyGen
+  Alice->>Bob: pkA
+  note right of Bob: (Kb, ctA) <- Encapsulate(pkA)
+  Bob->>Alice: pkB, ctA
+  note left of Alice: Kb <- Decapsulate(skA, ctA)<br/>ctB <- Encapsulate(pkB)
+  Alice->>Bob: ctB
+  note right of Alice: K = KDF(Ka||Kb)
+  Alice<<->>Bob: Data
+```
+-->
 
 After exchanging these messages, $A$ and $B$ will have derived the same
 key, much like the classic Diffie-Hellman key exchange.
