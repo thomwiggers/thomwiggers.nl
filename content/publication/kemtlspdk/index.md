@@ -20,7 +20,7 @@ lastmod: 2021-05-12T19:37:15+02:00
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: "More efficient post-quantum KEMTLS with pre-distributed public keys"
+publication: "In submission"
 publication_short: ""
 
 abstract: |

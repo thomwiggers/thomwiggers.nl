@@ -22,8 +22,8 @@ publishDate: 2020-05-05T13:00:00+02:00
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Post-Quantum TLS Without Handshake Signatures"
-#publication_short: ""
+publication: "Proceedings of the 2020 ACM SIGSAC Conference on Computer and Communications Security"
+publication_short: "ACM CCS 2020"
 
 abstract: |
   We present KEMTLS, an alternative to the TLS 1.3 handshake

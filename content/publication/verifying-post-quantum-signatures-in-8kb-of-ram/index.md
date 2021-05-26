@@ -25,7 +25,7 @@ publishDate: 2021-05-25T09:43:12+02:00
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Verifying Post-Quantum Signatures in 8 kB of RAM"
+publication: "PQCrypto 2021"
 publication_short: ""
 
 abstract: |

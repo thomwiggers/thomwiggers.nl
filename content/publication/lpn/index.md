@@ -19,8 +19,8 @@ lastmod: 2021-02-10
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Practically Solving LPN"
-#publication_short: ""
+publication: "IEEE International Symposium on Information Theory 2021"
+publication_short: "IEEE ISIT 2021"
 
 abstract: |
    The best algorithms for the Learning Parity with Noise (LPN) problem require sub-exponential time and memory.
