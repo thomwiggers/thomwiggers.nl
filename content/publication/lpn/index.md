@@ -46,6 +46,7 @@ featured: false
 #   icon: twitter
 
 url_pdf:
+url_preprint: "https://eprint.iacr.org/2021/962"
 url_code: "/publication/lpn/#software"
 url_dataset: "/publication/lpn/#chains-found-by-our-algorithm"
 url_poster:

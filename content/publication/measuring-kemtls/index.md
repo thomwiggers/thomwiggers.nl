@@ -58,6 +58,7 @@ featured: false
 #   icon: twitter
 
 url_pdf:
+url_preprint: "https://eprint.iacr.org/2021/1019"
 url_code:
 url_dataset:
 url_poster:
