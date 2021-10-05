@@ -11,8 +11,8 @@ authors:
   - Bas Westerbaan
   - thom
   - Christopher Wood
-date: 2021-10-06
-doi: ""
+date: 2021-09-30
+doi: "10.1007/978-3-030-88238-9_5"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2021-07-05T11:42:25+02:00
@@ -24,8 +24,8 @@ publishDate: 2021-07-05T11:42:25+02:00
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "LATINCRYPT 2021"
-publication_short: ""
+publication: "Progress in Cryptology — Latincrypt 2021"
+publication_short: "Latincrypt 2021"
 
 abstract: |
   KEMTLS (CCS 2020) is a novel alternative to the Transport Layer Security (TLS) handshake that integrates post-quantum algorithms.
@@ -90,4 +90,3 @@ projects: ["kemtls"]
 slides: ""
 ---
 
-To Appear at LATINCRYPT 2021

@@ -2,25 +2,25 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "More efficient post-quantum KEMTLS with pre-distributed public keys"
-authors: 
+authors:
   - peterschwabe
   - douglasstebila
   - thom
-date: 2021-05-12
-doi: ""
+date: 2021-09-30
+doi: "10.1007/978-3-030-88418-5_1"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2021-05-12T19:37:15+02:00
-lastmod: 2021-05-12T19:37:15+02:00
+lastmod: 2021-10-05T10:56:00+02:00
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "In submission"
+publication: "ESORICS 2021"
 publication_short: ""
 
 abstract: |
@@ -74,7 +74,7 @@ url_video:
 url_preprint: https://eprint.iacr.org/2021/779
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
