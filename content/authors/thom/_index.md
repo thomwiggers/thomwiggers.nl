@@ -24,7 +24,7 @@ email = "thom@thomwiggers.nl"
 # List (academic) interests or hobbies
 interests = [
   "Cryptography",
-  "Post-quantum Cryptography",
+  "Post-Quantum Cryptography",
   "Protocols",
   "Information Security",
 ]
@@ -93,6 +93,5 @@ highlight_name = true
 
 Thom Wiggers is a PhD Candidate at the Institute of Computing and Information Sciences, Radboud University in The Netherlands.
 He is working on the interactions of post-quantum cryptography with protocols, under the supervision of [Peter Schwabe][cryptojedi].
-Currently, he's a research intern at Cloudflare.
 
 [cryptojedi]: https://cryptojedi.org/peter/
