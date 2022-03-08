@@ -5,20 +5,13 @@ summary: "Recordings and slides of lectures"
 
 draft: false
 toc: true
-type: "docs"
+type: "book"
 
 highlight: false
 
 authors:
   - "thom"
 
-menu:
-  hic2020:
-    name: "Lectures"
-    weight: 20
-    parent: "Hacking in C"
-
-weight: 20
 ---
 
 We will provide recordings and slides of the lectures on these pages

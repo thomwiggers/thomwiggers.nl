@@ -5,7 +5,7 @@ summary = "Solutions and explanations for assignment 5"
 
 draft = true
 toc = true
-type = "docs"
+type = "book"
 
 highlight = true
 highlight_languages = ["c", "makefile", "shell", "plaintext"]
@@ -14,11 +14,6 @@ authors= [
 "thom"
 ]
 
-[menu.hic2020]
-name = "Writeup Assignment 5"
-parent = "Assignments"
-
-#weight = 30
 +++
 # Writeup "Overflowing a buffer"
 

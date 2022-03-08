@@ -6,22 +6,14 @@ summary: "The course outline"
 
 draft: false
 toc: true
-type: "docs"
+type: "book"
 
 highlight: false
 
 authors:
   - "thom"
 
-menu:
-  hic2020:
-    name: "Syllabus"
-    weight: 10
-    parent: "Hacking in C"
-
-weight: 10
 ---
-# Syllabus Hacking in C 2020
 
 | Version | Changes                  |
 |---------|--------------------------|

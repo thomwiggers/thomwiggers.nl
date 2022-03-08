@@ -5,7 +5,7 @@ summary = "Solutions and explanations for assignment 3"
 
 draft = true
 toc = true
-type = "docs"
+type = "book"
 
 highlight = true
 highlight_languages = ["c", "makefile", "shell", "plaintext"]
@@ -14,11 +14,6 @@ authors= [
   "thom",
 ]
 
-[menu.hic2020]
-  name = "Writeup Assignment 3"
-  parent = "Assignments"
-
-#weight = 30
 +++
 
 ## Exercise 1: Measuring the stack usage.

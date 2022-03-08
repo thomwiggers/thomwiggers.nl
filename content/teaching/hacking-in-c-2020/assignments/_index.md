@@ -5,7 +5,7 @@ summary = "Assignments for HiC"
 
 draft = false
 toc = true
-type = "docs"
+type = "book"
 
 highlight = true
 highlight_languages = ["c", "makefile", "shell", "plaintext"]
@@ -14,11 +14,6 @@ authors= [
   "thom",
 ]
 
-[menu.hic2020]
-  name = "Assignments"
-  parent = "Hacking in C"
-
-weight = 30
 +++
 
 

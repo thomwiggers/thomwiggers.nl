@@ -5,7 +5,7 @@ summary = "Some notes on writing Makefiles"
 
 draft = false
 toc = true
-type = "docs"
+type = "book"
 
 highlight = true
 highlight_languages = ["c", "makefile", "shell", "plaintext"]
@@ -14,10 +14,6 @@ authors= [
   "thom",
 ]
 
-[menu.hic2019]
-  name = "Makefile"
-  weight = 2
-  parent = "Hacking in C"
 +++
 
 

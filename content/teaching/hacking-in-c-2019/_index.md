@@ -8,13 +8,9 @@ date: 2018-12-20
 
 draft: false
 toc: true
-type: "docs"
-
-menu:
-  hic2019:
-    name: Hacking in C
-    weight: 1
-
+type: "book"
 ---
 
 This is some stuff for hacking in C
+
+{{< list_children >}}
