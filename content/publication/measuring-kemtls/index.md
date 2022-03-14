@@ -31,7 +31,7 @@ abstract: |
   KEMTLS (CCS 2020) is a novel alternative to the Transport Layer Security (TLS) handshake that integrates post-quantum algorithms.
   It uses a key encapsulation mechanism (KEM) for both confidentiality and authentication, achieving post-quantum security while obviating the need for expensive post-quantum signatures. The original KEMTLS paper presents a security analysis, Rust implementation, and benchmarks over emulated networks.
   In this work, we provide full Go implementations of KEMTLS and several other post-quantum handshake alternatives, describe our integration into a real distributed system, and provide performance evaluations over real network conditions.
-  We compare the standard (non-quantum-resistant) TLS~1.3 handshake with three alternatives: one that uses post-quantum signatures in combination with a KEM (PQTLS), one fully KEM application (KEMTLS), and a reduced round trip version (KEMTLS-PDK).
+  We compare the standard (non-quantum-resistant) TLS 1.3 handshake with three alternatives: one that uses post-quantum signatures in combination with a KEM (PQTLS), one fully KEM application (KEMTLS), and a reduced round trip version (KEMTLS-PDK).
   In addition to the performance evaluations, we discuss how the design of these protocols impacts TLS from an implementation and configuration perspective.
 
 # Summary. An optional shortened abstract.
