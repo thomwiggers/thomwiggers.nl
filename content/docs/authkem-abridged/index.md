@@ -99,7 +99,7 @@ The transition to post-quantum cryptography will present a massive challenge to 
 [KEMTLS][KEMTLS] is an academic proposal to do a post-quantum TLS-like protocol without handshake signatures.
 In the academic paper, both key exchange and the authentication bits are considered.
 In the AuthKEM draft, we have isolated the authentication-via-KEM bits from the KEMTLS paper.
-We do not adress the ephemeral key exchange part of TLS, as we believe that, as a less controversial and more urgent subject, would be better discussed separately.
+We do not adress the ephemeral key exchange part of TLS, which can and should be discussed independently.
 We also more carefully specify the implementation considerations, such as extensions and code points, as this was not necessary before.
 
 ## TLS Server authentication via KEM
