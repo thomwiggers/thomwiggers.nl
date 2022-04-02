@@ -94,6 +94,14 @@ This draft, to reach its full potential, will eventually require quantum-safe ce
 The transition to post-quantum cryptography will present a massive challenge to the PKI infrastructure and certificate issuers. We think it's not wise to wait for them, however. We especially think that this proposal could be a wake-up call that we might need other algorithms than just signature schemes in the PKI ecosystem.
 
 
+### How does this proposal relate to KEMTLS?
+
+[KEMTLS][KEMTLS] is an academic proposal to do a post-quantum TLS-like protocol without handshake signatures.
+In the academic paper, both key exchange and the authentication bits are considered.
+In the AuthKEM draft, we have isolated the authentication-via-KEM bits from the KEMTLS paper.
+We do not adress the ephemeral key exchange part of TLS, which can and should be discussed independently.
+We also more carefully specify the implementation considerations, such as extensions and code points, as this was not necessary before.
+
 ## TLS Server authentication via KEM
 
 1. To negotiate server authentication via AuthKEM, we extend the `signature_algorithms` with our supported KEMs. This way the client indicates support to the server.
@@ -135,17 +143,17 @@ We make this change to avoid the penalty of an extra half round-trip.
 
 ### Why we think the extra half round-trip doesn't matter for performance
 
-As shown above, in this mode KEMTLS does not allow the server to send `Finished` and its first application data along the `ServerHello` and `Certificate` messages.
+As shown above, in this mode AuthKEM does not allow the server to send `Finished` and its first application data along the `ServerHello` and `Certificate` messages.
 This is due to the nature of KEMs, which are "interactive" protocols: they require the participation of two parties to complete the key exchange. Signature schemes don't require the participation of another party, so they allow non-interactive authentication.
 
 We avoid a full round-trip penalty that a naive implementation of KEM authentication would imply, by moving the `Finished` message and letting the client send its data immediately.
 This still allows a client to send its application data to the server in the same place as it would have been sent in TLS 1.3.
 
 We think that in almost any application, like in HTTP, a client will first have to indicate what action they want the server to perform or what data they need, before any useful non-public data can be sent by the server.
-KEMTLS allows both the request and the response to be sent in the same place.
+AuthKEM allows both the request and the response to be sent in the same place.
 
 {{% callout note %}}
-For applications like HTTP/2, which send mostly-public connection settings in this first message from the server, something like a server-side version of ALPN might be useful to avoid performance penalties when KEMTLS is used.
+For applications like HTTP/2, which send mostly-public connection settings in this first message from the server, something like a server-side version of ALPN might be useful to avoid performance penalties when AuthKEM is used.
 {{% /callout %}}
 
 ### Why we think sending Client Data to the server early is fine
@@ -168,11 +176,11 @@ But until the client receives the handshake completion messages from the server,
 This is not different from _truncation attacks_ already possible in TLS 1.3 or any other encrypted transport protocol, however.
 An application must be prepared to deal with interrupted/unsuccesful transmissions.
 An adversary can always simply cut a network connection at an opportune time.
-This is why it is important for TLS implementations to carefully handle the record layer protections against truncation attacks: this is no different for KEMTLS.
+This is why it is important for TLS implementations to carefully handle the record layer protections against truncation attacks: this is no different for AuthKEM.
 
 #### Choices of ciphersuites
 
-This is the "cryptographically least pretty" part of KEMTLS: not waiting for "explicit" server authentication in the form of the MAC means we have not confirmed the server's choices of ciphersuites have not been messed with.
+This is the "cryptographically least pretty" part of AuthKEM: not waiting for "explicit" server authentication in the form of the MAC means we have not confirmed the server's choices of ciphersuites have not been messed with.
 
 This means that technically, an adversary might trivially downgrade the traffic encryption (and MAC) algorithms.
 The data most at risk here is the client's first request to the server, which might contain credentials such as session cookies.
@@ -189,12 +197,16 @@ This makes this attack not suitable for "store and decrypt later" adversaries th
 
 ### Academic analysis of the security of KEMTLS
 
-KEMTLS was originally proposed in [an academic paper](https://ia.cr/2020/534). This paper also has a security proof of the server-only authenticated protocol and discusses the above security characteristics in more detail.
+The authentication mechanism described in AuthKEM was originally proposed in [an academic paper][KEMTLS].
+This paper also has a security proof of the server-only authenticated protocol and discusses the above security characteristics in more detail.
 
 The mode where we use AuthKEM with known server long-term keys was discussed in [another paper](https://ia.cr.2021/779). This paper also contains a security proof.
 
 We are currently undertaking the formal analysis of the KEMTLS protocol (which should extend the AuthKEM one) in Tamarin, building on the existing TLS 1.3 model.
 This work is currently being written up.
+
+[KEMTLS]: https://ia.cr/2020/534
+
 ## TLS Client authentication via KEM
 
 
