@@ -8,7 +8,7 @@ authors: ['thom']
 tags: []
 categories: []
 date: 2022-01-31T17:13:14+01:00
-lastmod: 2022-01-31T17:13:14+01:00
+lastmod: 2022-05-1T10:30:00+02:00
 featured: false
 draft: false
 
@@ -57,7 +57,7 @@ These are some of my notes and thoughts.
 * Deferring of tasks until date
 * “Waiting” tag to mark tasks as currently unavailable
 * Built-in Review
-* Custom perspectives (pro)
+* Custom perspectives (pro version)
 * Projects and tasks can be marked as “parallel” or “sequential” so that only
   one tag is “ready”
 * Possible to create views with tasks that are currently ready to pick up
@@ -67,10 +67,13 @@ These are some of my notes and thoughts.
 * Mac only
 * Pricy (10/m, 99/y or pricy app one-time purchases (major version upgrades extra))
 * No/crappy and expensive (subscription) web interface
+  * edit: It works reasonably okay, it's just not as slick in terms of UX as the competition's
 * Not extremely flexible recurrence like Todoist
 * Interface is quite click-heavy (maybe I don’t know the shortcuts yet) – missing
   Todoist’s quick-entry with “@foo +foo due:date” inline
 * Tags are all the same colour
+* Edit: synchronizing between the various clients is _quite_ slow.
+  Sometimes it just breaks and you're starting at the app for a few minutes.
 
 ## Things review (Things on Mac)
 
