@@ -89,10 +89,12 @@ If you're writing very large sections/chapters that take a while to compile, loo
 I generally use the following stuff in my preamble:
 
 ```latex
-% It's 2022. UTF-8 input for TeX. Should be one of the first things to import.
+% It's 2022. UTF-8 input for TeX. 
+% Should be one of the first things to import.
 \usepackage[utf8]{inputenc}
 
-% Language support for hyphenation etc. Always import if you're not writing Murican.
+% Language support for hyphenation etc. 
+% Always import if you're not writing Murican.
 % If you are writing American English, probably still doesn't hurt.
 \usepackage[british]{babel}
 
@@ -355,8 +357,10 @@ Warning: the authors are _French_ pedantics.
 
 ```
 % Fancy typography issues
-% https://ftp.snt.utwente.nl/pub/software/tex/macros/latex/contrib/impnattypo/impnattypo.pdf
-\usepackage[hyphenation,parindent,lastparline,nosingleletter,homeoarchy,rivers]{impnattypo}
+% https://www.ctan.org/pkg/impnattypo
+\usepackage[hyphenation,parindent,
+            lastparline,nosingleletter,
+            homeoarchy,rivers]{impnattypo}
 ```
 
 ## Don't use
