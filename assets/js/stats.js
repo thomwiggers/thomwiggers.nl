@@ -11,5 +11,5 @@ _paq.push(['setRequestMethod', 'POST']);
   _paq.push(['setTrackerUrl', u+'m.track']);
   _paq.push(['setSiteId', '1']);
   var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-  g.type='text/javascript'; g.async=true; g.src=u+'/js/'; s.parentNode.insertBefore(g,s);
+  g.type='text/javascript'; g.async=true; g.src=u+'js/'; s.parentNode.insertBefore(g,s);
 })();
