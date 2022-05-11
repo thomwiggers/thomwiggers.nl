@@ -176,7 +176,7 @@ You can maintain your bibliographies yourself, but I like using [cryptobib](http
 It has most cryptography papers in it and the style is fairly consistent.
 A big downside is that it will usually link to the paywalled version of a paper.
 Also, it's over 20 megabytes of data that `bibtex` will need to process.
-If you use `babel` (because you like `biblatex`), this can even push your build time to over a minute.
+If you use `biber` (because you like `biblatex`), this can even push your build time to over a minute.
 However, most publishers will only accept BibTex anyway (publishers are why we can't have nice things).
 
 ### Using BibLaTeX
