@@ -45,7 +45,7 @@ header:
 
 footer:
   copyright:
-    notice: '&copy; {year} Thom Wiggers'
+    notice: '&copy; {year} Thom Wiggers -- CC 4.0 BY-SA'
     license:
       enable: true
       allow_derivatives: true
@@ -99,8 +99,8 @@ features:
       index_name: ''
       show_logo: false
   map:
-    provider: 'google'
-    api_key: 'AIzaSyC1HMSQJif9HPHfmXQ2BGHNJsmxtSXvn9I'
+    provider: 'mapbox'
+    api_key: ''
     zoom: 15
 
 # Extensions
