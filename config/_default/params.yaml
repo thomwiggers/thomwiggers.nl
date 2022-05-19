@@ -1,0 +1,119 @@
+# SITE SETUP
+# Guide: https://wowchemy.com/docs/getting-started/
+# Documentation: https://wowchemy.com/docs/
+# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+
+# Appearance
+
+appearance:
+  theme_day: minimal
+  theme_night: minimal
+  font: minimal
+  font_size: L
+
+show_related: true
+
+# SEO
+
+marketing:
+  seo:
+    site_type: Person
+    local_business_type: ''
+    org_name: ''
+    description: 'Thom Wiggers, PhD candidate at Radboud University'
+    twitter: 'thomwiggers'
+  analytics:
+    google_analytics: ''
+    baidu_tongji: ''
+  verification:
+    google: ''
+    baidu: ''
+
+# Site header
+
+header:
+  navbar:
+    enable: true
+    align: l
+    show_logo: true
+    show_language: false
+    show_day_night: true
+    show_search: true
+    highlight_active_link: true
+
+# Site footer
+
+footer:
+  copyright:
+    notice: '&copy; {year} Thom Wiggers'
+    license:
+      enable: true
+      allow_derivatives: true
+      share_alike: true
+      allow_commercial: true
+
+# Localization
+
+locale:
+  date_format: '2006-01-02'
+  time_format: '15:04'
+  address_format: nl
+
+# Site features
+
+features:
+  syntax_highlighter:
+    enable: true
+    extra_languages:
+      - latex
+      - go
+      - makefile
+      - rust
+      - cpp
+      - avrasm
+      - bash
+      - python
+  math:
+    enable: false
+  privacy_pack:
+    enable: false
+  repository:
+    url: 'https://github.com/thomwiggers/thomwiggers.nl'
+    content_dir: content
+    branch: main
+  avatar:
+    gravatar: false
+    shape: circle
+  comment:
+    provider: ''
+    disqus:
+      shortname: ''
+      show_count: true
+    commento:
+      url: ''
+  search:
+    provider: wowchemy
+    algolia:
+      app_id: ''
+      api_key: ''
+      index_name: ''
+      show_logo: false
+  map:
+    provider: 'google'
+    api_key: 'AIzaSyC1HMSQJif9HPHfmXQ2BGHNJsmxtSXvn9I'
+    zoom: 15
+
+# Extensions
+
+extensions:
+  cms:
+    branch: main
+    local_backend: false
+  academicons:
+    enable: true
+
+# Security
+
+security:
+  # Allow frame for embedding speaker notes in slides
+  allow_frame: false
