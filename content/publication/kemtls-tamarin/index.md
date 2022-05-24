@@ -109,6 +109,6 @@ slides: ""
 ## Artefacts
 
 * The Tamarin model based on the Cremers et al. model:
-    * [Model and proofs](https://github.com/thomwiggers/TLS13Tamarin)
+    * [Model and proofs](https://github.com/kemtls/KEMTLS-TLS13Tamarin)
 * The Tamarin model that closely resembles our pen-and-paper proofs:
-    * [Model and proofs](https://github.com/dstebila/KEMTLS-Tamarin)
+    * [Model and proofs](https://github.com/kemtls/Tamarin-multi-stage-model)
