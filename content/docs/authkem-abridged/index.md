@@ -200,7 +200,7 @@ This makes this attack not suitable for "store and decrypt later" adversaries th
 The authentication mechanism described in AuthKEM was originally proposed in [an academic paper][KEMTLS].
 This paper also has a security proof of the server-only authenticated protocol and discusses the above security characteristics in more detail.
 
-The mode where we use AuthKEM with known server long-term keys was discussed in [another paper](https://ia.cr.2021/779). This paper also contains a security proof.
+The mode where we use AuthKEM with known server long-term keys was discussed in [another paper](https://ia.cr/2021/779). This paper also contains a security proof.
 
 We are currently undertaking the formal analysis of the KEMTLS protocol (which should extend the AuthKEM one) in Tamarin, building on the existing TLS 1.3 model.
 This work is currently being written up.
