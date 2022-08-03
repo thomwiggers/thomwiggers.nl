@@ -104,7 +104,7 @@ projects: ['kemtls']
 slides: ""
 ---
 
-**This paper is currently in the process of being submitted.**
+**To appear at ESORICS 2022.**
 
 ## Artefacts
 
