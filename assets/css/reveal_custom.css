@@ -1,0 +1,9 @@
+/** Custom Reveal.js styles **/
+
+.t-container{
+    display: flex;
+}
+
+.t-container > .col {
+flex: 1;
+}
