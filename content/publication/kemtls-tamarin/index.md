@@ -8,7 +8,7 @@ authors:
   - "douglasstebila"
   - "thom"
 date: 2022-08-30T14:30:09+02:00
-doi: ""
+doi: "10.1007/978-3-031-17143-7_4"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2022-05-18T11:33:09+02:00
@@ -17,11 +17,11 @@ publishDate: 2022-05-18T11:33:09+02:00
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["1"]
+publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: "ESORICS 2022"
-#publication_short: "Formalizing KEMTLS in Tamarin"
+publication: "A tale of two models: formalizing KEMTLS in Tamarin"
+publication_short: "Formalizing KEMTLS in Tamarin"
 
 abstract: |
   KEMTLS is a proposal for changing the TLS handshake to authenticate the
@@ -104,6 +104,7 @@ projects: ['kemtls']
 slides: ""
 ---
 
+**To appear at ESORICS 2022.**
 
 ## Artefacts
 
