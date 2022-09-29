@@ -104,7 +104,7 @@ projects: ['kemtls']
 slides: ""
 ---
 
-**To appear at ESORICS 2022.**
+This paper was runner-up for **best paper** at ESORICS 2022.
 
 ## Artefacts
 
