@@ -355,7 +355,7 @@ See [this tutorial](https://jonasdevlieghere.com/modular-latex-with-subfiles/)
 See the [`inpnattypo` package](https://www.ctan.org/pkg/impnattypo).
 Warning: the authors are _French_ pedantics.
 
-```
+```latex
 % Fancy typography issues
 % https://www.ctan.org/pkg/impnattypo
 \usepackage[hyphenation,parindent,
@@ -367,7 +367,8 @@ Warning: the authors are _French_ pedantics.
 
 The following are bad, in my opinion:
 
-### Narrow margins (e.g. `a4paper`)
+### Narrow margins (e.g. `a4wide`)
 The margins in LaTeX document classes are set in such a way that they make the text easy to read.
 If you increase the line length a lot (ie. smaller margins), your text just turns into a hard-to-get-into wall.
 If you're not trying to save actual trees (ie. you're printing the document), it doesn't matter!
+You may want to try `scrartcl` if you're printing on A4, though.
