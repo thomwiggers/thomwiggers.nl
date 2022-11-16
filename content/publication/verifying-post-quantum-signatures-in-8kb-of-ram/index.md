@@ -93,5 +93,8 @@ projects: []
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
 slides: ""
+
+aliases:
+  - "/publication/streaming-sigs/"
 ---
 To appear at PQCrypto 2021
