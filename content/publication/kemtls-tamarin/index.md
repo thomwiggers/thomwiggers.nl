@@ -17,11 +17,11 @@ publishDate: 2022-05-18T11:33:09+02:00
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "A tale of two models: formalizing KEMTLS in Tamarin"
-publication_short: "Formalizing KEMTLS in Tamarin"
+publication: "ESORICS 2022"
+publication_short: "ESORICS 2022"
 
 abstract: |
   KEMTLS is a proposal for changing the TLS handshake to authenticate the
