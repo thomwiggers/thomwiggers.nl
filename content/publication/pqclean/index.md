@@ -8,7 +8,7 @@ authors:
   - "douglasstebila"
   - "thom"
 date: 2022-03-14T14:58:33+01:00
-doi: ""
+doi: "10.1109/EuroSPW55150.2022.00010"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2022-03-14T14:58:33+01:00
@@ -17,11 +17,11 @@ publishDate: 2022-03-14T14:58:33+01:00
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
-publication_short: ""
+publication: "Security Standardization Research (IEEE EuroS&P Workshops 2022)"
+publication_short: "SSR 2022"
 
 abstract: |
   The NIST post-quantum cryptography (PQC) standardization project is probably
