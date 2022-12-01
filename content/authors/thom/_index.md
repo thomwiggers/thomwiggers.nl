@@ -67,6 +67,11 @@ highlight_name = true
   link = "https://twitter.com/thomwiggers"
 
 [[social]]
+  icon = "mastodon"
+  icon_pack = "fab"
+  link = "https://infosec.exchange/@thomw"
+
+[[social]]
   icon = "google-scholar"
   icon_pack = "ai"
   link = "https://scholar.google.co.uk/citations?user=V0A4RMsAAAAJ"
