@@ -59,6 +59,14 @@ slides:
     />
   </section>
   <section>
+    <h2>Quantum attacks on cryptography</h2>
+    <ul>
+      <li>Quantum computers are not generally faster</li>
+      <li>Shor's Algorithm specifically efficiently solves factoring and discrete log problems</li>
+      <li>Need new cryptographic primitives to replace them</li>
+    </ul>
+  </section>
+  <section>
     <h2>NIST PQC competition</h2>
     <div class="t-container">
       <div class="col">
@@ -75,9 +83,21 @@ slides:
           <li>Dilithium ⭐⭐</li>
           <li>Falcon ⭐</li>
           <li>Rainbow 🪦</li>
+          <li style="color: grey">SPHINCS+ ⭐</li>
         </ul>
       </div>
     </div>
+  </section>
+  <section>
+    <h2>KEM key exchange</h2>
+      <div class="mermaid">
+        sequenceDiagram
+          Alice->>Bob: public key
+          Note right of Bob: shared secret, ciphertext = KEM.Encapsulate(pk)
+          Bob->>Alice: ciphertext
+          Note Left of Alice: shared secret = KEM.Decapsulate(sk, ct)
+          Note over Alice, Bob: encrypt traffic with shared secret
+      </div>
   </section>
   <section>
     <h2>Tradeoffs</h2>
@@ -107,6 +127,67 @@ slides:
 
 
 <section>
+  <section>
+    <h2>Post-Quantum TLS</h2>
+
+    <div class="t-container">
+      <div class="r-stack col">
+        <div class="mermaid" style="background: #fff">
+        sequenceDiagram
+          Client->>+Server: ClientHello: ephemeral kex
+          Server->>-Client: ServerHello: ephemeral kex
+          rect rgba(0,0,0,0)
+            Server->>Client: Certificate: static signing pk
+            Server->>Client: Signature
+          end
+          Server->>Client: ServerFinished
+          rect rgba(0, 0, 0, 0)
+            Server-->>Client: Application Data
+          end
+          Client->>Server: ClientFinished
+          Client-->>Server: Application Data
+        </div>
+        <div class="mermaid fragment" style="background: #fff">
+          sequenceDiagram
+            Client->>+Server: ClientHello: ephemeral kex
+            Server->>-Client: ServerHello: ephemeral kex
+            rect rgba(2, 100, 2, 0.3)
+              Server->>Client: Certificate: static signing pk
+              Server->>Client: Signature
+            end
+            Server->>Client: ServerFinished
+            rect rgba(0, 0, 0, 0)
+              Server-->>Client: Application Data
+            end
+            Client->>Server: ClientFinished
+            Client-->>Server: Application Data
+          </div>
+          <div class="mermaid fragment" style="background: #fff">
+            sequenceDiagram
+              Client->>+Server: ClientHello: ephemeral kex
+              Server->>-Client: ServerHello: ephemeral kex
+              rect rgba(0, 0, 0, 0)
+                Server->>Client: Certificate: static signing pk
+                Server->>Client: Signature
+              end
+              Server->>Client: ServerFinished
+              rect pink
+                Server-->>Client: Application Data
+              end
+              Client->>Server: ClientFinished
+              Client-->>Server: Application Data
+            </div>
+      </div>
+      <div class="col" >
+        <ul>
+          <li>Ephemeral KEM key exchange</li>
+          <li>Signature public key in certificate</li>
+          <li>Server can send data immediately</li>
+        </ul>
+      </div>
+    </div>
+
+  </section>
   <section>
     <h2>KEMTLS</h2>
 
