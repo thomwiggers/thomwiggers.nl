@@ -4,7 +4,7 @@
 title: "KEMTLS vs. Post-Quantum TLS: Performance on Embedded Systems"
 authors: ['Ruben Gonzalez', 'thom']
 date: 2022-12-06T12:01:41+01:00
-doi: ""
+doi: "10.1007/978-3-031-22829-2_6"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2022-12-06T12:01:41+01:00
