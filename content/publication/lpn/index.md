@@ -6,7 +6,7 @@ authors:
   - thom
   - simonasamardjiska
 date: 2021-07-12
-doi: ""
+doi: "10.1109/ISIT45174.2021.9518109"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2021-02-06T11:14:42+01:00
