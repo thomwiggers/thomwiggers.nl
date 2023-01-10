@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "A tale of two models: formal verification KEMTLS in Tamarin"
+title: "A tale of two models: formal verification of KEMTLS in Tamarin"
 authors:
   - "sofiaceli"
   - "Jonathan Hoyland"

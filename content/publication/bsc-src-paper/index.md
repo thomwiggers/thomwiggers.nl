@@ -20,14 +20,14 @@ publication_types = ["1"]
 
 # Publication name and optional abbreviated version
 # i.e. published in
-publication = "Student Undergraduate Research E-Journal!, Volume 1"
-#publication_short = "In *SURE!*"
+publication = "Student Undergraduate Research E-Journal"
+#publication_short = "Student Undergraduate Research E-Journal"
 
 # Abstract and optional short version
 abstract = "Prøst was a contestant in the CAESAR competition for Authenticated Encryption. I optimised Prøst for the ARM11 microprocessor architecture. By trying to find a provably minimal program for one of the sub-operations, I found a new approach to implementing MixSlices, one of the sub-operations in Prøst's permute function. This new implementation has 33% fewer arithmetic operations than the original version. Using this result and by implementing Prøst in assembly and applying micro-optimisations, a performance gain of 28% to 48% was achieved."
 abstract_short = ""
 
-# Featured image 
+# Featured image
 #image_preview = ""
 
 # Associated projects
@@ -36,14 +36,14 @@ projects = ['bachelors-thesis']
 
 # Links
 url_preprint = "bsc-src-paper.pdf"
-url_pdf = "https://journals.open.tudelft.nl/sure/article/view/1070"
-url_code = ""
+url_paper = "https://journals.open.tudelft.nl/sure/article/view/1070"
+#url_code = ""
 url_dataset = ""
 url_project = ""
 url_slides = ""
 url_video = ""
 url_poster = "poster.pdf"
-url_source = ""
+#url_source = ""
 
 # doi
 doi = ""
