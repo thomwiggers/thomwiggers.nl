@@ -133,8 +133,8 @@ $$ k = \operatorname{extract}_r( \langle c, s \rangle ).$$
 
 We also know by how `encaps` and `extract` work that the bits in the shared secret resemble if the product of $\langle c, s \rangle$ was positive for that position in the resulting vector, but that turns out to not be terribly important.
 The extract operator is a bit spicy: it allows us to _set_ which bits of $\langle c, s \rangle$ we want to use in the key.
-We abuse this to determine which bits of $k$ are set, by providing $r$ set to zero and then turning each bit in $r$ on one-at-a-time, which, if the returned key changes, means that the bit has an effect on the result.
-However, we do not know if we get a all-$1$ or all-$0$ result out of the box, so we need two additional guesses at the end to try both possibilities.
+We abuse this to determine which bits of $k$ are set the same, by providing $r$ set to zero and then turning each bit in $r$ on one-at-a-time, which, if the returned key changes, means that the bit has an effect on the result and was not equal to the bit we had switched on in the previous attempt.
+However, we do not know if the first bit switched on was zero or one, so we need two additional guesses at the end to try both possibilities.
 Additionally, the challenge oracle checks if $\operatorname{hw}(r) \ge 128$, so we need to actually split $r$ into two parts.
 First we set the high part to all-1, so the hamming weight is large enough, while we set each bit of $r_i = 1$  one at a time,
 then we set the low part of $r$ to all ones, and set each bit $r_{128+i} = 1$ one at a time.
