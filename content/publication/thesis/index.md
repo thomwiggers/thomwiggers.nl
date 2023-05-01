@@ -6,6 +6,9 @@ authors: ['thom']
 date: 2023-05-01T16:01:22+02:00
 doi: ""
 
+# hide from listing
+private: true
+
 # Schedule page publish date (NOT publication's date).
 publishDate: 2023-05-01T16:01:22+02:00
 
