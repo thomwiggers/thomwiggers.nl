@@ -72,6 +72,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
+url_preprint: https://eprint.iacr.org/2022/1111
 url_pdf:
 url_code:
 url_dataset:
