@@ -8,9 +8,9 @@
     {{- $external_link := .Page.Params.external_url | default false -}}
 
     {{- if gt $index 0 }}, {{ end -}}
-    <span {{ if $highlight_name }}class="author-highlighted"{{end}}>
+    <span {{ if $highlight_name }}class="author-highlighted"{{end}} style="display: inline-block">
       {{- if $external_link -}}
-        <a href="{{ $external_link }}" target="_blank">{{.LinkTitle}}</a>
+        <a href="{{ $external_link }}" target="_blank">{{ .LinkTitle }}</a>
       {{/* Effectively check the page's `_build` option as `_build` is not exposed in Hugo's Page object. */}}
       {{- else if .RelPermalink -}}
         <a href="{{.RelPermalink}}">{{.LinkTitle}}</a>
