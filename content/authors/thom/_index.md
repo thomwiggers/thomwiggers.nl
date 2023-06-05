@@ -9,11 +9,11 @@ authors = ["thom"]
 superuser = true
 
 # Role/position
-role = "PhD candidate at Radboud University"
+role = "Senior Cryptography Researcher at PQShield"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Radboud University", url = "https://ru.nl/icis/" } ]
+organizations = [ { name = "PQShield", url = "https://pqshield.com/" } ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "My research interests include (post-quantum) cryptography and protocols"
@@ -96,7 +96,7 @@ highlight_name = true
 
 +++
 
-Thom Wiggers is a PhD Candidate at the Institute of Computing and Information Sciences, Radboud University in The Netherlands.
-He is working on the interactions of post-quantum cryptography with protocols, under the supervision of [Peter Schwabe][cryptojedi].
+Thom Wiggers is a cryptography researcher at [PQShield](https://pqshield.com). 
+He has submitted his PhD thesis on the interactions of post-quantum cryptography with protocols, under the supervision of [Peter Schwabe][cryptojedi], at the Institute of Computing and Information Sciences, Radboud University in The Netherlands.
 
 [cryptojedi]: https://cryptojedi.org/peter/
