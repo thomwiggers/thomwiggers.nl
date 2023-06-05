@@ -12,8 +12,8 @@ authors:
   - Elisabeth Waitz
   - thom
   - Bo-Yin Yang
-date: 2021-05-25T09:43:12+02:00
-doi: ""
+date: 2021-07-15
+doi: "10.1007/978-3-030-81293-5_12"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2021-05-25T09:43:12+02:00
@@ -97,4 +97,5 @@ slides: ""
 aliases:
   - "/publication/streaming-sigs/"
 ---
-To appear at PQCrypto 2021
+
+This work was also presented at the third NIST post-quantum cryptography standardization workshop.
