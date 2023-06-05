@@ -5,7 +5,7 @@ title: "Verifying Post Quantum Signatures in 8kB of RAM"
 authors:
   - Ruben Gonzalez
   - Andreas Hülsing
-  - Matthias J. Kannwischer
+  - matthiaskannwischer
   - Juliane Krämer
   - Tanja Lange
   - Marc Stöttinger
