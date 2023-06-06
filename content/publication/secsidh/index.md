@@ -51,6 +51,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
+url_preprint: https://eprint.iacr.org/2023/793
 url_pdf:
 url_code:
 url_dataset:
