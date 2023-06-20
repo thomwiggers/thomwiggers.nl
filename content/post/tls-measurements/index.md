@@ -2,7 +2,7 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "Post-quantum TLS experiments"
-subtitle: "Instantiations, transmission requirements, and performance measurements for NIST security levels I, III and rV"
+subtitle: "Instantiations, transmission requirements, and performance measurements for NIST security levels I, III and V"
 summary: ""
 authors: ["thom"]
 tags: ["tls", "research", "post-quantum cryptography"]
@@ -10,14 +10,14 @@ categories: ["research"]
 date: 2023-06-20T15:03:27+02:00
 lastmod: 2023-06-20T15:03:27+02:00
 featured: true
-draft: false
+draft: true
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
-  focal_point: ""
+  caption: "Scatter plot of the TLS experiments' handshake latency and size"
+  focal_point: "TopLeft"
   preview_only: false
 
 # Projects (optional).

@@ -1,13 +1,14 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
+_build:
+  render: always
+  list: never
+
 title: "Post-Quantum TLS"
 authors: ['thom']
 date: 2023-05-01T16:01:22+02:00
 doi: ""
-
-# hide from listing
-private: true
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2023-05-01T16:01:22+02:00
@@ -50,7 +51,7 @@ url_source:
 url_video:
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
