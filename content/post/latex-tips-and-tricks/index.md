@@ -8,7 +8,7 @@ authors: ['thom']
 tags: ['latex', 'technology']
 categories: []
 date: 2022-05-11T15:46:21+02:00
-lastmod: 2022-05-11T15:46:21+02:00
+lastmod: 2023-08-16T10:30:00+02:00
 featured: false
 draft: false
 
@@ -334,6 +334,19 @@ See the full version at website for this paragraph.
 ### A hacked LNCS template
 
 If you're using `llncs`, you might want to take a peek at [this hacked `llncs` template](https://github.com/latextemplates/LNCS), which makes a bunch of improvements that may or may not be okay with Springer.
+
+### Fixing the PDF bookmarks in ``llncs.cls``
+
+`llncs` sets the table of contents depth to 0, to make sure you don't print it.
+But this change also breaks PDF bookmarks, so make sure to add the following option to your `hyperref` setup:
+
+```latex
+% on package load:
+\usepackage{bookmarksdepth=2}{hyperref}
+
+% or using hypersetup
+\hypersetup{bookmarksdepth=2}
+```
 
 ### Other LaTeX compilers
 
