@@ -26,6 +26,7 @@ subtitle = ""
     tag = ""
     category = ""
     publication_type = ""
+    featured_only = true
   
 [design]
   # Toggle between the various page layout types.
