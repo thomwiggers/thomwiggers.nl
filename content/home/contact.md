@@ -23,18 +23,6 @@ content:
 
   # Contact details (edit or remove options as required)
   email: thom@thomwiggers.nl
-  address:
-    street: Toernooiveld 212
-    city: Nijmgen
-    postcode: '6525 EC'
-    country: The Netherlands
-    country_code: NL
-  coordinates:
-    latitude: '51.825385'
-    longitude: '5.868570'
-  directions: Room 3.11b if I'm at the office
-  office_hours:
-    - 'Working from home'
   appointment_url: ''
   contact_links: []
 
