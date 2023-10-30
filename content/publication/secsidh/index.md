@@ -11,7 +11,7 @@ authors:
   - Francisco Rodríguez-Henríquez
   - peterschwabe
   - thom
-date: 2023-06-05T16:40:16+02:00
+date: 2023-10-24T16:40:16+02:00
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -27,14 +27,12 @@ publication_types: ["3"]
 publication: "In submission"
 publication_short: ""
 
-abstract: >
-  The isogeny-based scheme CSIDH is considered to be the only efficient post-quantum non-interactive key exchange (NIKE) and poses small bandwidth requirements, thus appearing to be an attractive alternative for classical Diffie–Hellman schemes.
-  A crucial CSIDH design point, still under debate, is its quantum security when using prime fields of 512 to 1024 bits.
-  Most work has focused on prime fields of that size and the practicality of CSIDH with large parameters, 2000 to 9000 bits, has so far not been thoroughly assessed, even though analysis of quantum security suggests these parameter sizes.
-  We fill this gap by providing two CSIDH instantiations: A deterministic and dummy-free instantiation based on SQALE, aiming at high security against physical attacks, and a speed-optimized constant-time instantiation that adapts CTIDH to larger parameter sizes.
-  We provide implementations of both variants, including efficient field arithmetic for fields of such size, and high-level optimizations. Our deterministic and dummy-free version, dCSIDH, is almost twice as fast as SQALE, and, dropping determinism, CTIDH at these parameters is thrice as fast as dCSIDH.
-  We investigate their use in real-world scenarios through benchmarks of TLS using our software.
-  Although our instantiations of CSIDH have smaller communication requirements than post-quantum KEM and signature schemes, both implementations still result in too-large handshake latency (tens of seconds), which hinder further consideration of using CSIDH in practice for conservative parameter set instantiations.
+abstract: |
+  In this work, we assess the real-world practicality of CSIDH, an isogeny-based non-interactive key exchange. We provide the first thorough assessment of the practicality of CSIDH in higher parameter sizes for conservative estimates of quantum security, and with protection against physical attacks.
+
+  This requires a three-fold analysis of CSIDH. First, we describe two approaches to efficient high-security CSIDH implementations, based on SQALE and CTIDH. Second, we optimize such high-security implementations, on a high level by improving several subroutines, and on a low level by improving the finite field arithmetic. Third, we benchmark the performance of high-security CSIDH. As a stand-alone primitive, our implementations outperform previous results by a factor up to 2.53×.
+
+  As a real-world use case considering network protocols, we use CSIDH in TLS variants that allow early authentication through a NIKE. Although our instantiations of CSIDH have smaller communication requirements than post-quantum KEM and signature schemes, even our highly-optimized implementations result in too-large handshake latency (tens of seconds), showing that CSIDH is only practical in niche cases.
 
 # Summary. An optional shortened abstract.
 summary: "We propose higher-security parametersets of CSIDH, and present highly-optimized implementations. We measure the performance when using these parameters in TLS, and show that the performance is likely not fast enough to consider using CSIDH with conservative parmeter sets."
