@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "On the Practicality of Post-Quantum TLS using Large-Parameter CSIDH"
+title: "Optimizations and Practicality of High-Security CSIDH"
 authors:
   - Fabio Campos
   - Jorge Chávez-Saab
