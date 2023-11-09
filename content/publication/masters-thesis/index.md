@@ -18,7 +18,7 @@ authors:
 # 5: Book
 # 6: Book section
 publication_types:
-  - 7
+  - "Master's thesis"
 
 # Publication name and optional abbreviated version
 # i.e. published in

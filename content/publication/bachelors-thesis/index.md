@@ -16,7 +16,7 @@ authors = ["thom"]
 # 4: Report
 # 5: Book
 # 6: Book section
-publication_types = ["7"]
+publication_types = ["Bachelor thesis"]
 
 # Publication name and optional abbreviated version
 # i.e. published in
