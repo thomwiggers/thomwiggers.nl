@@ -1,13 +1,10 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-_build:
-  render: always
-  list: never
 
 title: "Post-Quantum TLS"
 authors: ['thom']
-date: 2023-05-01T16:01:22+02:00
+date: 2024-01-09T14:30:00+01:00
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -25,6 +22,15 @@ publication_short: ""
 
 abstract: >
   Ph.D. thesis on post-quantum cryptography in TLS.
+  I investigate current proposals for post-quantum TLS,
+  but more importantly we propose a more efficient TLS
+  handshake that makes use of trade-offs presented by
+  post-quantum cryptographic primitives (which were not
+  as profound in pre-quantum primitives).
+  This more efficient protocol we call KEMTLS.
+  Benchmarks in several different settings for all variants
+  of post-quantum TLS show that KEMTLS is efficient, and
+  we also have an extensive analysis of the security of KEMTLS.
 
 # Summary. An optional shortened abstract.
 summary: ""
@@ -73,11 +79,12 @@ projects: ['kemtls']
 slides: ""
 ---
 
-Manuscript currently under review.
+You can [find information on the defense here]({{< ref "/event/phd-defense" >}}).
+
 
 ## Software and raw data
 
-* [Post-Quantum TLS experiments](https://github.com/thomwiggers/kemtls-experiment/tree/secsidh-optls/)
+* [Post-Quantum TLS experiments](https://github.com/thomwiggers/kemtls-experiment/tree/thesis/)
 * [KEMTLS in Tamarin]({{< ref "/publication/kemtls-tamarin" >}})
 * [KEMTLS over the internet]({{< ref "/publication/measuring-kemtls" >}})
 * [KEMTLS on embedded systems]({{< ref "/publication/kemtls-embedded" >}})
