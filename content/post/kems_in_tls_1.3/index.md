@@ -3,7 +3,7 @@ title: "Using (post-quantum) KEMs in TLS 1.3"
 date: 2018-10-17
 lastmod: 2018-10-22
 draft: false
-featured: true
+featured: false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors: ["thom"]
