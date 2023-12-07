@@ -1,6 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
+slug: phd-defense
 title: "Ph.D. defense"
 event: "Ph.D. defense of Thom Wiggers' thesis \"Post-Quantum TLS\""
 #event_url: https://thomwiggers.nl/talk/ph.d.-defense/
