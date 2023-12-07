@@ -77,8 +77,10 @@ Als u niet kunt komen, is er de mogelijkheid om de verdediging [te volgen via de
 
 U wordt vriendelijk verzocht om u aan te melden als u komt, zodat wij weten hoeveel mensen te verwachten en op de hoogte zijn van eventuele dietaire eisen.
 
+De link om aan te melden zal later verschijnen.
+<!--
 **[U kunt zich aanmelden middels deze link][rsvp].**
-
+-->
 [Het proefschrift kan op deze pagina gevonden worden.][thesis]
 
 ## Wat te verwachten
@@ -142,7 +144,10 @@ If you can not attend, you may view the [livestream through this link][livestrea
 
 You are kindly requested to register your attendance, so we know how many people to expect and dietary preferences.
 
+The link to RSVP will be added later.
+<!--
 **Please [RSVP through the link provided here][rsvp].**
+-->
 
 You can [find the thesis here][thesis].
 
