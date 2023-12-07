@@ -37,17 +37,17 @@ highlight_name = true
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
+  course = "Ph.D. in Post-Quantum Cryptography"
+  institution = "Radboud University Nijmegen"
+  year = 2024
+
+[[education.courses]]
   course = "MSc in Computing Science"
   institution = "Radboud University Nijmegen"
   year = 2018
 
 [[education.courses]]
-  course = "BSc in Computing Science (Informatica)"
-  institution = "Radboud University Nijmegen"
-  year = 2015
-
-[[education.courses]]
-  course = "BSc in Information Sciences (Informatiekunde)"
+  course = "BScs in Computing Science and Information Sciences"
   institution = "Radboud University Nijmegen"
   year = 2015
 
@@ -96,7 +96,8 @@ highlight_name = true
 
 +++
 
-Thom Wiggers is a cryptography researcher at [PQShield](https://pqshield.com). 
-He has submitted his PhD thesis on the interactions of post-quantum cryptography with protocols, under the supervision of [Peter Schwabe][cryptojedi], at the Institute of Computing and Information Sciences, Radboud University in The Netherlands.
+Thom Wiggers is a cryptography researcher at [PQShield](https://pqshield.com).
+His [PhD thesis][thesis] was on the interactions of post-quantum cryptography with protocols, under the supervision of [Peter Schwabe][cryptojedi], at the Institute of Computing and Information Sciences, Radboud University in The Netherlands.
 
 [cryptojedi]: https://cryptojedi.org/peter/
+[thesis]: {{< ref "/publication/thesis" >}}
