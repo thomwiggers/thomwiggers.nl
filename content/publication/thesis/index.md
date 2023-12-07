@@ -37,7 +37,7 @@ summary: ""
 
 tags: ['kemtls', 'research']
 categories: ['research']
-featured: false
+featured: true
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
@@ -77,6 +77,7 @@ projects: ['kemtls']
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
 slides: ""
+
 ---
 
 You can [find information on the defense here]({{< ref "/event/phd-defense" >}}).

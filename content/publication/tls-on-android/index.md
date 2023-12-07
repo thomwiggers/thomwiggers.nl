@@ -4,7 +4,7 @@
 title: "TLS → Post-Quantum TLS: Inspecting the TLS landscape for PQC adoption on Android"
 authors: ['Dimitri Mankowski', 'thom', 'Veelasha Moonsamy']
 date: 2023-07-07T16:01:22+02:00
-doi: ""
+doi: "10.1109/EuroSPW59978.2023.00065"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2023-06-05T16:01:22+02:00
@@ -71,4 +71,3 @@ projects: []
 slides: ""
 ---
 
-To appear.
