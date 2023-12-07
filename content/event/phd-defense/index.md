@@ -3,7 +3,7 @@
 
 title: "Ph.D. defense"
 event: "Ph.D. defense of Thom Wiggers' thesis \"Post-Quantum TLS\""
-event_url: https://thomwiggers.nl/event/phd-defense/
+#event_url: https://thomwiggers.nl/talk/ph.d.-defense/
 location: Aula Building, Radboud University Nijmegen
 address:
   street: Comeniuslaan 2
@@ -33,7 +33,7 @@ featured: true
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
+  caption: "Cover of my thesis"
   focal_point: ""
   preview_only: false
 
