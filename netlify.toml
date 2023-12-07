@@ -59,3 +59,8 @@
   from = "https://www.wggrs.nl/*"
   to = "https://thomwiggers.nl/:splat"
   status = 301
+
+[[redirects]]
+  from = "https://thomwiggers.nl/defense/"
+  to = "https://thomwiggers.nl/talk/phd-defense/"
+  status = 301
