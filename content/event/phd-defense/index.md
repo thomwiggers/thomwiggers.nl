@@ -78,10 +78,8 @@ Als u niet kunt komen, is er de mogelijkheid om de verdediging [te volgen via de
 
 U wordt vriendelijk verzocht om u aan te melden als u komt, zodat wij weten hoeveel mensen te verwachten en op de hoogte zijn van eventuele dietaire eisen.
 
-De link om aan te melden zal later verschijnen.
-<!--
-**[U kunt zich aanmelden middels deze link][rsvp].**
--->
+**Als u naar de promotie komt, [kunt u zich aanmelden middels deze link][rsvp].**
+
 [Het proefschrift kan op deze pagina gevonden worden.][thesis]
 
 ## Wat te verwachten
@@ -134,7 +132,7 @@ Met de auto is het eenvoudigste om gewoon uw favoriete navigatie te gebruiken.
 Parkeren op de campus is betaald; de dichtstbijzijnde parkeergelegenheid is [P6 - Grotius][ru p6].
 Deze ondergrondse garage rijdt men vanzelf binnen als men de Comeniuslaan op rijdt langs de Aula.
 Er wordt dan geparkeerd onder een ander gebouw, maar vanuit de garage is het eenvoudig om terug te gaan richting de Aula.
-
+Als u van de lift gebruik wil maken, parkeer dan op niveau -2.
 
 # Defense
 
@@ -145,10 +143,7 @@ If you can not attend, you may view the [livestream through this link][livestrea
 
 You are kindly requested to register your attendance, so we know how many people to expect and dietary preferences.
 
-The link to RSVP will be added later.
-<!--
-**Please [RSVP through the link provided here][rsvp].**
--->
+**If you are attending in person, please [RSVP through the link provided here][rsvp].**
 
 You can [find the thesis here][thesis].
 
@@ -173,9 +168,10 @@ From Nijmegen Heyendaal train station, the Aula is a 30-minute walk; buses that 
 For directions by car, simply follow your preferred navigation system.
 If you come by car, there is (paid) parking on-campus. The nearest car park is [P6 - Grotius][ru p6], which is hard to miss if you navigate towards the Aula building.
 You'll park under a different building, but you can easily get out of the garage and get back to the Aula.
+If you want to use the lift, make sure to park at level -2.
 
 [thesis]: {{< ref "/publication/thesis" >}}
-[rsvp]: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+[rsvp]: https://forms.gle/73qLv3roudhyUn8d7
 [livestream]: https://weblectures.ru.nl/permalink/l1253ba88849cdgjdfbs/iframe/
 [gmaps]: https://maps.app.goo.gl/UfdfSN6hfGqHy8Bm7
 [nsplanner]: https://www.ns.nl/reisplanner/#/?vertrek=Nijmegen&vertrektype=treinstation&aankomst=ChIJTf0U0-0Ix0cRJ0om8qrcLj4&aankomsttype=poi&aankomstlabel=Aula%20Radboud%20Universiteit&type=aankomst&tijd=2024-01-09T14:00&firstMileModality=PUBLIC_TRANSPORT&lastMileModality=PUBLIC_TRANSPORT
