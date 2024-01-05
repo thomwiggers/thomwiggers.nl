@@ -69,7 +69,7 @@ projects: ['kemtls']
 ---
 
 # Verdediging
-**English follows below**
+[**English follows below**]({{< relref "#english" >}})
 
 Op 9 januari 2024, om 14:30 **precies** begint de openbare verdediging van mijn proefschrift, getiteld "Post-Quantum TLS".
 U bent van harte uitgenodigd om hierbij aanwezig te zijn in de Aula van de Radboud Universiteit, Nijmegen.
@@ -134,7 +134,17 @@ Deze ondergrondse garage rijdt men vanzelf binnen als men de Comeniuslaan op rij
 Er wordt dan geparkeerd onder een ander gebouw, maar vanuit de garage is het eenvoudig om terug te gaan richting de Aula.
 Als u van de lift gebruik wil maken, parkeer dan op niveau -2.
 
-# Defense
+## Feestelijkheden {#feestelijkheden}
+
+Direct na de verdediging zal er een korte receptie zijn bij de Aula.
+In de avond zijn de feestelijkheden bij restaurant [De Hemel][dehemel].
+Dit is in het centrum van Nijmegen.
+Met het openbaar vervoer kan men het beste bij haltes "Plein 1944" of "Waalkade" uitstappen; gebruik hiervoor een [reisplanner][nsplanner de hemel] of navigeer direct met Google Maps.
+Met de auto kan geparkeerd worden in parkeergarages [Eiermarkt][eiermarkt] (erg krap, dichtbij) of [Kelfkensbos][kelfkensbos] (veel ruimer, maar verder lopen).
+Er zijn wegwijzers naar deze garages vanaf de rondwegen rondom het centrum.
+Voor meer informatie, zie de [parkeerinformatie op de website van Gemeente Nijmegen][parkeren nijmegen].
+
+# Defense {#english}
 
 The defense of my Ph.D. thesis, titled "Post-Quantum TLS", will take place on January 9, 2024, at 14:30 **precisely**.
 You are cordially invited to attend in the Aula building at Radboud University, Nijmegen.
@@ -170,9 +180,23 @@ If you come by car, there is (paid) parking on-campus. The nearest car park is [
 You'll park under a different building, but you can easily get out of the garage and get back to the Aula.
 If you want to use the lift, make sure to park at level -2.
 
+## Party {#party}
+
+The celebrations immediately after the defense will be at the Aula itself, but afterwards we will be relocating to restaurant [De Hemel][dehemel].
+This is in the city center, and those traveling by public transport can probably best take a bus towards stops "Plein 1944" or "Waalkade".
+Use the [public transit planner][nsplanner de hemel].
+Those driving can park in garages [Eiermarkt][eiermarkt] (very tight, close by) or [Kelfkensbos][kelfkensbos] (much easier parking, but a slightly longer walk).
+There are signs towards these garages as you approach the city center.
+For more information, see the [municipal parking web page (in Dutch)][parkeren nijmegen].
+
 [thesis]: {{< ref "/publication/thesis" >}}
 [rsvp]: https://forms.gle/73qLv3roudhyUn8d7
 [livestream]: https://weblectures.ru.nl/permalink/l1253ba88849cdgjdfbs/iframe/
 [gmaps]: https://maps.app.goo.gl/UfdfSN6hfGqHy8Bm7
 [nsplanner]: https://www.ns.nl/reisplanner/#/?vertrek=Nijmegen&vertrektype=treinstation&aankomst=ChIJTf0U0-0Ix0cRJ0om8qrcLj4&aankomsttype=poi&aankomstlabel=Aula%20Radboud%20Universiteit&type=aankomst&tijd=2024-01-09T14:00&firstMileModality=PUBLIC_TRANSPORT&lastMileModality=PUBLIC_TRANSPORT
 [ru p6]: https://www.ru.nl/en/about-us/the-campus/buildings-and-spaces/car-park-p6-grotius
+[dehemel]: https://restaurantdehemel.nl/nl/
+[nsplanner de hemel]: https://www.ns.nl/reisplanner/#/?vertrek=ChIJTf0U0-0Ix0cRJ0om8qrcLj4&vertrektype=poi&vertreklabel=Aula%20Radboud%20Universiteit&aankomst=ChIJD0peA0QIx0cRgQx8vYgEewE&aankomsttype=poi&aankomstlabel=De%20Hemel&type=aankomst&tijd=2024-01-09T17:00&firstMileModality=PUBLIC_TRANSPORT&lastMileModality=PUBLIC_TRANSPORT
+[parkeren Nijmegen]: https://www.nijmegen.nl/diensten/parkeren-verkeer-en-vervoer/parkeergarages/
+[kelfkensbos]: https://maps.app.goo.gl/G1qkiwyRbDqXM2n66
+[eiermarkt]: https://maps.app.goo.gl/YoefrTGbWEs7mQ5UA
