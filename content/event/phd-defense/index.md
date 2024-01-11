@@ -32,6 +32,7 @@ featured: true
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
+
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: "Cover of my thesis"
@@ -67,6 +68,12 @@ slides: ""
 #   Otherwise, set `projects = []`.
 projects: ['kemtls']
 ---
+
+
+# Recording
+
+{{< video src="https://r2cdn.wggrs.nl/phd-defense.webm" controls="yes" >}}
+
 
 # Verdediging
 [**English follows below**]({{< relref "#english" >}})
@@ -153,7 +160,7 @@ If you can not attend, you may view the [livestream through this link][livestrea
 
 You are kindly requested to register your attendance, so we know how many people to expect and dietary preferences.
 
-**If you are attending in person, please [RSVP through the link provided here][rsvp].**
+(RSVP link removed)
 
 You can [find the thesis here][thesis].
 
@@ -190,7 +197,6 @@ There are signs towards these garages as you approach the city center.
 For more information, see the [municipal parking web page (in Dutch)][parkeren nijmegen].
 
 [thesis]: {{< ref "/publication/thesis" >}}
-[rsvp]: https://forms.gle/73qLv3roudhyUn8d7
 [livestream]: https://weblectures.ru.nl/permalink/l1253ba88849cdgjdfbs/iframe/
 [gmaps]: https://maps.app.goo.gl/UfdfSN6hfGqHy8Bm7
 [nsplanner]: https://www.ns.nl/reisplanner/#/?vertrek=Nijmegen&vertrektype=treinstation&aankomst=ChIJTf0U0-0Ix0cRJ0om8qrcLj4&aankomsttype=poi&aankomstlabel=Aula%20Radboud%20Universiteit&type=aankomst&tijd=2024-01-09T14:00&firstMileModality=PUBLIC_TRANSPORT&lastMileModality=PUBLIC_TRANSPORT
