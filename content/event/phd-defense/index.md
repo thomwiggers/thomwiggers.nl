@@ -72,7 +72,21 @@ projects: ['kemtls']
 
 # Recording
 
-{{< video src="https://r2cdn.wggrs.nl/phd-defense.webm" controls="yes" >}}
+<div style="position: relative; padding-top: 56.25%;">
+  <iframe
+    src="https://customer-bje1dzwfk0crypk5.cloudflarestream.com/d8eb247659892f995ebd2d4235e1b502/iframe?poster=https%3A%2F%2Fcustomer-bje1dzwfk0crypk5.cloudflarestream.com%2Fd8eb247659892f995ebd2d4235e1b502%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
+    style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
+    allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
+    allowfullscreen="true"
+  ></iframe>
+</div>
+<!--
+<video controls>
+  <source src="https://r2cdn.wggrs.nl/phd-defense.webm" type="video/webm"/>
+  <source src="https://r2cdn.wggrs.nl/phd-defense.mp4" type="video/mp4"/>
+</video>
+-->
+<!-- {{< video src="https://r2cdn.wggrs.nl/phd-defense.mp4" controls="yes" >}} -->
 
 
 # Verdediging
