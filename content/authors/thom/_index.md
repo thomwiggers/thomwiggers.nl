@@ -46,10 +46,10 @@ highlight_name = true
   institution = "Radboud University Nijmegen"
   year = 2018
 
-[[education.courses]]
-  course = "BScs in Computing Science and Information Sciences"
-  institution = "Radboud University Nijmegen"
-  year = 2015
+# [[education.courses]]
+#   course = "BScs in Computing Science and Information Sciences"
+#   institution = "Radboud University Nijmegen"
+#   year = 2015
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
