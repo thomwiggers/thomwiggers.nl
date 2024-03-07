@@ -1,32 +1,29 @@
 ---
-# Documentation: https://hugoblox.com/docs/managing-content/
+# Documentation: https://docs.hugoblox.com/managing-content/
 
-title: "Managing state and backups in stateful hash-based signature schemes"
-event: "NIST SP800-208 Discussion"
-event_url:
-location: NIST NCCoE
+title: "Hash-based Signatures: State and Backup Management"
+event: IETF 119 PQUIP working group meeting
+event_url: https://datatracker.ietf.org/meeting/119/session/pquip
+location: Brisbane Convention Centre / Remote
 address:
-  street:
-  city: Rockyville
-  region: Maryland
-  postcode:
-  country: United States of America
-summary: |
-  I gave a presentation the recently submitted IETF draft
-  on recommendations for state management in stateful
-  hash-based signature schemes.
+  street: Cnr Merivale and Glenelg Streets
+  city: Brisbane
+  region: Queensland
+  postcode: 4101
+  country: Australia
+summary:
 abstract:
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2024-03-04T14:10:00-07:00
-date_end: 2024-03-07T14:35:00-07:00
+date: 2024-03-19T17:30:00+10:00
+date_end: 2024-03-19T18:30:00+10:00
 all_day: false
 
 # Schedule page publish date (NOT event date).
-publishDate: 2024-03-07T15:58:11+01:00
+publishDate: 2024-03-07T16:13:17+01:00
 
-authors: ['thom']
+authors: []
 tags: []
 
 # Is this a featured event? (true/false)
@@ -69,12 +66,7 @@ slides: ""
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-
-NIST organized a discussion event on SP800-208.
-At this event, I presented a [draft IETF document][hbs-state] in which we give recommendations for those setting up systems that will rely on stateful hash-based signature schemes.
-
-Submit [comments through GitHub](https://github.com/hbs-guidance/draft-hbs-state).
+At the PQUIP meeting, I will (remotely) present our IETF draft on state and backup management in stateful hash-based signature schemes.
+The draft is [draft-wiggers-hbs-state][hbs-state].
 
 [hbs-state]: https://datatracker.ietf.org/doc/draft-wiggers-hbs-state/
-
-(I attended remotely)
