@@ -1,8 +1,8 @@
 ---
 # Documentation: https://hugoblox.com/docs/managing-content/
 
-title: "NIST SP800-208 Discussion"
-event:
+title: "Managing state and backups in stateful hash-based signature schemes"
+event: "NIST SP800-208 Discussion"
 event_url:
 location: NIST NCCoE
 address:
