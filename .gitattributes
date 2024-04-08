@@ -3,4 +3,6 @@
 *.png binary
 *.jpg binary
 *.jpeg binary
-/.well-known/openpgpkey/hu/* binary
+*.webp binary
+*.webm binary
+*.mp4 binary
