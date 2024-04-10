@@ -12,7 +12,7 @@ authors:
   - peterschwabe
   - thom
 date: 2023-10-24T16:40:16+02:00
-doi: ""
+doi: "10.62056/anjbksdja"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2023-06-05T16:40:16+02:00
@@ -24,7 +24,7 @@ publishDate: 2023-06-05T16:40:16+02:00
 publication_types: ["article"]  # Update to paper-conference when published
 
 # Publication name and optional abbreviated publication name.
-publication: "In submission"
+publication: "IACR Communications in Cryptology"
 publication_short: ""
 
 abstract: |
@@ -35,7 +35,11 @@ abstract: |
   As a real-world use case considering network protocols, we use CSIDH in TLS variants that allow early authentication through a NIKE. Although our instantiations of CSIDH have smaller communication requirements than post-quantum KEM and signature schemes, even our highly-optimized implementations result in too-large handshake latency (tens of seconds), showing that CSIDH is only practical in niche cases.
 
 # Summary. An optional shortened abstract.
-summary: "We propose higher-security parametersets of CSIDH, and present highly-optimized implementations. We measure the performance when using these parameters in TLS, and show that the performance is likely not fast enough to consider using CSIDH with conservative parmeter sets."
+summary: >
+  We propose higher-security parametersets of CSIDH, and present
+  highly-optimized implementations. We measure the performance when using these
+  parameters in TLS, and show that the performance is likely not fast enough to
+  consider using CSIDH with conservative parmeter sets.
 
 tags: ['research', 'tls', 'post-quantum', 'cryptography']
 categories: ['research']
