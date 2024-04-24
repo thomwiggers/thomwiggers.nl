@@ -1,10 +1,11 @@
+---
 # Configuration of Hugo
 # Guide: https://docs.hugoblox.com/tutorial/
-# Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+# Hugo Documentation:
+# https://gohugo.io/getting-started/configuration/#all-configuration-settings
 
-title: Thom Wiggers # Website name
-baseURL: 'https://thomwiggers.nl/' # Website URL
+title: Thom Wiggers  # Website name
+baseURL: 'https://thomwiggers.nl/'  # Website URL
 
 ############################
 ## LANGUAGE
@@ -36,10 +37,10 @@ outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
   section: [HTML, RSS]
 imaging:
-  resampleFilter: lanczos
+  resampleFilter: Lanczos
   quality: 95
-  anchor: smart
-timeout: 600000
+  anchor: Smart
+timeout: "600000s"
 taxonomies:
   tag: tags
   category: categories
@@ -62,3 +63,19 @@ sitemap:
   _merge: deep
 minify:
   _merge: deep
+
+mediaTypes:
+  text/netlify:
+    delimiter: ''
+    suffixes: ['']
+outputFormats:
+  headers:
+    baseName: _headers
+    isPlainText: true
+    mediaType: text/netlify
+    notAlternative: true
+  redirects:
+    baseName: _redirects
+    isPlainText: true
+    mediaType: text/netlify
+    notAlternative: true
