@@ -5,7 +5,7 @@
 {{- range $page.Aliases }}
 {{ .|relLangURL }} {{ $page.RelPermalink -}}
 {{- end }}
-{{- end -}}
+{{- end }}
 
-
+# Manual added
 /p/* /publication/:splat 301
