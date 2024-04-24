@@ -1,5 +1,3 @@
-/p/* /publication/:splat 301
-
 # Automatically generated
 # See layouts/index.redirects
 {{- /* Note: code purposely un-indented to preserve required spacing in output. */ -}}
@@ -8,3 +6,6 @@
 {{ .|relLangURL }} {{ $page.RelPermalink -}}
 {{- end }}
 {{- end -}}
+
+
+/p/* /publication/:splat 301
