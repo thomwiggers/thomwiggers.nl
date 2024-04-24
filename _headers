@@ -1,0 +1,11 @@
+/*
+    X-Frame-Options: Deny
+    X-Content-Type-Options: nosniff
+    Referrer-Policy: no-referrer
+    Permissions-Policy: document-domain=()
+
+/.well-known/matrix/*
+    Access-Control-Allow-Origin: *
+
+https://:project.pages.dev/*
+    X-Robots-Tag: noindex
