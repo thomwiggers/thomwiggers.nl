@@ -1,0 +1,31 @@
+{{ if .IsPage | and (eq .Type "publication") }}
+{{/* based on page_metadata_authors.html */}}
+{{- $taxonomy := "authors" }}
+{{ if .Param $taxonomy }}
+  {{ range $index, $value := (.GetTerms $taxonomy) }}
+    <meta name="citation_author" content="{{ .LinkTitle }}" />
+  {{- end -}}
+{{- end }}
+
+<meta name="citation_title" content="{{ .Title }}" />
+<meta name="citation_publication_date" content="{{ .Params.Date.Format "2006/01/02" }}" />
+
+{{ $resource := .Page.Resources.GetMatch (printf "%s.pdf" .Page.File.ContentBaseName) }}
+{{ with $resource }}
+  <meta name="citation_pdf_url" content="{{ .Permalink }}" />
+{{ else }}
+  {{ if .Params.url_pdf }}
+    <meta name="citation_pdf_url" content="{{ .Params.url_pdf | absURL }}" />
+  {{ end }}
+{{ end }}
+
+{{ if .Params.publication -}}
+{{ if in .Params.publication_types "thesis" -}}
+<meta name="citation_dissertation_institution" content="{{ .Params.publication }}" />
+{{ else if in .Params.publication_types "paper-conference" }}
+<meta name="citation_conference_title" content="{{ .Params.publication }}" />
+{{ else if in .Params.publication_types "article-journal" }}
+<meta name="citation_journal_title" content="{{ .Params.publication }}" />
+{{- end }}
+{{- end }}
+{{- end }}
