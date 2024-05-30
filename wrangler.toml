@@ -3,6 +3,9 @@ name = "thomwiggers-nl"
 pages_build_output_dir = "public"
 compatibility_date = "2021-11-02"
 
+[build]
+command = "hugo --minify --gc --enableGitInfo -b $CF_PAGES_URL"
+
 [vars]
 HUGO_VERSION = "0.125.2"
 
