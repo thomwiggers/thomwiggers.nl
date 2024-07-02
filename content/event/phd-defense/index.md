@@ -82,6 +82,7 @@ aliases:
     style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
     allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
     allowfullscreen="true"
+    referrerpolicy="origin"
   ></iframe>
 </div>
 <!--
