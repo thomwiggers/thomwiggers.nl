@@ -103,7 +103,7 @@ Als u niet kunt komen, is er de mogelijkheid om de verdediging [te volgen via de
 
 U wordt vriendelijk verzocht om u aan te melden als u komt, zodat wij weten hoeveel mensen te verwachten en op de hoogte zijn van eventuele dietaire eisen.
 
-**Als u naar de promotie komt, [kunt u zich aanmelden middels deze link][rsvp].**
+(Aanmeldlink verwijderd)
 
 [Het proefschrift kan op deze pagina gevonden worden.][thesis]
 
