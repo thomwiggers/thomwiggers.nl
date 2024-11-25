@@ -22,7 +22,6 @@ removePathAccents: true
 
 enableGitInfo: true
 summaryLength: 30
-paginate: 10
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
@@ -63,9 +62,11 @@ sitemap:
   _merge: deep
 minify:
   _merge: deep
+pagination:
+  _merge: deep
 
 mediaTypes:
-  text/netlify:
+  "text/netlify":
     delimiter: ''
     suffixes: ['']
 outputFormats:

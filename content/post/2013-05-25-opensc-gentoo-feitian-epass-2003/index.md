@@ -1,7 +1,6 @@
 ---
 layout: post
 status: publish
-published: true
 title: OpenSC, Gentoo & Feitian ePass 2003
 authors: ["thom"]
 author_login: Thom Wiggers

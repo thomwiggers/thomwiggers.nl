@@ -2,21 +2,19 @@
 # https://gohugo.io/about/hugo-and-gdpr/
 privacy:
   disqus:
-    disable: true
+    disable: false
   googleAnalytics:
-    anonymizeIP: false
     disable: true
     respectDoNotTrack: true
-    useSessionStorage: false
   instagram:
-    disable: true
+    disable: false
     simple: true
   twitter:
     disable: false
     enableDNT: true
     simple: true
   vimeo:
-    disable: false
+    disable: true
     enableDNT: true
     simple: true
   youtube:

@@ -28,7 +28,7 @@ abstract: |
    In this paper, we try to bring the state-of-the-art in solving LPN closer to the practical realm.
    We improve upon the existing algorithms by modifying the Coded-BKW algorithm to work under various memory constrains.
    We correct and expand previous analysis and experimentally verify our findings.
-   As a result we were able to mount practical attacks on the largest parameters reported to date using only $2^{39}$ bits of memory.
+   As a result we were able to mount practical attacks on the largest parameters reported to date using only 2<sup>39</sup> bits of memory.
 
 # Summary. An optional shortened abstract.
 summary: "We analyse the difficulty of the LPN problem in restricted memory."
@@ -76,6 +76,8 @@ projects: []
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
 slides: ""
+
+math: false
 ---
 
 Accepted at IEEE ISIT 2021.

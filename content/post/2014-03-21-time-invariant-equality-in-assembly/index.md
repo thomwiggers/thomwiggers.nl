@@ -1,7 +1,6 @@
 ---
 layout: post
 status: publish
-published: true
 title: Time-invariant equality in assembly
 authors: ["thom"]
 author_login: Thom Wiggers
