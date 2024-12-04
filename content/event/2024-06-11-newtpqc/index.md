@@ -30,10 +30,10 @@ all_day: false
 publishDate: 2024-05-15T14:56:37+02:00
 
 authors: ['thom']
-tags: ['post-quantum', 'tls', 'kemtls']
+tags: ['post-quantum', 'tls', 'kemtls', 'invited talk']
 
 # Is this a featured event? (true/false)
-featured: true
+featured: false
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
