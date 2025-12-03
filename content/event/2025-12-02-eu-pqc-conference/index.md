@@ -71,3 +71,41 @@ slides: ""
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+
+_AI-generated summary of my slides_
+
+While the industry has successfully deployed Post-Quantum (PQ) Key Exchange,
+the next step—PQ Authentication—presents significant infrastructure challenges
+due to data size and latency. The presentation proposes **Merkle Tree
+Certificates (MTC)** as a sustainable solution to enable full PQ security
+without breaking the web.
+
+### **1. Current Status: Key Exchange is Solved**
+*   **Adoption:** Major players (Cloudflare, Chrome, Edge, Firefox) have already deployed PQ key exchange.
+*   **Performance:** The current standard (X25519MLKEM768) adds only ~2kB to the handshake and causes a negligible ~4% slowdown.
+*   **Motivation:** This is widely adopted because it solves the immediate "Harvest-Now-Decrypt-Later" threat.
+
+### **2. The Challenge: PQ Authentication**
+Implementing PQ authentication (signatures) is much harder than key exchange:
+*   **The Bloat Problem:** Replacing current authentication chains (Server cert, Intermediate cert, Handshake signature, Certificate Transparency SCTs) with PQ standards like ML-DSA adds **18–36 kB** of data to the handshake.
+*   **Operator Hesitance:** For website operators, this creates a massive performance hit for a threat that only exists in the future (the "Quantum Apocalypse"). Many are likely to "wait" rather than upgrade.
+*   **Infrastructure Strain:** The current Certificate Transparency (CT) system is already fragile and expensive to maintain (consuming ~20TB of disk/year per log). Adding large PQ signatures would make running CT logs significantly harder and more expensive.
+
+### **3. The Solution: Merkle Tree Certificates (MTC)**
+To solve the data bloat issue, the IETF is standardizing Merkle Tree Certificates (MTC).
+*   **How it Works:** Instead of a traditional chain of signatures, a Certificate Authority (CA) logs the certificate into a Merkle Tree. The "certificate" becomes a proof of inclusion in that tree.
+*   **The Process:**
+    1.  The CA logs the entry first, then signs a "tree head" (checkpoint).
+    2.  Browsers/Clients fetch these tree heads out-of-band.
+    3.  The server proves its certificate is valid via a short inclusion path (Merkle path).
+*   **Short-lived Certificates:** MTCs allow for "signature-less" certificates if the client is up-to-date, or "full" certificates if not, utilizing short-lived proofs.
+
+### **4. Key Benefits of MTC**
+*   **Massive Size Reduction:** MTC log entries are **97x smaller** than the traditional CT approach combined with ML-DSA-44 signatures.
+*   **Efficiency:** An inclusion proof is only ~736 bytes, compared to >7KB for multiple ML-DSA signatures.
+*   **Sustainability:** It removes the need for intermediate certificates and makes running transparency mirrors cheaper and more reliable.
+
+### **5. Timeline and Standardization**
+*   **Standards Body:** The proposal is being developed in the IETF **PLANTS** (PKI, Logs, And Tree Signatures) working group.
+*   **Backers:** The initiative is being pushed primarily by Google Chrome and Cloudflare.
+*   **Deployment:** Cloudflare and Google have announced plans to begin experimenting with MTC on the web in **2026**.
