@@ -1,9 +1,9 @@
 ---
 # Documentation: https://docs.hugoblox.com/managing-content/
 
-title: "Fully PQ TLS in the WWW""
+title: "Fully PQ TLS in the WWW"
 event: "European Conference on PQC Migration 2025"
-event_url: https://pqc-conference.eu
+event_url: "https://pqc-conference.eu"
 location: New Babylon Conference Centre
 address:
   street: Anna van Buerenplein 29
