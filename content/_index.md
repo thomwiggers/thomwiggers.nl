@@ -42,11 +42,8 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-
-        Please reach out to collaborate 😃
+        Thom Wiggers is a cryptography researcher at [PQShield](https://pqshield.com).
+        His [PhD thesis]({{< ref "/publications/thesis" >}}) was on the interactions of post-quantum cryptography with protocols, under the supervision of [Peter Schwabe](https://cryptojedi.org/peter/), at the Institute of Computing and Information Sciences, Radboud University in The Netherlands.
     design:
       columns: '1'
   - block: collection
