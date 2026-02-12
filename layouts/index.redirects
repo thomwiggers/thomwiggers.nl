@@ -8,4 +8,5 @@
 {{- end }}
 
 # Manual added
-/p/* /publication/:splat 301
+/p/* /publications/:splat 301
+/defense /talk/phd-defense 301

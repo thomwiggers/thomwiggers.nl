@@ -30,4 +30,4 @@ This document outlines the iterative migration of content from the old Hugo Blox
 - [x] Projects
 - [x] Teaching
 - [x] Customizations
-- [ ] Final Verification
+- [x] Final Verification
