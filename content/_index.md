@@ -105,4 +105,13 @@ sections:
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
+  - block: markdown
+    id: contact
+    content:
+      title: Contact
+      subtitle:
+      text: |-
+        You can reach me via email at [thom@thomwiggers.nl](mailto:thom@thomwiggers.nl).
+    design:
+      columns: '1'
 ---
