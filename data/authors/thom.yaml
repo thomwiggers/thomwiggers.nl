@@ -1,0 +1,53 @@
+schema: hugoblox/author/v1
+slug: thom
+is_owner: true
+name:
+  display: Thom Wiggers
+  given: Thom
+  family: Wiggers
+role: Senior Cryptography Researcher
+bio: |
+  Thom Wiggers is a cryptography researcher at [PQShield](https://pqshield.com).
+  His [PhD thesis](https://thomwiggers.nl/publication/thesis/) was on the interactions of post-quantum cryptography with protocols, under the supervision of [Peter Schwabe](https://cryptojedi.org/peter/), at the Institute of Computing and Information Sciences, Radboud University in The Netherlands.
+
+affiliations:
+  - name: PQShield
+    url: https://pqshield.com/
+
+links:
+  - icon: hero/at-symbol
+    url: mailto:thom@thomwiggers.nl
+    label: E-mail Me
+  - icon: brands/x
+    url: https://twitter.com/thomwiggers
+  - icon: brands/mastodon
+    url: https://infosec.exchange/@thomw
+  - icon: academicons/google-scholar
+    url: https://scholar.google.co.uk/citations?user=V0A4RMsAAAAJ
+  - icon: brands/github
+    url: https://github.com/thomwiggers
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/thomwiggers/
+
+interests:
+  - Cryptography
+  - Post-Quantum Cryptography
+  - Protocols
+  - Information Security
+
+education:
+  - degree: Ph.D. in Post-Quantum Cryptography
+    institution: Radboud University Nijmegen
+    start: 2018-09-01
+    end: 2024-01-09
+  - degree: MSc in Computing Science
+    institution: Radboud University Nijmegen
+    start: 2015-09-01
+    end: 2018-08-31
+
+experience:
+  - role: Senior Cryptography Researcher
+    org: PQShield
+    start: 2024-01-01
+    summary: |
+      Working on post-quantum cryptography and protocols.
