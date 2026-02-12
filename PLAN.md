@@ -28,6 +28,6 @@ This document outlines the iterative migration of content from the old Hugo Blox
 - [x] Posts
 - [x] Events
 - [x] Projects
-- [ ] Teaching
+- [x] Teaching
 - [ ] Customizations
 - [ ] Final Verification
