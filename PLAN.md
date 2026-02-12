@@ -24,9 +24,9 @@ This document outlines the iterative migration of content from the old Hugo Blox
 - [x] Initial Setup
 - [x] Author Profile
 - [x] Basic Configuration
-- [ ] Publications
+- [x] Publications
 - [ ] Posts
-- [ ] Events
+- [x] Events
 - [ ] Projects
 - [ ] Teaching
 - [ ] Customizations
