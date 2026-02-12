@@ -4,9 +4,9 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Website name (set in params.yaml under hugoblox.branding.name)
-title: ''
+title: Thom Wiggers
 # Website URL
-baseURL: 'https://example.com/'
+baseURL: 'https://thomwiggers.nl/'
 
 ############################
 ## LANGUAGE
@@ -20,6 +20,12 @@ removePathAccents: true
 ############################
 ## PAGE OPTIONS
 ############################
+
+permalinks:
+  event: '/talk/:slug/'
+  tags: '/tag/:slug/'
+  categories: '/category/:slug/'
+  publication_types: '/publication-type/:slug/'
 
 cascade:
   - _target:

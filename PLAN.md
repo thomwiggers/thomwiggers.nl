@@ -23,7 +23,7 @@ This document outlines the iterative migration of content from the old Hugo Blox
 ## Progress Tracking
 - [x] Initial Setup
 - [x] Author Profile
-- [ ] Basic Configuration
+- [x] Basic Configuration
 - [ ] Publications
 - [ ] Posts
 - [ ] Events

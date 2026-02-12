@@ -13,7 +13,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Your Name"
+    name: "Thom Wiggers"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: ""
     # Schema.org type for structured data
@@ -21,10 +21,10 @@ hugoblox:
     # Short tagline displayed on your site
     tagline: ""
     # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by HugoBlox Kit. Easily create your personal academic website."
+    description: "Thom Wiggers, PhD candidate at Radboud University"
     # Social accounts (used for meta tags like Twitter Cards)
     social:
-      twitter: "LoreLabs_"              # Twitter/X handle for Twitter Cards (without @)
+      twitter: "thomwiggers"              # Twitter/X handle for Twitter Cards (without @)
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
@@ -87,7 +87,7 @@ hugoblox:
     # Stick to top on scroll
     sticky: true
     # Menu alignment
-    align: center                       # left | center | right
+    align: left                       # left | center | right
     # Feature toggles
     search: true
     theme_toggle: true
@@ -116,12 +116,12 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   copyright:
     # Copyright notice - supports {year}, {name}, {license} placeholders
-    notice: "© {year} {name}. This work is licensed under {license}"
+    notice: "&copy; {year} Thom Wiggers -- CC 4.0 BY-SA"
     license:
       type: cc                          # cc | custom
-      allow_derivatives: false
+      allow_derivatives: true
       share_alike: true
-      allow_commercial: false
+      allow_commercial: true
 
   # ────────────────────────────────────────────────────────────────────────────
   # SEO
@@ -157,7 +157,7 @@ hugoblox:
   content:
     # Math rendering
     math:
-      enable: false
+      enable: true
     # Table of contents
     toc:
       enable: true
@@ -231,8 +231,8 @@ hugoblox:
   # Source code repository for "Edit this page" links
   # ────────────────────────────────────────────────────────────────────────────
   repository:
-    enable: false
-    url: ""                             # e.g., https://github.com/username/repo
+    enable: true
+    url: "https://github.com/thomwiggers/thomwiggers.nl"                             # e.g., https://github.com/username/repo
     branch: main
     content_dir: content
 
@@ -241,9 +241,9 @@ hugoblox:
   # Regional formatting preferences
   # ────────────────────────────────────────────────────────────────────────────
   locale:
-    date_format: "Jan 2, 2006"          # Go time format
-    time_format: "3:04 PM"
-    address_format: en-us
+    date_format: "2006-01-02"          # Go time format
+    time_format: "15:04"
+    address_format: nl
 
   # ────────────────────────────────────────────────────────────────────────────
   # SECURITY
