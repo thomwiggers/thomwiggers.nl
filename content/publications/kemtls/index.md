@@ -104,3 +104,5 @@ aliases:
 ## Software
 
 The raw data and software that accompanies this publication can be found at [Github](https://github.com/thomwiggers/kemtls-experiment/).
+
+This protocol is the main subject of my [PhD thesis]({{< ref "/publications/thesis" >}}).
