@@ -6,7 +6,7 @@ authors:
   - Felix Günther
   - Simon Rastikian
   - Patrick Towa
-  - me
+  - thom
 
 
 date: 2022-06-18T16:20:10+02:00

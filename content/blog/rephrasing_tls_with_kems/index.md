@@ -4,7 +4,7 @@ date: 2018-11-21
 lastmod: 2018-11-21
 draft: false
 math: true
-authors: ["me"]
+authors: ["thom"]
 tags: ["tls", "pqtls", "post-quantum", "cryptography"]
 categories: ["research"]
 image:

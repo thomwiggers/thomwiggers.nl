@@ -3,7 +3,7 @@
 
 title: "A tale of two models: Formal analysis of KEMTLS in Tamarin"
 summary: ""
-authors: ["me"]
+authors: ["thom"]
 tags: ["kemtls", "research"]
 categories: ["research"]
 date: 2022-09-19T10:51:35+02:00

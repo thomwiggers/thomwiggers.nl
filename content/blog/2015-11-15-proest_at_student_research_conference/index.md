@@ -4,7 +4,7 @@ category: Research
 title: Prøst at Student Research Conference
 date: 2015-11-15 15:32:55
 lastmod: 2015-11-15 15:32:55
-authors: ["me"]
+authors: ["thom"]
 ---
 
 In July, Peter Schwabe, who supervised my Bachelor's thesis project, suggested

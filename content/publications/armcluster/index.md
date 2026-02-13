@@ -1,7 +1,7 @@
 ---
 title: "Energy-efficient ARM64 Cluster with Cryptanalytic Applications: 80 cores that do not cost you an ARM and a leg"
 date: "2019-06-20"
-authors: ["me"]
+authors: ["thom"]
 publication_types: ["paper-conference"]
 publication: "Progress in Cryptology -- LATINCRYPT 2017"
 publication_short: "LATINCRYPT 2017"

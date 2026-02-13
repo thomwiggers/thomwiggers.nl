@@ -13,7 +13,7 @@ summary: |
 abstract: null
 date: 2024-12-04T09:24:54+01:00
 authors:
-  - me
+  - thom
 tags:
   - post-quantum
   - invited talk

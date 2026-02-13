@@ -16,7 +16,7 @@ abstract: |
   I also discuss KEMTLS.
 date: 2022-05-31T17:24:14+02:00
 authors:
-  - me
+  - thom
 tags:
   - research
   - teaching

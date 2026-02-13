@@ -7,7 +7,7 @@ summary: |
   Post-quantum key exchange and signature algorithms come with
   different trade-offs that we’re not used to. How do we handle that when
   updating protocols, and is this an opportunity to revisit the status quo?
-authors: ['me']
+authors: ['thom']
 tags: []
 categories: []
 date: 2022-02-27T17:15:53+01:00

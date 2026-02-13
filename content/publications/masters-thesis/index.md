@@ -7,7 +7,7 @@ date: "2018-09-25"
 
 # Authors
 authors:
-  - me
+  - thom
 
 # Publication type
 # 0: Uncategorized

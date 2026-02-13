@@ -10,7 +10,7 @@ tags:
   - pki
 categories:
   - security
-authors: ["me"]
+authors: ["thom"]
 author_url: http://thomwiggers.nl/about.html
 
 date: 2014-06-10

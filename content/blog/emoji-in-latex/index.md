@@ -4,7 +4,7 @@
 title: "Using Emoji in (pdf)LaTex"
 subtitle: "How to use Emoji fonts in LaTeX without resorting to XeLaTeX or LuaLaTeX"
 summary: ""
-authors: ['me']
+authors: ['thom']
 tags: ['latex']
 categories: []
 date: 2024-04-03T15:04:10+02:00

@@ -4,7 +4,7 @@
 title: "Dissecting Proctorio"
 subtitle: ""
 summary: ""
-authors: ['me']
+authors: ['thom']
 tags: []
 categories: []
 date: 2020-09-30T12:40:28+02:00

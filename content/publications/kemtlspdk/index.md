@@ -5,7 +5,7 @@ title: "More efficient post-quantum KEMTLS with pre-distributed public keys"
 authors:
   - peterschwabe
   - douglasstebila
-  - me
+  - thom
 date: 2021-09-30
 hugoblox.ids: {doi: "10.1007/978-3-030-88418-5_1"}
 

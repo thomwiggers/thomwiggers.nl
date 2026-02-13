@@ -4,7 +4,7 @@
 title: "hxp 2022 (2023) CTF writeup"
 subtitle: ""
 summary: ""
-authors: ['me']
+authors: ['thom']
 tags: ['ctf', 'crypto']
 categories: []
 date: 2023-03-13T17:01:29+01:00

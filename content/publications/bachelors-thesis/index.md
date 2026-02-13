@@ -1,7 +1,7 @@
 ---
 title: "Implementing Prøst on ARM11"
 date: "2015-04-10"
-authors: ["me"]
+authors: ["thom"]
 publication_types: ["Bachelor thesis"]
 publication: "Bachelor's thesis"
 abstract: "Bachelor's thesis on implementing the Prøst permutation on ARM11"

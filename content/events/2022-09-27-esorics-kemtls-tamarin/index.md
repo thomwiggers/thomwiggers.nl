@@ -11,7 +11,7 @@ address:
 summary: Conference presentation of our KEMTLS formal analysis paper at ESORICS 2022
 date: 2022-09-19T15:15:29+02:00
 authors:
-  - me
+  - thom
 tags:
   - research
   - kemtls

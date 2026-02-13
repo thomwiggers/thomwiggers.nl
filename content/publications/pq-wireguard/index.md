@@ -6,7 +6,7 @@ authors:
   - keitaro
   - shuichi
   - guilhem
-  - me
+  - thom
 date: 2026-05-18T08:00:00-07:00
 hugoblox.ids: {doi: ""}
 

@@ -4,7 +4,7 @@ category: research
 title: Latincrypt paper!
 date: 2017-08-24
 lastmod: 2017-08-24
-authors: ["me"]
+authors: ["thom"]
 
 enableGitInfo: false
 ---

@@ -2,7 +2,7 @@
 title: Solving LPN Using Large Covering Codes
 date: 2019-04-08
 authors:
-  - me
+  - thom
 location: Utrecht, The Netherlands
 event_url: https://www.win.tue.nl/eipsi/seminars_cwg.html
 abstract: |

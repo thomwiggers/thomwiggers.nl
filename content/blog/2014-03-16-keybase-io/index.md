@@ -4,8 +4,8 @@ layout: post
 draft: true
 #published: true
 title: Keybase.io
-authors: ["me"]
-author_login: me
+authors: ["thom"]
+author_login: thom
 author_url: http://thomwiggers.nl
 date: '2014-03-16 13:12:27 +0100'
 lastmod: '2014-03-16 13:12:27 +0100'

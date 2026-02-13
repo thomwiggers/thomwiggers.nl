@@ -11,7 +11,7 @@ type: "book"
 highlight: false
 
 authors:
-  - "me"
+  - "thom"
 
 ---
 

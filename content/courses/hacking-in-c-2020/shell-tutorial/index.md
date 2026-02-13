@@ -9,7 +9,7 @@ type: "docs"
 highlight: true
 highlight_languages: ["c", "makefile", "shell", "plaintext"]
 authors:
-  - me
+  - thom
 ---
 
 {{< youtube id="I1N4T0UXuaA" >}}

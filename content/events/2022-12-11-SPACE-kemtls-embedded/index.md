@@ -12,7 +12,7 @@ summary: "Conference talk about our publication KEMTLS vs. Post-Quantum TLS: Per
 abstract: null
 date: 2022-12-06T13:25:43+01:00
 authors:
-  - me
+  - thom
 tags:
   - research
   - SPACE

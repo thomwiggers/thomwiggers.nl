@@ -8,7 +8,7 @@ type: "docs"
 highlight: true
 highlight_languages: ["c", "makefile", "shell", "plaintext"]
 authors:
-  - me
+  - thom
 ---
 
 This writeup was contributed by Denisa and Ischa.

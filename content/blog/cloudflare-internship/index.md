@@ -4,7 +4,7 @@
 title: "Cloudflare Internship"
 subtitle: ""
 summary: ""
-authors: ['me']
+authors: ['thom']
 tags: ['cloudflare']
 categories: []
 date: 2022-02-27T17:20:29+01:00

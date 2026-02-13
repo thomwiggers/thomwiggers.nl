@@ -14,7 +14,7 @@ summary: |
 abstract: null
 date: 2021-02-26T14:37:31+01:00
 authors:
-  - me
+  - thom
 tags:
   - teaching
   - hacking in c

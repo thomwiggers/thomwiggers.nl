@@ -15,7 +15,7 @@ summary: |
 abstract: null
 date: 2024-03-07T15:58:11+01:00
 authors:
-  - me
+  - thom
 tags: []
 featured: false
 image:

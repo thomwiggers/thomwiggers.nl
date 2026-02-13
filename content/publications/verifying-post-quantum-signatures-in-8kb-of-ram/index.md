@@ -10,7 +10,7 @@ authors:
   - Tanja Lange
   - Marc Stöttinger
   - Elisabeth Waitz
-  - me
+  - thom
   - Bo-Yin Yang
 date: 2021-07-15
 hugoblox.ids: {doi: "10.1007/978-3-030-81293-5_12"}

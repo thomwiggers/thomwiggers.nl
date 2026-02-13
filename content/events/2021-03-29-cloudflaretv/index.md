@@ -17,7 +17,7 @@ abstract: |
   KEMTLS, for making the TLS protocol safe for quantum computers.
 date: 2021-03-29
 authors:
-  - me
+  - thom
   - sofiaceli
 tags:
   - KEMTLS

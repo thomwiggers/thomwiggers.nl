@@ -12,7 +12,7 @@ abstract: null
 date: 2023-08-21T13:26:28+02:00
 authors:
   - Dimitri Mankowski
-  - me
+  - thom
 tags:
   - research
 featured: false

@@ -15,7 +15,7 @@ abstract: |
   grotere uitdaging.
 date: 2024-06-20T11:31:47+02:00
 authors:
-  - me
+  - thom
 tags:
   - tls
 featured: false

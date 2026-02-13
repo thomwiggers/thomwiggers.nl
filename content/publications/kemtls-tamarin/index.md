@@ -6,7 +6,7 @@ authors:
   - "sofiaceli"
   - "Jonathan Hoyland"
   - "douglasstebila"
-  - "me"
+  - "thom"
 date: 2022-08-30T14:30:09+02:00
 hugoblox.ids: {doi: "10.1007/978-3-031-17143-7_4"}
 
