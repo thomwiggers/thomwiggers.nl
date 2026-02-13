@@ -1,7 +1,7 @@
 ---
 title: AuthKEM abridged
 authors:
- - thom
+ - me
  - sofiaceli
 description: |
   High-level introduction to the AuthKEM proposal for TLS.
@@ -20,9 +20,8 @@ This serves as a high-level overview and introduction to [`draft-celi-wiggers-au
 
 [draft-celi-wiggers-authkem]: https://www.ietf.org/id/draft-celi-wiggers-tls-authkem-01.html "draft-celi-wiggers-authkem"
 
-{{% callout note %}}
-Anything should be made more clear? Please send us an email.
-{{% /callout %}}
+> [!NOTE]
+> Anything should be made more clear? Please send us an email.
 
 ## Authentication via KEM
 
@@ -106,13 +105,14 @@ We also more carefully specify the implementation considerations, such as extens
 
 1. To negotiate server authentication via AuthKEM, we extend the `signature_algorithms` with our supported KEMs. This way the client indicates support to the server.
 
-{{% callout note %}}
+> [!NOTE]
+> 
 **Why extend `signature_algorithms`? It's not a signature scheme!**
 
 This extension really identifies *authentication* algorithms.
 And if we would add a new extension we would have to _ignore_ the
 `signature_algorithms`-indicated algorithms, which is also just messy.
-{{% /callout %}}
+
 
 2. The Client responds with `KemEncapsulation` message.
 3. The shared secret that the client obtained from the `Encapsulate` operation is combined with the existing handshake keys to derive a new "authenticated" handshake traffic secret (-AHS- This secret key will mostly be useful for client certificate authentication later).
@@ -152,9 +152,8 @@ This still allows a client to send its application data to the server in the sam
 We think that in almost any application, like in HTTP, a client will first have to indicate what action they want the server to perform or what data they need, before any useful non-public data can be sent by the server.
 AuthKEM allows both the request and the response to be sent in the same place.
 
-{{% callout note %}}
-For applications like HTTP/2, which send mostly-public connection settings in this first message from the server, something like a server-side version of ALPN might be useful to avoid performance penalties when AuthKEM is used.
-{{% /callout %}}
+> [!NOTE]
+> For applications like HTTP/2, which send mostly-public connection settings in this first message from the server, something like a server-side version of ALPN might be useful to avoid performance penalties when AuthKEM is used.
 
 ### Why we think sending Client Data to the server early is fine
 
@@ -214,9 +213,8 @@ Of course, TLS also has a mode where the client proves its identify through a cl
 For client authentication, we follow a similar mechanism.
 Unfortunately, we do suffer the full penalty of the additional round-trip necessary for authentication via key exchange here.
 
-{{% callout note %}}
-We will later discuss how to avoid this penalty _if_ the client already knows the server's long-term public key _and_ knows that it will want to authenticate.
-{{% /callout %}}
+> [!NOTE]
+> We will later discuss how to avoid this penalty _if_ the client already knows the server's long-term public key _and_ knows that it will want to authenticate.
 
 
 In the below picture we sketch the message flow of client authentication.
@@ -251,22 +249,23 @@ We added AHS to the key schedule earlier.
 This is necessary because the client certificate needs to be sent securely.
 TLS requires the client's identity (its certificate) to be protected against both passive and active attackers. Encrypting it with (keys derived from) AHS ensures that only the real server can read it.
 
-{{% callout note %}}
+> [!NOTE]
+> 
 **What about server auth with AuthKEM and client auth with signatures?**
 
 Good question. The current design and proofs use the key schedule and that the client authentication result is mixed into the final handshake secrets.
 We can _probably_ prove the protocol correct still if the client uses signed key exchange, but it would  be good if this work is done.
-{{% /callout %}}
 
-{{% callout warning %}}
-**Does this mean the CertificateRequest isn't authenticated?**
 
-Although the client's certificate is protected, it is possible for an active attacker to try to trigger a client to attempt to authenticate.
-They will not be able to read the certificate, but might learn that a client has one or even just trigger confusing or annoying UI popups.
-If this is a concern in your application (web browsers?), we might need to consider allowing the client to indicate it will only allow post-handshake authentication.
+> [!WARNING]
+> **Does this mean the CertificateRequest isn't authenticated?**
+>
+> Although the client's certificate is protected, it is possible for an active attacker to try to trigger a client to attempt to authenticate.
+> They will not be able to read the certificate, but might learn that a client has one or even just trigger confusing or annoying UI popups.
+> If this is a concern in your application (web browsers?), we might need to consider allowing the client to indicate it will only allow post-handshake authentication.
+>
+> We're tracking this in [issue #16: Authentication concerns for the client authentication requests](https://github.com/claucece/draft-celi-wiggers-tls-authkem/issues/16).
 
-We're tracking this in [issue #16: Authentication concerns for the client authentication requests](https://github.com/claucece/draft-celi-wiggers-tls-authkem/issues/16).
-{{% /callout %}}
 
 ## More efficient AuthKEM if you've already got the keys
 
@@ -276,13 +275,13 @@ This means that these handshakes do not tie back to an original handshake's secu
 Clients do not need to manage a secret key, and servers do not need to keep track of secret keys per client.
 Also, because this just requires plain KEM public keys rather than (stateful) opaque session tickets, we expect fewer privacy or tracking concerns.
 
-{{% callout note %}}
-We sometimes call this "pre-distributed keys" (or PDK) because:
+> [!NOTE]
+> We sometimes call this "pre-distributed keys" (or PDK) because:
+>
+>  * PSK is already taken
+>  * PSK typically refers to symmetric keys
+>  * Server public keys might be cached by clients, but they could also be installed (_i.e. pre-distributed_) through, for example, firmware.
 
- * PSK is already taken
- * PSK typically refers to symmetric keys
- * Server public keys might be cached by clients, but they could also be installed (_i.e. pre-distributed_) through, for example, firmware.
-{{% /callout %}}
 
 ### Server authentication in the abbreviated handshake
 
@@ -310,9 +309,8 @@ The idea is simple: if the client already has the server's long-term public key 
 To enable the client-authentication scenario that is to follow, we mix in the shared secret obtained by encapsulating to the server's long-term public key into the key schedule early: specifically, we derive the Early Secret (ES) key in TLS's handshake key schedule from it.
 This also mirrors that this key does not have any forward secrecy (which can only be obtained once the ephemeral key exchange is completed), just like ES in "normal" TLS 1.3.
 
-{{% callout note %}}
-If the server rejects the `KEMEncapsulation` sent by the client in the `ClientHello` extension, the handshake can simply continue as usual; just ignoring the attempted "resumption".
-{{% /callout %}}
+> [!NOTE]
+> If the server rejects the `KEMEncapsulation` sent by the client in the `ClientHello` extension, the handshake can simply continue as usual; just ignoring the attempted "resumption".
 
 ### Client authentication in the abbreviated handshake
 
@@ -365,5 +363,5 @@ parties, it is possible to forge transcripts indistinguishable from real ones pr
 
 * Peter Schwabe, Douglas Stebila and Thom Wiggers. **Post-Quantum TLS Without Handshake Signatures**, ACM CCS 2020. https://ia.cr/2020/534
 * Peter Schwabe, Douglas Stebila and Thom Wiggers. **More efficient KEMTLS with pre-distributed keys**, ESORICS 2021. https://ia.cr/2021/779
-* Sofía Celi, Armando Faz-Hernández, Nick Sullivan, Goutam Tamvada, Luke Valenta, Bas Westerbaan,  Thom Wiggers, Chris Wood. **Implementing and Measuring KEMTLS** Latincrypt 2021, https://ia.cr/2021/1019
-* Sofía Celi, Peter Schwabe, Douglas Stebila, Nick Sullivan, Thom Wiggers. **[draft-celi-wiggers-authkem][]**, IETF draft
+* Sofia Celi, Armando Faz-Hernández, Nick Sullivan, Goutam Tamvada, Luke Valenta, Bas Westerbaan, Thom Wiggers, Chris Wood. **Implementing and Measuring KEMTLS** Latincrypt 2021, https://ia.cr/2021/1019
+* Sofia Celi, Peter Schwabe, Douglas Stebila, Nick Sullivan, Thom Wiggers. **[draft-celi-wiggers-authkem][]**, IETF draft

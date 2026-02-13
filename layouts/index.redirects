@@ -1,11 +1,19 @@
 # Automatically generated
 # See layouts/index.redirects
-{{- /* Note: code purposely un-indented to preserve required spacing in output. */ -}}
+{{- $aliases := slice -}}
 {{- range $page := where site.AllPages ".Aliases" "!=" nil -}}
-{{- range $page.Aliases }}
-{{ .|relLangURL }} {{ $page.RelPermalink -}}
-{{- end }}
+  {{- range $page.Aliases -}}
+    {{- $aliases = $aliases | append (printf "%s %s 301" (.|relLangURL) $page.RelPermalink) -}}
+  {{- end -}}
+{{- end -}}
+{{- range ($aliases | uniq | sort) }}
+{{ . }}
 {{- end }}
 
 # Manual added
-/p/* /publication/:splat 301
+/p/* /publications/:splat 301
+/post/* /blog/:splat 301
+/publication/* /publications/:splat 301
+/event/* /events/:splat 301
+/project/* /projects/:splat 301
+/teaching/* /courses/:splat 301

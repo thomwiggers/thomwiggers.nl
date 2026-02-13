@@ -1,0 +1,438 @@
+---
+# Documentation: https://wowchemy.com/docs/managing-content/
+
+title: "A tale of two models: Formal analysis of KEMTLS in Tamarin"
+summary: ""
+authors: ["thom"]
+tags: ["kemtls", "research"]
+categories: ["research"]
+date: 2022-09-19T10:51:35+02:00
+slides:
+  # Choose a theme from https://github.com/hakimel/reveal.js#theming
+  theme: simple
+  # Choose a code highlighting style (if highlighting enabled in `params.toml`)
+  #   Light style: github. Dark style: dracula (default).
+  #   Available highlight themes listed in: https://highlightjs.org/static/demo/
+  #   Use lower case names and replace space with hyphen '-'
+  highlight_style: dracula
+  diagram: true
+  diagram_options:
+    # Mermaid diagram themes include: default,base,dark,neutral,forest
+    theme: neutral
+    sequence:
+      mirror_actors: false
+
+  # RevealJS slide options.
+  # Options are named using the snake case equivalent of those in the RevealJS docs.
+  reveal_options:
+    controls: true
+    progress: trueu
+    navigation_mode: linear
+    slide_number: c/t # true | false | h.v | h/v | c | c/t
+    center: true
+    rtl: false
+    mouse_wheel: true
+    transition: fade # none/fade/slide/convex/concave/zoom
+    transitionSpeed: default # default/fast/slow
+    background_transition: slide # none/fade/slide/convex/concave/zoom
+    touch: true
+    loop: false
+    menu_enabled: true
+    hash: true
+---
+
+<section>
+  <h2><span style="font-family: 'Brush Script MT', cursive;">A tale of two models:</span></h2>
+  <h3>Formal analysis of KEMTLS in Tamarin</h3>
+
+  sofiaceli, Jonathan Hoyland, douglasstebila and <strong>me</strong>.
+
+</section>
+
+<section>
+  <section>
+    <p class="r-fit-text">Once upon a time...</p>
+  </section>
+
+  <section>
+    <ul>
+      <li class="fragment">Observation: PQ signatures are quite big and/or slow</li>
+      <li class="fragment">Idea: Use KEMs for authentication</li>
+      <li class="fragment">Proposal: <a href="https://kemtls.org"><strong>KEMTLS</strong></a></li>
+    </ul>
+  </section>
+</section>
+
+<section>
+  <section>
+    <h2>KEMTLS</h2>
+
+    <div class="t-container">
+      <div class="r-stack col">
+        <div class="mermaid">
+        sequenceDiagram
+          Client->>+Server: ClientHello: ephemeral kex
+          Server->>-Client: ServerHello: ephemeral kex
+          Server->>+Client: Certificate: static KEM pk
+          Client->>-Server: Ciphertext
+          Client->>Server: ClientFinished
+          rect rgba(0, 0, 0, 0)
+            Client-->>Server: Application Data
+          end
+          Server->>Client: ServerFinished
+          Server-->>Client: Application Data
+        </div>
+        <div class="fragment mermaid" style="background: #fff">
+        sequenceDiagram
+          Client->>+Server: ClientHello: ephemeral kex
+          Server->>-Client: ServerHello: ephemeral kex
+          Server->>+Client: Certificate: static KEM pk
+          Client->>-Server: Ciphertext
+          Client->>Server: ClientFinished
+          rect pink
+            Client-->>Server: Application Data
+          end
+          Server->>Client: ServerFinished
+          Server-->>Client: Application Data
+        </div>
+      </div>
+      <div class="col" >
+        <ul>
+          <li>Ephemeral KEM key exchange</li>
+          <li>KEM public key in certificate</li>
+          <li>Avoid extra round-trip by letting client send data immediately</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+  <h2>KEMTLS variants</h2>
+
+  <ul>
+    <li class="fragment">Mutual authentication</li>
+    <li class="fragment">What if the client already knows the server's public key?
+      <ul>
+        <li>E.g. resumption, or PSK-like hardcoded keys</li>
+        <li>KEMTLS-PDK: KEMTLS with Pre-Distributed Keys</li>
+      </ul>
+    </li>
+  </ul>
+  </section>
+
+  <section>
+    <h2>Pen-and-paper proofs</h2>
+    <ul style="display: block; width: 100%">
+      <li>Original KEMTLS paper
+      <ul>
+        <li>Server-to-client authentication</li>
+      </ul>
+      </li>
+      <li>KEMTLS-PDK paper:
+      <ul>
+        <li>Server-to-client authentication</li>
+        <li>Mutual authentication</li>
+      </ul>
+      </li>
+    </ul>
+
+    <p class="fragment">Both proofs have seen several corrections, and live in similar, but slightly separate models.</p>
+  </section>
+</section>
+
+<section>
+<h2>Computer-aided proofs</h2>
+
+<ul>
+  <li> Proving things by hand:
+    <ul>
+      <li>Tedious, error-prone work</li>
+      <li>Very easy to subconciously fill in gaps in the analysis in your mind</li>
+      <li>Very hard to consider many variant protocols together</li>
+    </ul>
+  </li>
+  <li class="fragment">Computers:
+    <ul>
+      <li>Very, very good at being very, very literal</li>
+      <li>Will not accept handwavyness</li>
+      <li>Have no problem keeping track of different protocol variants</li>
+    </ul>
+  </li>
+</ul>
+</section>
+
+<section>
+  <h2>Protocol analysis of TLS 1.3</h2>
+  <ul>
+    <li>TLS 1.3 has seen lots of pen-and-paper and computer-aided analysis work</li>
+    <li>Including analyses in Tamarin (Cremers et al.), Proverif (Barghavan et al.)</li>
+    <li>TLS 1.3 was developed using a "design-break-fix-release" cycle rather than "design-release-break-patch" cycle (Paterson and Van der Merwe)</li>
+  </ul>
+</section>
+
+<section data-visibility="hidden">
+  <section>
+    <h2>Tamarin</h2>
+
+    <p>
+      Tamarin models protocols as <em>rules</em> that take in a set of <em>variables</em> and one or more <em>messages</em>, and then emit new variables and messages.
+    </p>
+
+    <p class="fragment">The (Dolev-Yao) attacker controls the network and can read, send, change, drop all messages.
+    </p>
+
+    <p class="fragment">
+      Any cryptographic operation is <em>perfect</em>.
+      Cryptographic compromise is modeled through manually modeled "oracles" that reveal specific keys.
+    </p>
+  </section>
+
+  <section>
+    <h2>Tamarin rules</h2>
+    <pre><code class="language-plaintext" data-trim data-line-numbers="1-11|2-4|5-7|8-11">
+      rule ProtocolMessageI:
+        [
+          In(message), VariableI(x)
+        ]
+        --[
+          ReceivedMessageFact(message, x)
+        ]->
+        [
+          Out(SomeOtherMessage),
+          VariableII(operation(x))
+        ]
+      </code></pre>
+  </section>
+
+  <section>
+    <h2>Tamarin Lemmas</h2>
+    <pre><code class="language-plaintext" data-trim data-line-numbers="1-13|2|3-5|6|7-8|9-12">
+      lemma my_lemma:
+        "All key #i #j.
+          ExchangedKey(key)@#i  // some protocol-emitted fact
+                                // over `key` at time #i
+          & K(key)@#j           // Adversary knows `key` at #j
+          ==> /* then */
+          /* exists a time #z */
+          Ex #z.
+            /* at which key was revealed */
+            RevealedKey(key)@#z
+            /* and #z was before #j */
+            & #z < #j
+        "
+      </code></pre>
+  </section>
+</section>
+
+
+<section>
+  <section>
+  <h2>Two approaches</h2>
+
+  <div class="t-container">
+    <div class="col">
+      <h3>Approach #1</h3>
+      Take an existing model and adapt it to represent KEMTLS
+    </div>
+
+    <div class="col">
+      <h3>Approach #2</h3>
+      Build a new model from scratch
+    </div>
+  </div>
+  </section>
+
+  <section>
+    <h2>Game plan</h2>
+
+    <div class="t-container">
+      <div class="col">
+        <h3>Approach #1</h3>
+        <ol>
+          <li>Take the <a href="https://tls13tamarin.github.io">TLS 1.3 Tamarin model by Cremers et al.</a></li>
+          <li>Change it to represent KEMTLS(-PDK)</li>
+          <li>???</li>
+          <li>Prove it!</li>
+        </ol>
+      </div>
+
+      <div class="col">
+        <h3>Approach #2</h3>
+        <ol>
+          <li>Simplify the protocol to its cryptographic core</li>
+          <li>Convert the pen-and-paper claimed security properties to Tamarin</li>
+          <li>???</li>
+          <li>Prove it</li>
+        </ol>
+      </div>
+    </div>
+    </section>
+
+    <section style="font-size: 80%">
+      <h2>Motivations</h2>
+
+      <div class="t-container">
+        <div class="col">
+          <h3>Approach #1</h3>
+          <ol>
+            <li>Tried-and-tested TLS model</li>
+            <li>Many tedious protocol details already modeled:
+              <ul>
+                <li>Key derivation</li>
+                <li>Handshake encryption</li>
+                <li>Message syntax</li>
+                <li>Record layer</li>
+                <li>Certificate PKI</li>
+              </ul>
+            </li>
+            <li>Many existing lemmas: both security lemmas as well as "helper" lemmas</li>
+          </ol>
+        </div>
+
+        <div class="col">
+          <h3>Approach #2</h3>
+          <ul>
+            <li>Precisely model the different levels of forward-secrecy and explicit authentication properties claimed in our pen-and-paper proofs</li>
+            <li>Don't carry around the baggage of handshake encryption, full TLS key schedule</li>
+            <li>Analyze KEMTLS' deniability features</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section style="font-size: 60%">
+      <h2>Feature comparison</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>Model #1</th>
+            <th>Model #2</th>
+          </tr>
+          <tr>
+            <th colspan="3"><em>Protocol modelling</em></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Encrypted handshake messages</td>
+            <td>✅</td>
+            <td>❌</td>
+          </tr>
+          <tr>
+            <td>HKDF and HMAC decomposed into hash</td>
+            <td>✅</td>
+            <td>❌</td>
+          </tr>
+          <tr>
+            <td>Key exchange and auth KEMs are same algorithm</td>
+            <td>✅</td>
+            <td>❌</td>
+          </tr>
+          <tr>
+            <th colspan="3"><em>Security properties</em></th>
+          </tr>
+          <tr>
+            <td>Adversary can reveal long-term keys</td>
+            <td>✅</td>
+            <td>✅</td>
+          </tr>
+          <tr>
+            <td>Adversary can reveal ephemeral keys</td>
+            <td>✅</td>
+            <td>❌</td>
+          </tr>
+          <tr>
+            <td>Adversary can reveal intermediate session keys</td>
+            <td>❌</td>
+            <td>✅</td>
+          </tr>
+          <tr>
+            <td>Secrecy of handshake and traffic keys</td>
+            <td>✅</td>
+            <td>✅</td>
+          </tr>
+          <tr>
+            <td>Forward Secrecy</td>
+            <td>✅</td>
+            <td>✅</td>
+          </tr>
+          <tr>
+            <td>Multiple flavours of forward secrecy</td>
+            <td>❌</td>
+            <td>✅</td>
+          </tr>
+          <tr>
+            <td>Explicit authentication</td>
+            <td>✅</td>
+            <td>✅</td>
+          </tr>
+          <tr>
+            <td>Deniability</td>
+            <td>❌</td>
+            <td>✅</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section style="font-size: 80%">
+      <h2>Results</h2>
+
+      <div class="t-container">
+        <div class="col">
+          <h3>Approach #1</h3>
+          <ul>
+            <li>Managed to make the model auto-prove
+              <ul><li style="color: grey; font-size: 50%">We did disable some features not immediately relevant to KEMTLS (including post-handshake authentication, PSK)</li></ul>
+            </li>
+            <li>Run-time: 28 hours (many, many cores)</li>
+            <li>Memory required: >120GB of RAM</li>
+            <li>Found a minor bug in a lemma of the Cremers et al. model</li>
+          </ul>
+        </div>
+
+        <div class="col">
+          <h3>Approach #2</h3>
+          <ul>
+            <li>Found several minor mistakes in stated forward secrecy and authentication properties of KEMTLS and KEMTLS-PDK</li>
+            <li>Proves most security properties of KEMTLS in <strong>minutes</strong>.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Some more thoughts on Model #2</h2>
+      <ul>
+        <li>Surprisingly straightforward model:
+          <ul>
+            <li>Direct translation of security properties to Tamarin</li>
+            <li>~40 hours of work: much less than for #1</li>
+            <li>Modeling in both instances done by "newbies"</li>
+            <li>0 helper lemmas (no <code>[reuse]</code>!)</li>
+            <li>Everything auto-proves</li>
+          </ul>
+        </li>
+        <li>Maybe Tamarin is not so scary after all?</li>
+      </ul>
+    </section>
+</section>
+
+<section>
+  <section><h1>Wrap-up</h1></section>
+  <section>
+    <h3>A tale of two models: formal analysis of KEMTLS in Tamarin</h3>
+    <ul>
+      <li>Two approaches, two viewpoints: more confidence</li>
+      <li>It is possible to rigorize your pen-and-paper proofs in Tamarin</li>
+      <li>Full version of the paper and model source code available at <a href="https://kemtls.org">https://kemtls.org/</a>.</li>
+    </ul>
+    <p class="fragment">Model your own protocols!</p>
+
+    <p class="fragment">Thanks for your attention</p>
+
+    <p style="font-family: monospace; font-size: 80%">🐦 <a href="https://twitter.com/thomwiggers">@thomwiggers</a></p>
+  </section>
+</section>

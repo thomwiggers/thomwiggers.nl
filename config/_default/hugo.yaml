@@ -1,11 +1,12 @@
----
 # Configuration of Hugo
 # Guide: https://docs.hugoblox.com/tutorial/
-# Hugo Documentation:
-# https://gohugo.io/getting-started/configuration/#all-configuration-settings
+# Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
+# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Thom Wiggers  # Website name
-baseURL: 'https://thomwiggers.nl/'  # Website URL
+# Website name (set in params.yaml under hugoblox.branding.name)
+title: Thom Wiggers
+# Website URL
+baseURL: '/'
 
 ############################
 ## LANGUAGE
@@ -17,66 +18,55 @@ defaultContentLanguageInSubdir: false
 removePathAccents: true
 
 ############################
-## ADVANCED
+## PAGE OPTIONS
 ############################
 
-enableGitInfo: true
-summaryLength: 30
-enableEmoji: true
-enableRobotsTXT: true
-footnotereturnlinkcontents: <sup>^</sup>
-ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
 permalinks:
-  event: '/talk/:slug/'
+  events: '/talk/:slug/'
   tags: '/tag/:slug/'
   categories: '/category/:slug/'
   publication_types: '/publication-type/:slug/'
-disableAliases: true
+
+cascade:
+  - _target:
+      path: /slides/**
+      kind: page
+    outputs: [HTML, present]
+
+############################
+## ADVANCED
+############################
+
+relativeURLs: true
+build:
+  writeStats: true
+enableGitInfo: false
+summaryLength: 30
+pagination:
+  pagerSize: 10
+enableEmoji: true
+enableRobotsTXT: true
+footnotereturnlinkcontents: <sup>^</sup>
+ignoreFiles: [".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+disableAliases: false
 outputs:
-  home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
+  home: [HTML, RSS, headers, redirects, backlinks]
   section: [HTML, RSS]
 imaging:
-  resampleFilter: Lanczos
-  quality: 95
-  anchor: Smart
-timeout: "600000s"
+  resampleFilter: lanczos
+  quality: 90
+  anchor: smart
+  hint: picture
+timeout: 600000
 taxonomies:
-  tag: tags
-  category: categories
-  publication_type: publication_types
   author: authors
+  tag: tags
+  publication_type: publication_types
 markup:
   _merge: deep
-related:
-  threshold: 80
-  includeNewer: true
-  toLower: true
-  indices:
-    - name: tags
-      weight: 100
-    - name: categories
-      weight: 70
+  highlight:
+    lineNos: false
 security:
   _merge: deep
 sitemap:
   _merge: deep
-minify:
-  _merge: deep
-pagination:
-  _merge: deep
-
-mediaTypes:
-  "text/netlify":
-    delimiter: ''
-    suffixes: ['']
-outputFormats:
-  headers:
-    baseName: _headers
-    isPlainText: true
-    mediaType: text/netlify
-    notAlternative: true
-  redirects:
-    baseName: _redirects
-    isPlainText: true
-    mediaType: text/netlify
-    notAlternative: true

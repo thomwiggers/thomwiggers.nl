@@ -13,5 +13,5 @@
 /.well-known/matrix/*
     Access-Control-Allow-Origin: *
 
-https://:project.pages.dev/*
+https://*.pages.dev/*
     X-Robots-Tag: noindex

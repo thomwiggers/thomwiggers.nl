@@ -2,7 +2,7 @@
 title: Documents
 type: page
 
-view: 2
+view: card
 
 # Optional header image (relative to `static/img/` folder).
 header:
