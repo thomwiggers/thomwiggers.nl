@@ -1,10 +1,14 @@
 schema: hugoblox/author/v1
-slug: thom
+slug: me
 is_owner: true
 name:
   display: Thom Wiggers
   given: Thom
   family: Wiggers
+postnominals:
+  - PhD
+status:
+  icon: "☕️"
 role: Senior Cryptography Researcher
 bio: |
   Thom Wiggers is a cryptography researcher at [PQShield](https://pqshield.com).

@@ -4,7 +4,7 @@ title: Thom Wiggers
 
 # Username (this should match the folder name)
 authors:
-  - thom
+  - me
 
 # Is this the primary user of the site?
 superuser: true
