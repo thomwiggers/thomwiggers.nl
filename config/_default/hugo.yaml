@@ -6,7 +6,7 @@
 # Website name (set in params.yaml under hugoblox.branding.name)
 title: Thom Wiggers
 # Website URL
-baseURL: 'https://thomwiggers.nl/'
+baseURL: '/'
 
 ############################
 ## LANGUAGE
@@ -37,6 +37,7 @@ cascade:
 ## ADVANCED
 ############################
 
+relativeURLs: true
 build:
   writeStats: true
 enableGitInfo: false

@@ -46,4 +46,4 @@ aliases:
 
 We investigate alternate ways to bring TLS into the post-quantum age.
 Notably, we try to get rid of the expensive signature schemes in the online handshake, by authenticating using only KEMs.
-This research is the main subject of my [PhD thesis]({{< ref "/publications/thesis" >}}).
+This research is the main subject of my [PhD thesis]({{< relref "/publications/thesis" >}}).

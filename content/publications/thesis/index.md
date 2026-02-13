@@ -72,15 +72,15 @@ slides: ""
 
 ---
 
-You can [find information on the defense here]({{< ref "/events/phd-defense" >}}).
+You can [find information on the defense here]({{< relref "/events/phd-defense" >}}).
 
 
 ## Software and raw data
 
 * [Post-Quantum TLS experiments](https://github.com/thomwiggers/kemtls-experiment/tree/thesis/)
-* [KEMTLS in Tamarin]({{< ref "/publications/kemtls-tamarin" >}})
-* [KEMTLS over the internet]({{< ref "/publications/measuring-kemtls" >}})
-* [KEMTLS on embedded systems]({{< ref "/publications/kemtls-embedded" >}})
+* [KEMTLS in Tamarin]({{< relref "/publications/kemtls-tamarin" >}})
+* [KEMTLS over the internet]({{< relref "/publications/measuring-kemtls" >}})
+* [KEMTLS on embedded systems]({{< relref "/publications/kemtls-embedded" >}})
 * [PQClean](https://github.com/PQClean/PQClean)
-* [Verifying post-quantum signatures in 8kB of RAM]({{< ref "/publications/verifying-post-quantum-signatures-in-8kb-of-ram" >}})
-* [Practially solving LPN]({{< ref "/publications/lpn" >}})
+* [Verifying post-quantum signatures in 8kB of RAM]({{< relref "/publications/verifying-post-quantum-signatures-in-8kb-of-ram" >}})
+* [Practially solving LPN]({{< relref "/publications/lpn" >}})

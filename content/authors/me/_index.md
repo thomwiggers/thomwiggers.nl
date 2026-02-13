@@ -67,4 +67,4 @@ me is a cryptography researcher at [PQShield](https://pqshield.com).
 His [PhD thesis][thesis] was on the interactions of post-quantum cryptography with protocols, under the supervision of [peterschwabe][cryptojedi], at the Institute of Computing and Information Sciences, Radboud University in The Netherlands.
 
 [cryptojedi]: https://cryptojedi.org/peter/
-[thesis]: {{< ref "/publications/thesis" >}}
+[thesis]: {{< relref "/publications/thesis" >}}

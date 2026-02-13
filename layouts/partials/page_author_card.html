@@ -9,9 +9,9 @@
   {{ if $profile.external_url }}
     {{ $profile_url = $profile.external_url }}
   {{ else if and (eq $site_type "Person") ($profile.is_owner) }}
-    {{ $profile_url = site.BaseURL }}
+    {{ $profile_url = "/" | relURL }}
   {{ else if $profile.has_data }}
-    {{ $profile_url = printf "/authors/%s/" $profile.slug }}
+    {{ $profile_url = (printf "/authors/%s/" $profile.slug) | relURL }}
   {{ end }}
 
   {{ $avatar := $profile.avatar }}

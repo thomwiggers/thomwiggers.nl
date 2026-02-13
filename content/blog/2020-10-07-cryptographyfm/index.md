@@ -33,4 +33,4 @@ Douglas and I appeared on Nadim Kobeissi's new podcast Cryptography FM to talk a
 
 You can find the episode [on the Cryptography.fm website](https://www.cryptography.fm/1).
 
-[kemtls]: {{< ref "publications/kemtls" >}}
+[kemtls]: {{< relref "publications/kemtls" >}}

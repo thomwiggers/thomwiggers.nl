@@ -211,7 +211,7 @@ Those driving can park in garages [Eiermarkt][eiermarkt] (very tight, close by) 
 There are signs towards these garages as you approach the city center.
 For more information, see the [municipal parking web page (in Dutch)][parkeren nijmegen].
 
-[thesis]: {{< ref "/publications/thesis" >}}
+[thesis]: {{< relref "/publications/thesis" >}}
 [livestream]: https://weblectures.ru.nl/permalink/l1253ba88849cdgjdfbs/iframe/
 [gmaps]: https://maps.app.goo.gl/UfdfSN6hfGqHy8Bm7
 [nsplanner]: https://www.ns.nl/reisplanner/#/?vertrek=Nijmegen&vertrektype=treinstation&aankomst=ChIJTf0U0-0Ix0cRJ0om8qrcLj4&aankomsttype=poi&aankomstlabel=Aula%20Radboud%20Universiteit&type=aankomst&tijd=2024-01-09T14:00&firstMileModality=PUBLIC_TRANSPORT&lastMileModality=PUBLIC_TRANSPORT
