@@ -51,6 +51,7 @@ sections:
     id: papers
     content:
       title: Featured Publications
+      count: 0
       filters:
         folders:
           - publications
@@ -62,6 +63,7 @@ sections:
     content:
       title: Recent Publications
       text: ''
+      count: 0
       filters:
         folders:
           - publications
