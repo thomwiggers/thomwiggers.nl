@@ -23,7 +23,7 @@ all_day: false
 # Schedule page publish date (NOT event date).
 publishDate: 2024-01-17T11:58:40+01:00
 
-authors: ['thom']
+authors: ['me']
 tags: ['tls', 'kemtls', 'invited']
 
 # Is this a featured event? (true/false)

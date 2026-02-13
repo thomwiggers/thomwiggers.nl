@@ -3,7 +3,7 @@
 
 title: "KEMTLS on the Cryptography.fm podcast"
 summary: "Douglas and I appeared on Nadim's new podcast ‘Cryptography FM’ to talk about KEMTLS"
-authors: ["thom"]
+authors: ["me"]
 tags: []
 categories: []
 date: 2020-10-07T15:35:48+02:00

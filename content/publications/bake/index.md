@@ -4,7 +4,7 @@
 title: "Bundled Authenticated Key Exchange: A Concrete Treatment of (Post-Quantum) Signal's Handshake Protocol"
 authors:
 - shuichi
-- thom
+- me
 - keitaro
 date: 2025-08-15T11:00:00-07:00
 hugoblox.ids: {doi: ""}

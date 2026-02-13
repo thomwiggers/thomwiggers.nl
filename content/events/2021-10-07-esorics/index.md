@@ -24,7 +24,7 @@ all_day: false
 # Schedule page publish date (NOT event date).
 publishDate: 2021-12-01T17:12:34+01:00
 
-authors: ['thom']
+authors: ['me']
 tag:
   - research
   - kemtls

@@ -3,7 +3,7 @@
 
 title: "A tale of two models: Formal analysis of KEMTLS in Tamarin"
 summary: ""
-authors: ["thom"]
+authors: ["me"]
 tags: ["kemtls", "research"]
 categories: ["research"]
 date: 2022-09-19T10:51:35+02:00
@@ -45,7 +45,7 @@ slides:
   <h2><span style="font-family: 'Brush Script MT', cursive;">A tale of two models:</span></h2>
   <h3>Formal analysis of KEMTLS in Tamarin</h3>
 
-  Sofía Celi, Jonathan Hoyland, Douglas Stebila and <strong>Thom Wiggers</strong>.
+  sofiaceli, Jonathan Hoyland, douglasstebila and <strong>me</strong>.
 
 </section>
 

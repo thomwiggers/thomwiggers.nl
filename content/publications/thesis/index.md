@@ -3,7 +3,7 @@
 
 
 title: "Post-Quantum TLS"
-authors: ['thom']
+authors: ['me']
 date: 2024-01-09T14:30:00+01:00
 hugoblox.ids: {doi: ""}
 

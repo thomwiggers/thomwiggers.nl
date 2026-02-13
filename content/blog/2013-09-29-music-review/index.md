@@ -2,8 +2,8 @@
 layout: post
 status: publish
 title: Music Review
-authors: ["thom"]
-author_login: Thom Wiggers
+authors: ["me"]
+author_login: me
 author_url: http://thomwiggers.nl
 date: '2013-09-29 21:00:42 +0200'
 date_gmt: '2013-09-29 20:00:42 +0200'

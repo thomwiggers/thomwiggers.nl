@@ -2,8 +2,8 @@
 layout: post
 status: publish
 title: Time-invariant equality in assembly
-authors: ["thom"]
-author_login: Thom Wiggers
+authors: ["me"]
+author_login: me
 author_url: http://thomwiggers.nl
 date: '2014-03-21 18:25:10 +0100'
 lastmod: '2014-03-21 18:25:10 +0100'
@@ -32,7 +32,7 @@ useful to someone else. </p>
 ;
 ; Linear time equality
 ;
-; Author: Thom Wiggers
+; Author: me
 ;
 
 ; based on this C code:

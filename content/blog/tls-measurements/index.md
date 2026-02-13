@@ -4,7 +4,7 @@
 title: "Post-quantum TLS experiments"
 subtitle: "Instantiations, transmission requirements, and performance measurements for NIST security levels I, III and V"
 summary: ""
-authors: ["thom"]
+authors: ["me"]
 tags: ["tls", "research", "post-quantum cryptography"]
 categories: ["research"]
 date: 2023-06-26T13:52:27+02:00

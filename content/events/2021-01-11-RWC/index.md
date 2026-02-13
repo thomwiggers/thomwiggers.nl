@@ -25,7 +25,7 @@ all_day: false
 # Schedule page publish date (NOT talk date).
 publishDate: 2021-01-11
 
-authors: ['thom', 'sofiaceli']
+authors: ['me', 'sofiaceli']
 tags:
   - KEMTLS
   - PQTLS
@@ -80,7 +80,7 @@ highlight_languages:
 
 # Post-Quantum TLS with KEMs instead of signatures
 
-_This article has also been posted to [Sofía Celi's blog](https://claucece.github.io/2021/01/10/cf-kemtls.html) and the [Cloudflare blog](https://blog.cloudflare.com/kemtls-post-quantum-tls-without-signatures/)._
+_This article has also been posted to [sofiaceli's blog](https://claucece.github.io/2021/01/10/cf-kemtls.html) and the [Cloudflare blog](https://blog.cloudflare.com/kemtls-post-quantum-tls-without-signatures/)._
 
 Fundamentally, the Transport Layer Security protocol (TLS), which
 secures most of the Internet connections, has mainly been a key exchange
@@ -222,8 +222,8 @@ efficient construction for a post-quantum NIKE is CSIDH, the security of
 which is the subject of ongoing debate. But, we can build on this idea
 by using KEMs for authentication. KEMTLS, the current proposed
 experiment, replaces the handshake signature by a post-quantum KEM key
-exchange. It was designed and introduced by Peter Schwabe, Douglas
-Stebila and Thom Wiggers on the
+exchange. It was designed and introduced by peterschwabe, Douglas
+Stebila and me on the
 [publication 'Post-Quantum TLS Without Handshake Signatures'](https://thomwiggers.nl/publications/kemtls/kemtls.pdf).
 
 KEMTLS, therefore, gives the same goals as TLS 1.3 (authentication,
@@ -265,7 +265,7 @@ significant.
 KEMTLS was presented at ACM CCS 2020. You can read more about its
 details in [the paper](https://thomwiggers.nl/publications/kemtls/kemtls.pdf). It was
 initially [implemented in the RustTLS library](https://github.com/thomwiggers/kemtls-experiment)
-by Thom Wiggers using optimized C and assembly implementations of the post-quantum
+by me using optimized C and assembly implementations of the post-quantum
 algorithms provided by the [PQClean](https://github.com/PQClean/PQClean) and
 [Open Quantum Safe](https://openquantumsafe.org/) projects.
 
@@ -365,8 +365,8 @@ handshake will proceed with KEMTLS. If the server requests for a Client KEMTLS
 Certificate, the handshake will invoke client KEMTLS authentication.
 
 Many thanks to everyone involved in the project: Chris Wood, Armando
-Faz-Hernandez, Thom Wiggers, Bas Westerbaan, Peter Wu, Peter Schwabe, Goutam
-Tamvada, Douglas Stebila, Thibault Meunier, and the whole Cloudflare
+Faz-Hernandez, me, Bas Westerbaan, Peter Wu, peterschwabe, Goutam
+Tamvada, douglasstebila, Thibault Meunier, and the whole Cloudflare
 cryptography team.
 
 [^1]:  It is worth noting that the RSA key transport in TLS ≤1.2 authenticates

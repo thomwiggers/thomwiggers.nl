@@ -2,7 +2,7 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "KEMTLS vs. Post-Quantum TLS: Performance on Embedded Systems"
-authors: ['Ruben Gonzalez', 'thom']
+authors: ['Ruben Gonzalez', 'me']
 date: 2022-12-06T12:01:41+01:00
 hugoblox.ids: {doi: "10.1007/978-3-031-22829-2_6"}
 

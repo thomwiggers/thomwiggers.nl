@@ -42,8 +42,8 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Thom Wiggers is a cryptography researcher at [PQShield](https://pqshield.com).
-        His [PhD thesis]({{< ref "/publications/thesis" >}}) was on the interactions of post-quantum cryptography with protocols, under the supervision of [Peter Schwabe](https://cryptojedi.org/peter/), at the Institute of Computing and Information Sciences, Radboud University in The Netherlands.
+        me is a cryptography researcher at [PQShield](https://pqshield.com).
+        His [PhD thesis]({{< ref "/publications/thesis" >}}) was on the interactions of post-quantum cryptography with protocols, under the supervision of [peterschwabe](https://cryptojedi.org/peter/), at the Institute of Computing and Information Sciences, Radboud University in The Netherlands.
     design:
       columns: '1'
   - block: collection

@@ -3,7 +3,7 @@
 
 slug: phd-defense
 title: "Ph.D. defense"
-event: "Ph.D. defense of Thom Wiggers' thesis \"Post-Quantum TLS\""
+event: "Ph.D. defense of me' thesis \"Post-Quantum TLS\""
 #event_url: https://thomwiggers.nl/talk/ph.d.-defense/
 location: Aula Building, Radboud University Nijmegen
 address:
@@ -12,7 +12,7 @@ address:
   region:
   postcode: 6525 HP
   country: Netherlands
-summary: "Ph.D. defense of Thom Wiggers' thesis entitled \"Post-Quantum TLS\"."
+summary: "Ph.D. defense of me' thesis entitled \"Post-Quantum TLS\"."
 abstract:
 
 # Talk start and end times.
@@ -24,7 +24,7 @@ all_day: false
 # Schedule page publish date (NOT event date).
 publishDate: 2023-12-05T21:56:39+01:00
 
-authors: ['thom']
+authors: ['me']
 tags: ['research']
 
 # Is this a featured event? (true/false)

@@ -29,7 +29,7 @@ all_day: false
 # Schedule page publish date (NOT event date).
 publishDate: 2024-05-15T14:56:37+02:00
 
-authors: ['thom']
+authors: ['me']
 tags: ['post-quantum', 'tls', 'kemtls', 'invited talk']
 
 # Is this a featured event? (true/false)

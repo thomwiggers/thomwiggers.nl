@@ -4,7 +4,7 @@
 title: "Building confidence in cryptographic protocols"
 subtitle: "Guest post on Cloudflare blog."
 summary: "An introduction to formal analysis and our proof of the security of KEMTLS."
-authors: ['thom']
+authors: ['me']
 tags: ['cloudflare', 'post-quantum', 'cryptography', 'tamarin']
 categories: ['research']
 date: 2022-02-27T17:19:25+01:00

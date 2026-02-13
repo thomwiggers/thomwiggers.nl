@@ -13,7 +13,7 @@ tags:
   - ocsp
   - ocsp stapling
 authors:
-  - thom
+  - me
 ---
 
 Today, I enabled perfect forward secrecy on my `nginx` installation. I'm writing

@@ -3,10 +3,10 @@
 
 title: "Revisiting PQ WireGuard: A Comprehensive Security Analysis With a New Design Using Reinforced KEMs"
 authors: 
-  - Keitaro Hashimoto
-  - Shuichi Katsumata
-  - Guilhem Niot
-  - Thom Wiggers
+  - keitaro
+  - shuichi
+  - guilhem
+  - me
 date: 2026-05-18T08:00:00-07:00
 hugoblox.ids: {doi: ""}
 

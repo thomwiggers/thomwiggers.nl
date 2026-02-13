@@ -3,7 +3,7 @@
 
 title: "KEMTLS vs. Post-Quantum TLS: Performance on Embedded Systems"
 summary: "We investigate the performance of post-quantum TLS and KEMTLS clients in WolfSSL on embedded systems"
-authors: ["thom"]
+authors: ["me"]
 tags: ["kemtls", "research", "embedded", "SPACE"]
 categories: ["research"]
 date: 2022-12-06T12:30:00+05:30
@@ -45,7 +45,7 @@ slides:
   <h2 class="r-fit-text">KEMTLS vs. Post-Quantum TLS</h2>
   <h3 class="r-fit-text">Performance on embedded systems</h3>
 
-  Ruben Gonzalez and <strong>Thom Wiggers</strong>
+  Ruben Gonzalez and <strong>me</strong>
 </section>
 
 <section>

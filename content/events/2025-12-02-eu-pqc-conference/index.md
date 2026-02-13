@@ -28,7 +28,7 @@ all_day: false
 # Schedule page publish date (NOT event date).
 publishDate: 2025-12-03T17:18:46+01:00
 
-authors: ['thom']
+authors: ['me']
 tags: []
 
 # Is this a featured event? (true/false)

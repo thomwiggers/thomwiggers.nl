@@ -10,7 +10,7 @@ type: "book"
 highlight: false
 
 authors:
-  - "thom"
+  - "me"
 
 ---
 

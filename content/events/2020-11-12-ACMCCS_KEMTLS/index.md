@@ -25,7 +25,7 @@ all_day: true
 # Schedule page publish date (NOT talk date).
 publishDate: 2021-01-11
 
-authors: ['thom']
+authors: ['me']
 tags:
   - KEMTLS
   - PQTLS

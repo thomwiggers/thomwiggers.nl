@@ -6,7 +6,7 @@ authors:
   - "matthiaskannwischer"
   - "peterschwabe"
   - "douglasstebila"
-  - "thom"
+  - "me"
 date: 2022-03-14T14:58:33+01:00
 hugoblox.ids: {doi: "10.1109/EuroSPW55150.2022.00010"}
 

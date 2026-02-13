@@ -4,7 +4,7 @@
 title: "Extract only needed citations from large bibfiles"
 subtitle: ""
 summary: ""
-authors: ['thom']
+authors: ['me']
 tags: ['software', 'research']
 categories: ['software', 'open source']
 date: 2019-09-18T15:03:11+02:00

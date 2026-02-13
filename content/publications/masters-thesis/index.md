@@ -7,7 +7,7 @@ date: "2018-09-25"
 
 # Authors
 authors:
-  - thom
+  - me
 
 # Publication type
 # 0: Uncategorized
@@ -86,7 +86,7 @@ aliases:
   - 'research/msc-thesis/'
 ---
 
-Master's thesis written under the supervision of Simona Samardjiska.
+Master's thesis written under the supervision of simonasamardjiska.
 
 ## Software
 

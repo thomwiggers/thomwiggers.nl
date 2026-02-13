@@ -27,7 +27,7 @@ all_day: false
 # Schedule page publish date (NOT event date).
 publishDate: 2022-05-31T17:24:14+02:00
 
-authors: ['thom']
+authors: ['me']
 tags:
   - research
   - teaching

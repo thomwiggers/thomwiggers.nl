@@ -9,7 +9,7 @@ tags:
  - review
  - fiction
 authors:
- - thom
+ - me
 ---
 
 I recently read *The Circle* by Dave Eggers. It is a bit like the classic

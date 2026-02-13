@@ -3,7 +3,7 @@
 
 title: "Post-Quantum TLS with KEMs"
 summary: "We investigate getting rid of signatures in TLS"
-authors: ['thom']
+authors: ['me']
 tags: 
   - cryptography
   - post-quantum

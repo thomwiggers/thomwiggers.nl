@@ -4,7 +4,7 @@
 title: "LaTeX Tips and Tricks"
 subtitle: ""
 summary: ""
-authors: ['thom']
+authors: ['me']
 tags: ['latex', 'technology']
 categories: []
 date: 2022-05-11T15:46:21+02:00

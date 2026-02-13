@@ -3,7 +3,7 @@
 
 title: "Practically Solving LPN"
 authors:
-  - thom
+  - me
   - simonasamardjiska
 date: 2021-07-12
 hugoblox.ids: {doi: "10.1109/ISIT45174.2021.9518109"}

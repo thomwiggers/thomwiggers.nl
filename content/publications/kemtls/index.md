@@ -7,7 +7,7 @@ title: "Post-Quantum TLS without handshake signatures"
 authors:
   - peterschwabe
   - douglasstebila
-  - thom
+  - me
 date: 2020-05-05
 lastmod: 2020-09-29
 hugoblox.ids: {doi: "10.1145/3372297.3423350"}

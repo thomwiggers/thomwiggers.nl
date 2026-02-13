@@ -3,11 +3,11 @@
 
 title: "A Comprehensive Study of the Signal Handshake Protocol: Bundled Authenticated Key Exchange"
 authors:
-  - Keitaro Hashimoto
-  - Shuichi Katsumata
-  - Guilhem Niot
+  - keitaro
+  - shuichi
+  - guilhem
   - Ida Tucker
-  - Thom Wiggers
+  - me
 date: 2025-09-28
 hugoblox.ids: {doi: ""}
 

@@ -9,7 +9,7 @@ authors:
   - Goutam Tamvada
   - Luke Valenta
   - Bas Westerbaan
-  - thom
+  - me
   - Christopher Wood
 date: 2021-09-30
 hugoblox.ids: {doi: "10.1007/978-3-030-88238-9_5"}

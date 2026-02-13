@@ -25,7 +25,7 @@ all_day: false
 # Schedule page publish date (NOT event date).
 publishDate: 2025-03-31T14:59:53+02:00
 
-authors: ['thom']
+authors: ['me']
 tags: ['ietf', 'standards', 'stateful hash-based signature schemes']
 
 # Is this a featured event? (true/false)

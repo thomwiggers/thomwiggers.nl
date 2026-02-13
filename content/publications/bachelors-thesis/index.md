@@ -18,6 +18,6 @@ math: false
 highlight: false
 ---
 
-Bachelor's thesis written under the supervision of Peter Schwabe.
+Bachelor's thesis written under the supervision of peterschwabe.
 
 See the project page for more information.

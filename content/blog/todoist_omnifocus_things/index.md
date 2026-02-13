@@ -4,7 +4,7 @@
 title: "Todoist, Omnifocus and Things 3 review"
 subtitle: ""
 summary: "A brief overview of three to-do/project management apps."
-authors: ['thom']
+authors: ['me']
 tags: []
 categories: []
 date: 2022-01-31T17:13:14+01:00

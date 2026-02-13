@@ -17,7 +17,7 @@ abstract: |
   algorithm use little memory, but by itself Gauss is slower than attacks that use more memory.
 
   Unfortunately, we determine that this combination will not work. We also look at improving the codes used by the reduction by applying StGen
-  codes, which was proposed by Simona Samardjiska at a DS lunch talk in March 2017. While this improves run-time performance in theory, the
+  codes, which was proposed by simonasamardjiska at a DS lunch talk in March 2017. While this improves run-time performance in theory, the
   real-world performance is much less positive.
 
   Finally, we developed software that we hope allows people to easily work with the LPN problem and the algorithms that aim to solve it.

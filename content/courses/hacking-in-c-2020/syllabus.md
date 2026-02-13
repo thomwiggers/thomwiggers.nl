@@ -11,7 +11,7 @@ type: "book"
 highlight: false
 
 authors:
-  - "thom"
+  - "me"
 
 ---
 
@@ -29,7 +29,7 @@ authors:
 * **Schedule**: Fourth Quarter of 2019--2020
     * **Start:** 13 April 2020
     * **Exam date:** 24 June 2020 (for now)
-* **Main lecturer:** Thom Wiggers [``<thom@thomwiggers.nl>``][thom email]
+* **Main lecturer:** me [``<thom@thomwiggers.nl>``][thom email]
 * **Supporting lecturers:** Denisa Greconici [``<D.Greconici@cs.ru.nl>``][denisa email]
 * **Course URLs (clickable):**
     * [Discord][] (tutorials)

@@ -2,7 +2,7 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "TLS → Post-Quantum TLS: Inspecting the TLS landscape for PQC adoption on Android"
-authors: ['Dimitri Mankowski', 'thom', 'Veelasha Moonsamy']
+authors: ['Dimitri Mankowski', 'me', 'Veelasha Moonsamy']
 date: 2023-07-07T16:01:22+02:00
 hugoblox.ids: {doi: "10.1109/EuroSPW59978.2023.00065"}
 

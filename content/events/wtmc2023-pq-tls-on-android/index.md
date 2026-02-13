@@ -22,7 +22,7 @@ all_day: false
 # Schedule page publish date (NOT event date).
 publishDate: 2023-08-21T13:26:28+02:00
 
-authors: ['Dimitri Mankowski', 'thom']
+authors: ['Dimitri Mankowski', 'me']
 tags: ['research']
 
 # Is this a featured event? (true/false)

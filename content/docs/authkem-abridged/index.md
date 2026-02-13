@@ -1,7 +1,7 @@
 ---
 title: AuthKEM abridged
 authors:
- - thom
+ - me
  - sofiaceli
 description: |
   High-level introduction to the AuthKEM proposal for TLS.
@@ -363,7 +363,7 @@ parties, it is possible to forge transcripts indistinguishable from real ones pr
 
 ## Further reading
 
-* Peter Schwabe, Douglas Stebila and Thom Wiggers. **Post-Quantum TLS Without Handshake Signatures**, ACM CCS 2020. https://ia.cr/2020/534
-* Peter Schwabe, Douglas Stebila and Thom Wiggers. **More efficient KEMTLS with pre-distributed keys**, ESORICS 2021. https://ia.cr/2021/779
-* Sofía Celi, Armando Faz-Hernández, Nick Sullivan, Goutam Tamvada, Luke Valenta, Bas Westerbaan,  Thom Wiggers, Chris Wood. **Implementing and Measuring KEMTLS** Latincrypt 2021, https://ia.cr/2021/1019
-* Sofía Celi, Peter Schwabe, Douglas Stebila, Nick Sullivan, Thom Wiggers. **[draft-celi-wiggers-authkem][]**, IETF draft
+* peterschwabe, douglasstebila and me. **Post-Quantum TLS Without Handshake Signatures**, ACM CCS 2020. https://ia.cr/2020/534
+* peterschwabe, douglasstebila and me. **More efficient KEMTLS with pre-distributed keys**, ESORICS 2021. https://ia.cr/2021/779
+* sofiaceli, Armando Faz-Hernández, Nick Sullivan, Goutam Tamvada, Luke Valenta, Bas Westerbaan,  me, Chris Wood. **Implementing and Measuring KEMTLS** Latincrypt 2021, https://ia.cr/2021/1019
+* sofiaceli, peterschwabe, douglasstebila, Nick Sullivan, me. **[draft-celi-wiggers-authkem][]**, IETF draft

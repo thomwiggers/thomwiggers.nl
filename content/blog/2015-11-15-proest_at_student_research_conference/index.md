@@ -4,10 +4,10 @@ category: Research
 title: Prøst at Student Research Conference
 date: 2015-11-15 15:32:55
 lastmod: 2015-11-15 15:32:55
-authors: ["thom"]
+authors: ["me"]
 ---
 
-In July, Peter Schwabe, who supervised my Bachelor's thesis project, suggested
+In July, peterschwabe, who supervised my Bachelor's thesis project, suggested
 to submit my work to the [Student Research Conference][src]. It then turned out
 that the deadline was the next day, so I had to work hard to convert 28 pages
 of thesis into a paper of 4 pages.

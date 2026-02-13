@@ -8,7 +8,7 @@ authors:
 - shuichi
 - guilhem
 - Ida Tucker
-- thom
+- me
 date: 2025-08-15T11:00:00-07:00
 hugoblox.ids: {doi: ""}
 

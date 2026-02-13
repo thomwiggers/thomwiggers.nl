@@ -10,7 +10,7 @@ tags:
   - pki
 categories:
   - security
-authors: ["thom"]
+authors: ["me"]
 author_url: http://thomwiggers.nl/about.html
 
 date: 2014-06-10
@@ -52,7 +52,7 @@ distinguished_name = my_req_name
 C = NL
 ST = Gelderland
 L = Nijmegen
-O = Thom Wiggers servers
+O = me servers
 CN = *.rded.nl
 
 [ my_extensions ]

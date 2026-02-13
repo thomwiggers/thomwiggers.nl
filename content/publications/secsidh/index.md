@@ -10,7 +10,7 @@ authors:
   - Krijn Reijnders
   - Francisco Rodríguez-Henríquez
   - peterschwabe
-  - thom
+  - me
 date: 2024-04-09T00:00:00+02:00
 hugoblox.ids: {doi: "10.62056/anjbksdja"}
 
