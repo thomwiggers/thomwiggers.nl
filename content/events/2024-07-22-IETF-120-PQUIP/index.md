@@ -32,10 +32,10 @@ image:
 
 # Custom links (optional).
 links:
-  - icon: brands/ietf
+  - icon: custom/ietf
     name: Slides
     url: slides.pdf
-  - icon: brands/ietf
+  - icon: custom/ietf
     name: Datatracker
     url: https://datatracker.ietf.org/meeting/120/materials/slides-120-pquip-update-on-state-management-recommendations-draft-draft-wiggers-hbs-state-00
 

@@ -39,10 +39,10 @@ image:
 
 # Custom links (optional).
 links:
-  - icon: brands/ietf
+  - icon: custom/ietf
     name: Slides
     url: slides.pdf
-  - icon: brands/ietf
+  - icon: custom/ietf
     name: Datatracker
     url: https://datatracker.ietf.org/meeting/119/materials/slides-119-pquip-hash-based-signatures-state-and-backup-management-01
 
