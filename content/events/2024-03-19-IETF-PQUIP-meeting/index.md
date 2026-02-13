@@ -23,8 +23,8 @@ all_day: false
 # Schedule page publish date (NOT event date).
 publishDate: 2024-03-07T16:13:17+01:00
 
-authors: []
-tags: []
+authors: ['me']
+tags: ['ietf', 'standards', 'stateful hash-based signature schemes', 'pquip']
 
 # Is this a featured event? (true/false)
 featured: false
@@ -38,12 +38,13 @@ image:
   preview_only: false
 
 # Custom links (optional).
-#   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
+links:
+  - icon: brands/ietf
+    name: Slides
+    url: slides.pdf
+  - icon: brands/ietf
+    name: Datatracker
+    url: https://datatracker.ietf.org/meeting/119/materials/slides-119-pquip-hash-based-signatures-state-and-backup-management-01
 
 # Optional filename of your slides within your event's folder or a URL.
 
