@@ -1,33 +1,17 @@
-+++
-# vim: set ft=markdown ts=2 sw=2 tw=0 et :
-
-title = "Rephrasing TLS key exchange in terms of KEMs"
-date = 2018-11-21
-lastmod = 2018-11-21
-draft = false
-math = true
-
-# Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["thom"]
-
-# Tags and categories
-# For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["tls", "pqtls", "post-quantum", "cryptography"]
-categories = ["research"]
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
-[image]
-  # Caption (optional)
-  caption = ""
-
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = ""
-
-projects= ["kemtls"]
-
-+++
+---
+title: "Rephrasing TLS key exchange in terms of KEMs"
+date: 2018-11-21
+lastmod: 2018-11-21
+draft: false
+math: true
+authors: ["me"]
+tags: ["tls", "pqtls", "post-quantum", "cryptography"]
+categories: ["research"]
+image:
+  caption: ""
+  focal_point: ""
+projects: ["kemtls"]
+---
 
 In the RFC for TLS 1.3 ([RFC8446][rfc8446]) especially, the key exchange is defined in terms of (EC)DH key shares being exchanged.
 This limits us to algorithms which support non-interactive key exchanges, while this is not necessary for the security of TLS 1.3 as defined by RFC8446.[^NIKEs]

@@ -1,20 +1,15 @@
-+++
-title = "Makefiles: recipes for binaries"
-date = 2018-12-21
-summary = "Some notes on writing Makefiles"
-
-draft = false
-toc = true
-type = "book"
-
-highlight = true
-highlight_languages = ["c", "makefile", "shell", "plaintext"]
-
-authors= [
-  "thom",
-]
-
-+++
+---
+title: "Makefiles: recipes for binaries"
+date: 2018-12-21
+summary: "Some notes on writing Makefiles"
+draft: false
+toc: true
+type: "docs"
+highlight: true
+highlight_languages: ["c", "makefile", "shell", "plaintext"]
+authors:
+  - me
+---
 
 
 Writing `Makefile`s is like writing a recipe.

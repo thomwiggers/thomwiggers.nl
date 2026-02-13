@@ -1,10 +1,9 @@
-+++
-title = "Bachelor's thesis"
-aliases = [
-  '/proest/',
-  '/research/proest/',
-]
-+++
+---
+title: "Bachelor's thesis"
+aliases:
+  - '/proest/'
+  - '/research/proest/'
+---
 
 This page lists the products of my Bachelor's thesis research.
 
@@ -30,3 +29,4 @@ Prøst is an authenticated encryption cipher and a contestant in the CAESAR comp
 [qhasm]: http://cr.yp.to/qhasm.html
 [cpucycles4ns]: https://github.com/thomwiggers/cpucycles4ns
 [src]: http://studentresearchconference.nl
+---

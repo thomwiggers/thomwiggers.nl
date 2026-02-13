@@ -52,11 +52,11 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your talk's folder or a URL.
-url_slides: "presentation.pdf"
-
-url_code:
-url_pdf:
-url_video: https://youtu.be/TZMgRnSV3pk?t=3175
+links:
+  - type: slides
+    url: "presentation.pdf"
+  - type: video
+    url: "https://youtu.be/TZMgRnSV3pk?t=3175"
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
@@ -224,7 +224,7 @@ by using KEMs for authentication. KEMTLS, the current proposed
 experiment, replaces the handshake signature by a post-quantum KEM key
 exchange. It was designed and introduced by Peter Schwabe, Douglas
 Stebila and Thom Wiggers on the
-[publication 'Post-Quantum TLS Without Handshake Signatures'](https://thomwiggers.nl/publication/kemtls/kemtls.pdf).
+[publication 'Post-Quantum TLS Without Handshake Signatures'](https://thomwiggers.nl/publications/kemtls/kemtls.pdf).
 
 KEMTLS, therefore, gives the same goals as TLS 1.3 (authentication,
 confidentiality and integrity) in the face of quantum computers for both
@@ -263,7 +263,7 @@ signing operations as well, which makes the reduction even more
 significant.
 
 KEMTLS was presented at ACM CCS 2020. You can read more about its
-details in [the paper](https://thomwiggers.nl/publication/kemtls/kemtls.pdf). It was
+details in [the paper](https://thomwiggers.nl/publications/kemtls/kemtls.pdf). It was
 initially [implemented in the RustTLS library](https://github.com/thomwiggers/kemtls-experiment)
 by Thom Wiggers using optimized C and assembly implementations of the post-quantum
 algorithms provided by the [PQClean](https://github.com/PQClean/PQClean) and

@@ -14,4 +14,4 @@ The paper is called *Energy-efficient ARM64 Cluster with Cryptanalytic Applicati
 Visit the [accompanying page to view the software][armcluster].
 I'll upload the paper once I'm done editing.
 
-[armcluster]: /publication/armcluster/
+[armcluster]: /publications/armcluster/

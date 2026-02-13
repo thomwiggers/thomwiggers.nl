@@ -4,7 +4,7 @@
 title: "KEMTLS vs. Post-Quantum TLS: Performance on Embedded Systems"
 authors: ['Ruben Gonzalez', 'thom']
 date: 2022-12-06T12:01:41+01:00
-doi: "10.1007/978-3-031-22829-2_6"
+hugoblox.ids: {doi: "10.1007/978-3-031-22829-2_6"}
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2022-12-06T12:01:41+01:00
@@ -56,14 +56,6 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf:
-url_code:
-url_dataset:
-url_poster:
-url_project:
-url_slides:
-url_source:
-url_video:
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

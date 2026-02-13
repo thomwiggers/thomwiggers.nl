@@ -55,11 +55,11 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your talk's folder or a URL.
-url_slides: "presentation.pdf"
-
-url_code:
-url_pdf:
-url_video: https://cloudflare.tv/event/2Mh0Mwr8QXtZ5tla9qSIbk
+links:
+  - type: slides
+    url: "presentation.pdf"
+  - type: video
+    url: "https://cloudflare.tv/event/2Mh0Mwr8QXtZ5tla9qSIbk"
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.

@@ -12,7 +12,7 @@ authors:
   - peterschwabe
   - thom
 date: 2024-04-09T00:00:00+02:00
-doi: "10.62056/anjbksdja"
+hugoblox.ids: {doi: "10.62056/anjbksdja"}
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2023-06-05T16:40:16+02:00
@@ -53,15 +53,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_preprint: https://eprint.iacr.org/2023/793
-url_pdf:
-url_code:
-url_dataset:
-url_poster:
-url_project:
-url_slides:
-url_source:
-url_video:
+links: [{type: preprint, url: "https://eprint.iacr.org/2023/793"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

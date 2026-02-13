@@ -52,11 +52,13 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your talk's folder or a URL.
-url_slides: "presentation.pdf"
-
-url_code:
-url_pdf: https://dl.acm.org/doi/10.1145/3372297.3423350
-url_video: https://dl.acm.org/doi/10.1145/3372297.3423350
+links:
+  - type: slides
+    url: "presentation.pdf"
+  - type: pdf
+    url: "https://dl.acm.org/doi/10.1145/3372297.3423350"
+  - type: video
+    url: "https://dl.acm.org/doi/10.1145/3372297.3423350"
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.

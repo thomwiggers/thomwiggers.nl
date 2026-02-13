@@ -49,11 +49,11 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your event's folder or a URL.
-url_slides: tutorial.pdf
-
-url_code:
-url_pdf:
-url_video: https://youtu.be/nkFrGK-HnoQ
+links:
+  - type: slides
+    url: "tutorial.pdf"
+  - type: video
+    url: "https://youtu.be/nkFrGK-HnoQ"
 
 # Markdown Slides (optional).
 #   Associate this event with Markdown slides.

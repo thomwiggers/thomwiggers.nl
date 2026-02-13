@@ -13,7 +13,7 @@ authors:
   - thom
   - Bo-Yin Yang
 date: 2021-07-15
-doi: "10.1007/978-3-030-81293-5_12"
+hugoblox.ids: {doi: "10.1007/978-3-030-81293-5_12"}
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2021-05-25T09:43:12+02:00
@@ -62,15 +62,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_preprint: https://eprint.iacr.org/2021/662
-url_pdf:
-url_code:
-url_dataset:
-url_poster:
-url_project:
-url_slides:
-url_source:
-url_video:
+links: [{type: preprint, url: "https://eprint.iacr.org/2021/662"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -95,7 +87,7 @@ projects: []
 slides: ""
 
 aliases:
-  - "/publication/streaming-sigs/"
+  - "/publications/streaming-sigs/"
 ---
 
 This work was also presented at the third NIST post-quantum cryptography standardization workshop.

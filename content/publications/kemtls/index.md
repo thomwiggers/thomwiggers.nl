@@ -10,7 +10,7 @@ authors:
   - thom
 date: 2020-05-05
 lastmod: 2020-09-29
-doi: "10.1145/3372297.3423350"
+hugoblox.ids: {doi: "10.1145/3372297.3423350"}
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2020-05-05T13:00:00+02:00
@@ -67,15 +67,13 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf:
-url_code: https://github.com/thomwiggers/kemtls-experiment/tree/acmccs
-url_dataset: https://kemtls.s3.amazonaws.com/archived-results/data-2020-06-12.tar.xz
-url_poster:
-url_project:
-url_slides:
-url_source:
-url_video:
-url_preprint: https://eprint.iacr.org/2020/534/
+links:
+  - type: code
+    url: "https://github.com/thomwiggers/kemtls-experiment/tree/acmccs"
+  - type: dataset
+    url: "https://kemtls.s3.amazonaws.com/archived-results/data-2020-06-12.tar.xz"
+  - type: preprint
+    url: "https://eprint.iacr.org/2020/534/"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -100,7 +98,7 @@ projects: ['kemtls']
 slides: ""
 
 aliases:
-  - /publication/kem-tls/
+  - /publications/kem-tls/
 ---
 
 ## Software

@@ -55,9 +55,8 @@ To set this up, I create a folder called `emoji` and create the a file called `g
 \end{document}
 ```
 
-{{% callout note %}}
-Note that this file intentionally won't compile: we'll use a trick to define variable `\theemoji` later.
-{{% /callout %}}
+> [!NOTE]
+> Note that this file intentionally won't compile: we'll use a trick to define variable `\theemoji` later.
 
 We also create a `Makefile`:
 
@@ -111,12 +110,12 @@ You can just create a `.gitignore` file in the `emoji` folder to only apply to
 that folder.
 
 
-{{% callout note %}}
-Please note that I have not tested this on either Linux or Windows machines
-yet; it likely works on Linux, but Windows might require a different font name
-in `generator.tex`.
+> [!NOTE]
+> Please note that I have not tested this on either Linux or Windows machines
+> yet; it likely works on Linux, but Windows might require a different font name
+> in `generator.tex`.
+>
+> Your results will also look different based on what fonts you set.
 
-Your results will also look different based on what fonts you set.
-{{% /callout %}}
 
 <!-- vim: set ft=markdown ts=2 sw=2 tw=0 noet :-->

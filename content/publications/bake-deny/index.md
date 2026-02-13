@@ -10,7 +10,7 @@ authors:
 - Ida Tucker
 - thom
 date: 2025-08-15T11:00:00-07:00
-doi: ""
+hugoblox.ids: {doi: ""}
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2025-08-15T14:17:10-07:00
@@ -45,15 +45,11 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: https://eprint.iacr.org/2025/1090.pdf
-url_code:
-url_dataset:
-url_poster:
-url_project:
-url_slides:
-url_source:
-url_video:
-url_preprint: https://eprint.iacr.org/2025/1090
+links:
+  - type: pdf
+    url: "https://eprint.iacr.org/2025/1090.pdf"
+  - type: preprint
+    url: "https://eprint.iacr.org/2025/1090"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

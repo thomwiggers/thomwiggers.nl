@@ -64,17 +64,9 @@ abstract: |
 
 # Links
 #url_pdf: "thesis.pdf"
-url_preprint: ""
-url_code: ""
-url_dataset: ""
-url_project: ""
-url_slides: ""
-url_video: ""
-url_poster: ""
-url_source: ""
 
 # DOI
-doi: ""
+hugoblox.ids: {doi: ""}
 
 # Custom links (optional)
 # url_custom: [{name = "Custom Link", url = "http://example.org"}]

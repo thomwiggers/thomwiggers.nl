@@ -10,7 +10,7 @@ authors:
 
 
 date: 2022-06-18T16:20:10+02:00
-doi: "10.1007/978-3-031-09234-3_13"
+hugoblox.ids: {doi: "10.1007/978-3-031-09234-3_13"}
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2022-05-24T16:20:10+02:00
@@ -50,15 +50,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf:
-url_preprint: https://eprint.iacr.org/2021/725
-url_code:
-url_dataset:
-url_poster:
-url_project:
-url_slides:
-url_source:
-url_video:
+links: [{type: preprint, url: "https://eprint.iacr.org/2021/725"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

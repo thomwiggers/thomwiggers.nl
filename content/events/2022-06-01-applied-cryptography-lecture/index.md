@@ -56,10 +56,8 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your event's folder or a URL.
-url_slides: presentation.pdf
+links: [{type: slides, url: "presentation.pdf"}]
 
-url_code:
-url_video:
 
 # Markdown Slides (optional).
 #   Associate this event with Markdown slides.

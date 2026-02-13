@@ -8,7 +8,7 @@ authors:
   - "douglasstebila"
   - "thom"
 date: 2022-08-30T14:30:09+02:00
-doi: "10.1007/978-3-031-17143-7_4"
+hugoblox.ids: {doi: "10.1007/978-3-031-17143-7_4"}
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2022-05-18T11:33:09+02:00
@@ -72,15 +72,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_preprint: https://eprint.iacr.org/2022/1111
-url_pdf:
-url_code:
-url_dataset:
-url_poster:
-url_project:
-url_slides:
-url_source:
-url_video:
+links: [{type: preprint, url: "https://eprint.iacr.org/2022/1111"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

@@ -7,7 +7,7 @@ authors:
   - douglasstebila
   - thom
 date: 2021-09-30
-doi: "10.1007/978-3-030-88418-5_1"
+hugoblox.ids: {doi: "10.1007/978-3-030-88418-5_1"}
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2021-05-12T19:37:15+02:00
@@ -63,15 +63,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf:
-url_code:
-url_dataset:
-url_poster:
-url_project:
-url_slides:
-url_source:
-url_video:
-url_preprint: https://eprint.iacr.org/2021/779
+links: [{type: preprint, url: "https://eprint.iacr.org/2021/779"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

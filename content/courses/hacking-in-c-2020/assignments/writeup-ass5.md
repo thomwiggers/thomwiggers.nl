@@ -1,20 +1,15 @@
-+++
-title = "Writeup for assignment 5"
-date = 2020-06-11
-summary = "Solutions and explanations for assignment 5"
-
-draft = true
-toc = true
-type = "book"
-
-highlight = true
-highlight_languages = ["c", "makefile", "shell", "plaintext"]
-
-authors= [
-"thom"
-]
-
-+++
+---
+title: "Writeup for assignment 5"
+date: 2020-06-11
+summary: "Solutions and explanations for assignment 5"
+draft: true
+toc: true
+type: "docs"
+highlight: true
+highlight_languages: ["c", "makefile", "shell", "plaintext"]
+authors:
+  - me
+---
 # Writeup "Overflowing a buffer"
 
 ## Analysis

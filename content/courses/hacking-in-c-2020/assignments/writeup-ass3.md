@@ -1,20 +1,15 @@
-+++
-title = "Writeup for assignment 3"
-date = 2020-03-20
-summary = "Solutions and explanations for assignment 3"
-
-draft = true
-toc = true
-type = "book"
-
-highlight = true
-highlight_languages = ["c", "makefile", "shell", "plaintext"]
-
-authors= [
-  "thom",
-]
-
-+++
+---
+title: "Writeup for assignment 3"
+date: 2020-03-20
+summary: "Solutions and explanations for assignment 3"
+draft: true
+toc: true
+type: "docs"
+highlight: true
+highlight_languages: ["c", "makefile", "shell", "plaintext"]
+authors:
+  - me
+---
 
 ## Exercise 1: Measuring the stack usage.
 
@@ -355,4 +350,3 @@ while (myptr < s2loc) {
     myptr++;
 }
 ```
-

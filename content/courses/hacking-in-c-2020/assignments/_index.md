@@ -1,20 +1,15 @@
-+++
-title = "Assignments"
-date = 2020-03-20
-summary = "Assignments for HiC"
-
-draft = false
-toc = true
-type = "book"
-
-highlight = true
-highlight_languages = ["c", "makefile", "shell", "plaintext"]
-
-authors= [
-  "thom",
-]
-
-+++
+---
+title: "Assignments"
+date: 2020-03-20
+summary: "Assignments for HiC"
+draft: false
+toc: true
+type: "docs"
+highlight: true
+highlight_languages: ["c", "makefile", "shell", "plaintext"]
+authors:
+  - me
+---
 
 
 ## Assignment 1

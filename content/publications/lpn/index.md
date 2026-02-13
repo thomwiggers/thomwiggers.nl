@@ -6,7 +6,7 @@ authors:
   - thom
   - simonasamardjiska
 date: 2021-07-12
-doi: "10.1109/ISIT45174.2021.9518109"
+hugoblox.ids: {doi: "10.1109/ISIT45174.2021.9518109"}
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2021-02-06T11:14:42+01:00
@@ -45,15 +45,13 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf:
-url_preprint: "https://eprint.iacr.org/2021/962"
-url_code: "/publication/lpn/#software"
-url_dataset: "/publication/lpn/#chains-found-by-our-algorithm"
-url_poster:
-url_project:
-url_slides:
-url_source:
-url_video:
+links:
+  - type: preprint
+    url: "https://eprint.iacr.org/2021/962"
+  - type: code
+    url: "/publications/lpn/#software"
+  - type: dataset
+    url: "/publications/lpn/#chains-found-by-our-algorithm"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

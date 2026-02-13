@@ -4,7 +4,7 @@
 title: "TLS → Post-Quantum TLS: Inspecting the TLS landscape for PQC adoption on Android"
 authors: ['Dimitri Mankowski', 'thom', 'Veelasha Moonsamy']
 date: 2023-07-07T16:01:22+02:00
-doi: "10.1109/EuroSPW59978.2023.00065"
+hugoblox.ids: {doi: "10.1109/EuroSPW59978.2023.00065"}
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2023-06-05T16:01:22+02:00
@@ -39,14 +39,13 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_preprint: https://eprint.iacr.org/2023/734
-url_code: https://zenodo.org/record/7950522
-url_dataset: https://zenodo.org/record/7950522
-url_poster:
-url_project:
-url_slides:
-url_source:
-url_video:
+links:
+  - type: preprint
+    url: "https://eprint.iacr.org/2023/734"
+  - type: code
+    url: "https://zenodo.org/record/7950522"
+  - type: dataset
+    url: "https://zenodo.org/record/7950522"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

@@ -5,7 +5,7 @@
 title: "Post-Quantum TLS"
 authors: ['thom']
 date: 2024-01-09T14:30:00+01:00
-doi: ""
+hugoblox.ids: {doi: ""}
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2023-05-01T16:01:22+02:00
@@ -47,14 +47,6 @@ featured: true
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf:
-url_code:
-url_dataset:
-url_poster:
-url_project:
-url_slides:
-url_source:
-url_video:
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

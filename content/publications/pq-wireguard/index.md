@@ -8,7 +8,7 @@ authors:
   - Guilhem Niot
   - Thom Wiggers
 date: 2026-05-18T08:00:00-07:00
-doi: ""
+hugoblox.ids: {doi: ""}
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2025-10-29T11:35:38+01:00
@@ -70,15 +70,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_preprint: https://eprint.iacr.org/2025/1758
-url_pdf:
-url_code:
-url_dataset:
-url_poster:
-url_project:
-url_slides:
-url_source:
-url_video:
+links: [{type: preprint, url: "https://eprint.iacr.org/2025/1758"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

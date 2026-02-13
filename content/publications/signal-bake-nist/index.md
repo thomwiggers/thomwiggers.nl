@@ -9,7 +9,7 @@ authors:
   - Ida Tucker
   - Thom Wiggers
 date: 2025-09-28
-doi: ""
+hugoblox.ids: {doi: ""}
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2025-10-29T11:48:20+01:00
@@ -71,14 +71,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf:
-url_code:
-url_dataset:
-url_poster:
-url_project:
-url_slides: slides.pdf
-url_source:
-url_video:
+links: [{type: slides, url: "slides.pdf"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

@@ -1,23 +1,18 @@
-+++
-title = "Getting around on the command line"
-linkTitle = "Tutorial: command line"
-date = 2020-03-19
-summary = "Introductory tutorial on the command line"
+---
+title: "Getting around on the command line"
+linkTitle: "Tutorial: command line"
+date: 2020-03-19
+summary: "Introductory tutorial on the command line"
+draft: false
+toc: true
+type: "docs"
+highlight: true
+highlight_languages: ["c", "makefile", "shell", "plaintext"]
+authors:
+  - me
+---
 
-draft = false
-toc = true
-type = "book"
-
-highlight = true
-highlight_languages = ["c", "makefile", "shell", "plaintext"]
-
-authors= [
-  "thom",
-]
-
-+++
-
-{{< youtube id=I1N4T0UXuaA >}}
+{{< youtube id="I1N4T0UXuaA" >}}
 
 [These are the slides I used during the workshop][slides]
 
