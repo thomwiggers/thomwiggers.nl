@@ -44,7 +44,7 @@ sections:
 
         Building on his [PhD research]({{< ref "/publications/thesis" >}}) into KEM-based authentication (KEMTLS), he has recently worked on redesigning [Post-Quantum WireGuard]({{< ref "/publications/pq-wireguard" >}}) using reinforced KEMs and providing a comprehensive deniability analysis of the [Signal handshake protocol]({{< ref "/publications/bake" >}}).
 
-        In the IETF, Thom is active in the PQUIP and PLANTS working groups. He is currently working on standardizing [state and backup management for stateful hash-based signatures]({{< ref "/events/2025-03-17-pquip-stateful-hbs" >}}) and has co-authored the [AuthKEM proposal]({{< ref "/docs/authkem-abridged" >}}) for TLS.
+        In the IETF, Thom is active in the PQUIP, PLANTS, and TLS working groups. In the TLS working group, he is a member of its formal analysis triage team (FATT). He is currently working on standardizing [state and backup management for stateful hash-based signatures]({{< ref "/events/2025-03-17-pquip-stateful-hbs" >}}) and has co-authored the [AuthKEM proposal]({{< ref "/docs/authkem-abridged" >}}) for TLS.
     design:
       columns: '1'
   - block: collection
