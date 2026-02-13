@@ -1,12 +1,10 @@
 ---
-title: "Solving LPN Using Large Covering Codes"
-date: 2019-04-08T10:45:00+01:00
-all_day: false
-publishDate: 2019-04-08
-authors: ["me"]
-location: "Utrecht, The Netherlands"
-event: "Crypto Working Group 2019-04-12"
-event_url: "https://www.win.tue.nl/eipsi/seminars_cwg.html"
+title: Solving LPN Using Large Covering Codes
+date: 2019-04-08
+authors:
+  - me
+location: Utrecht, The Netherlands
+event_url: https://www.win.tue.nl/eipsi/seminars_cwg.html
 abstract: |
   Since quantum computers are expected to break most of the cryptographic schemes we rely on today, we need to look at alternatives. Learning
   Parity with Noise (LPN) is mathematical problem that we can base cryptographic schemes on, and it is supposed to be hard for both
@@ -23,13 +21,20 @@ abstract: |
   Finally, we developed software that we hope allows people to easily work with the LPN problem and the algorithms that aim to solve it.
 summary: ""
 featured: false
-tags: ["lpn", "post-quantum cryptography", "cryptography", "academic"]
+tags:
+  - lpn
+  - post-quantum cryptography
+  - cryptography
+  - academic
 slides: ""
 links:
   - type: slides
-    url: "presentation.pdf"
+    url: presentation.pdf
 projects: []
 image:
   caption: ""
   focal_point: ""
+event_start: 2019-04-08T10:45:00+01:00
+event_all_day: false
+event_name: Crypto Working Group 2019-04-12
 ---

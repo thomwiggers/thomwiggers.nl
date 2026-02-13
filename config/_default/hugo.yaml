@@ -22,7 +22,7 @@ removePathAccents: true
 ############################
 
 permalinks:
-  event: '/talk/:slug/'
+  events: '/talk/:slug/'
   tags: '/tag/:slug/'
   categories: '/category/:slug/'
   publication_types: '/publication-type/:slug/'

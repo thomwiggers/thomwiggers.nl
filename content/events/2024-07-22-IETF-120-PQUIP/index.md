@@ -1,36 +1,23 @@
 ---
-# Documentation: https://docs.hugoblox.com/managing-content/
-
-title: "Update on State Management Recommendations draft-wiggers-hbs-state-00"
-event: IETF 120 Vancouver
+title: Update on State Management Recommendations draft-wiggers-hbs-state-00
 event_url: https://www.ietf.org/meeting/120/
 location: Vancouver, Canada
-summary: >
-  I presented an update on the IETF draft regarding state management for
-  stateful hash-based signature schemes.
-abstract:
-
-# Talk start and end times.
-#   End time can optionally be hidden by prefixing the line with `#`.
-date: 2024-07-22T13:00:00-07:00
-date_end: 2024-07-22T14:30:00-07:00
-all_day: false
-
-# Schedule page publish date (NOT event date).
-publishDate: 2024-07-22T00:00:00Z
-
-authors: ['me']
-tags: ['ietf', 'standards', 'stateful hash-based signature schemes', 'pquip']
-
-# Is this a featured event? (true/false)
+summary: |
+  I presented an update on the IETF draft regarding state management for stateful hash-based signature schemes.
+abstract: null
+date: 2024-07-22T00:00:00Z
+authors:
+  - me
+tags:
+  - ietf
+  - standards
+  - stateful hash-based signature schemes
+  - pquip
 featured: false
-
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Custom links (optional).
 links:
   - icon: custom/ietf
     name: Slides
@@ -38,12 +25,13 @@ links:
   - icon: custom/ietf
     name: Datatracker
     url: https://datatracker.ietf.org/meeting/120/materials/slides-120-pquip-update-on-state-management-recommendations-draft-draft-wiggers-hbs-state-00
-
-# Markdown Slides (optional).
 slides: ""
-
-# Projects (optional).
 projects: []
+event_start: 2024-07-22T13:00:00-07:00
+event_end: 2024-07-22T14:30:00-07:00
+event_all_day: false
+event_name: IETF 120 Vancouver
 ---
+
 
 At IETF 120 in Vancouver, I provided an update on our ongoing work standardizing state and backup management for stateful hash-based signature (HBS) schemes like LMS and XMSS. This update focused on the recently submitted `draft-wiggers-hbs-state-00`.

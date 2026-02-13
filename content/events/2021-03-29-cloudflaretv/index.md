@@ -1,16 +1,13 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "KEMTLS: securing TLS connections from quantum adversaries"
-event: Cloudflare TV
 event_url: https://cloudflare.tv/event/2Mh0Mwr8QXtZ5tla9qSIbk
 location: Virtual
 address:
-  street:
-  city:
-  region:
-  postcode:
-  country:
+  street: null
+  city: null
+  region: null
+  postcode: null
+  country: null
 summary: Talk about KEMTLS on Cloudflare TV
 abstract: |
   The Transport Layer Security protocol (TLS) is a protocol that secures most of
@@ -18,65 +15,33 @@ abstract: |
   adversaries arrive.
   Sofía and Thom will talk about a new proposed mechanism,
   KEMTLS, for making the TLS protocol safe for quantum computers.
-
-# Talk start and end times.
-#   End time can optionally be hidden by prefixing the line with `#`.
-date: 2021-03-29T14:00:00+02:00
-date_end: 2021-03-29T14:30:00+02:00
-all_day: false
-
-# Schedule page publish date (NOT talk date).
-publishDate: 2021-03-29
-
-authors: ['me', 'sofiaceli']
+date: 2021-03-29
+authors:
+  - me
+  - sofiaceli
 tags:
   - KEMTLS
   - PQTLS
   - Post-Quantum
   - research
-
-# Is this a featured talk? (true/false)
 featured: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Custom links (optional).
-#   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
-
-# Optional filename of your slides within your talk's folder or a URL.
 links:
   - type: slides
-    url: "presentation.pdf"
+    url: presentation.pdf
   - type: video
-    url: "https://cloudflare.tv/event/2Mh0Mwr8QXtZ5tla9qSIbk"
-
-# Markdown Slides (optional).
-#   Associate this talk with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
+    url: https://cloudflare.tv/event/2Mh0Mwr8QXtZ5tla9qSIbk
 slides: ""
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
 projects:
-  - 'kemtls'
-
+  - kemtls
 highlight: false
 highlight_languages:
- - go
+  - go
+event_start: 2021-03-29T14:00:00+02:00
+event_end: 2021-03-29T14:30:00+02:00
+event_all_day: false
+event_name: Cloudflare TV
 ---

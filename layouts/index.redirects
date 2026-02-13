@@ -3,10 +3,17 @@
 {{- /* Note: code purposely un-indented to preserve required spacing in output. */ -}}
 {{- range $page := where site.AllPages ".Aliases" "!=" nil -}}
 {{- range $page.Aliases }}
-{{ .|relLangURL }} {{ $page.RelPermalink -}}
+{{ .|relLangURL }} {{ $page.RelPermalink }} 301
 {{- end }}
 {{- end }}
 
 # Manual added
 /p/* /publications/:splat 301
-/defense /talk/phd-defense 301
+/defense/ /talk/phd-defense/ 301
+
+# Domain redirects
+https://thomwiggers.com/* https://thomwiggers.nl/:splat 301
+https://www.thomwiggers.com/* https://thomwiggers.nl/:splat 301
+https://wggrs.nl/p/* https://thomwiggers.nl/publications/:splat 301
+https://wggrs.nl/* https://thomwiggers.nl/:splat 301
+https://www.wggrs.nl/* https://thomwiggers.nl/:splat 301

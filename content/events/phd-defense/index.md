@@ -1,73 +1,36 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
 slug: phd-defense
-title: "Ph.D. defense"
-event: "Ph.D. defense of me' thesis \"Post-Quantum TLS\""
-#event_url: https://thomwiggers.nl/talk/ph.d.-defense/
+title: Ph.D. defense
 location: Aula Building, Radboud University Nijmegen
 address:
   street: Comeniuslaan 2
   city: Nijmegen
-  region:
+  region: null
   postcode: 6525 HP
   country: Netherlands
-summary: "Ph.D. defense of me' thesis entitled \"Post-Quantum TLS\"."
-abstract:
-
-# Talk start and end times.
-#   End time can optionally be hidden by prefixing the line with `#`.
-date: 2024-01-09T14:30:00+01:00
-date_end: 2024-01-09T17:00:00+01:00
-all_day: false
-
-# Schedule page publish date (NOT event date).
-publishDate: 2023-12-05T21:56:39+01:00
-
-authors: ['me']
-tags: ['research']
-
-# Is this a featured event? (true/false)
+summary: Ph.D. defense of me' thesis entitled "Post-Quantum TLS".
+abstract: null
+date: 2023-12-05T21:56:39+01:00
+authors:
+  - me
+tags:
+  - research
 featured: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: "Cover of my thesis"
+  caption: Cover of my thesis
   focal_point: ""
   preview_only: false
-
-# Custom links (optional).
-#   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
-
-# Optional filename of your slides within your event's folder or a URL.
-
-
-# Markdown Slides (optional).
-#   Associate this event with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
 slides: ""
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: ['kemtls']
-
-
+projects:
+  - kemtls
 aliases:
-  - "/defense"
+  - /defense
+event_start: 2024-01-09T14:30:00+01:00
+event_end: 2024-01-09T17:00:00+01:00
+event_all_day: false
+event_name: Ph.D. defense of me' thesis "Post-Quantum TLS"
 ---
+
 
 
 # Recording
