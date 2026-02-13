@@ -61,7 +61,7 @@ One big difference between an exam in HAL2 and an exam at home is the fact that 
 It remains unclear to the author how thorough the room scan is. Can you hide a sticky note under your keyboard, and take it out during the exam? Or what if I stick it under the table? Can I carefully aim the laptop to keep part of my desk out of view?
 
 ### The virtual machine
-You may have seen the attack by peterschwabe and Veelasha Moonsamy where they ran Proctorio in a virtual machine. This obviously defeats the screen recording, as only the screen inside the virtual machine can be seen by Proctorio. This allowed them to look up the answer to a question on Wikipedia.
+You may have seen the attack by Peter Schwabe and Veelasha Moonsamy where they ran Proctorio in a virtual machine. This obviously defeats the screen recording, as only the screen inside the virtual machine can be seen by Proctorio. This allowed them to look up the answer to a question on Wikipedia.
 
 This is not an attack that Proctorio can solve. If it had direct access to the ``CPUID`` registers of the CPU, it could figure out if it was run using hardware virtualisation. However, the Chromium ``system.cpu`` API only exposes fairly generic CPU features such as AVX2 support, which will not be influenced by virtualisation. What remains are the other system properties it can read. This includes the names of microphones, number of cores, screen resolutions, disk sizes and power status. These properties can be used to develop heuristics to detect virtual machines, but it is easy to see that these can be defeated by tweaking some settings in the virtualisation software and running the VM at the full screen resolution.
 
@@ -93,7 +93,7 @@ Alternatives for pen-and-paper exams may sometimes be hard to come up with and m
 [^SURF20]: SURF Whitepaper online proctoring: vragen en antwoorden bij surveilleren op afstand. april 2020. https://www.surf.nl/files/2020-04/surf-rapport-online-proctoring_2020_update-april-2020.pdf
 [^Chrome20]: https://developer.chrome.com/extensions/api_index
 
-[^1]: The author has not written any exams with Proctorio and the “settings” may still change, so your specific experience may vary. Partially based on experiments by peterschwabe and Veelasha Moonsamy.
+[^1]: The author has not written any exams with Proctorio and the “settings” may still change, so your specific experience may vary. Partially based on experiments by Peter Schwabe and Veelasha Moonsamy.
 [^2]: Unlike TU/e, it seem the RU will not automatically invalidate exams if you disconnect during the exam. [^GV745] You will need to take the entire setup procedure again.
 [^3]: The university did a survey,[^BWK+20] most students indicated to have this. The university intends to make loan devices available.
 [^4]: It is not clear to me how the ID is processed.

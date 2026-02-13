@@ -52,7 +52,7 @@ distinguished_name = my_req_name
 C = NL
 ST = Gelderland
 L = Nijmegen
-O = me servers
+O = Thom Wiggers servers
 CN = *.rded.nl
 
 [ my_extensions ]

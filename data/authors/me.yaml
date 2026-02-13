@@ -7,8 +7,6 @@ name:
   family: Wiggers
 postnominals:
   - PhD
-status:
-  icon: "☕️"
 role: Senior Cryptography Researcher
 bio: |
   Thom Wiggers is a cryptography researcher at [PQShield](https://pqshield.com).
@@ -22,8 +20,6 @@ links:
   - icon: hero/at-symbol
     url: mailto:thom@thomwiggers.nl
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/thomwiggers
   - icon: brands/mastodon
     url: https://infosec.exchange/@thomw
   - icon: academicons/google-scholar

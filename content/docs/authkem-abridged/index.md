@@ -258,14 +258,13 @@ We can _probably_ prove the protocol correct still if the client uses signed key
 
 
 > [!WARNING]
-> 
-**Does this mean the CertificateRequest isn't authenticated?**
-
-Although the client's certificate is protected, it is possible for an active attacker to try to trigger a client to attempt to authenticate.
-They will not be able to read the certificate, but might learn that a client has one or even just trigger confusing or annoying UI popups.
-If this is a concern in your application (web browsers?), we might need to consider allowing the client to indicate it will only allow post-handshake authentication.
-
-We're tracking this in [issue #16: Authentication concerns for the client authentication requests](https://github.com/claucece/draft-celi-wiggers-tls-authkem/issues/16).
+> **Does this mean the CertificateRequest isn't authenticated?**
+>
+> Although the client's certificate is protected, it is possible for an active attacker to try to trigger a client to attempt to authenticate.
+> They will not be able to read the certificate, but might learn that a client has one or even just trigger confusing or annoying UI popups.
+> If this is a concern in your application (web browsers?), we might need to consider allowing the client to indicate it will only allow post-handshake authentication.
+>
+> We're tracking this in [issue #16: Authentication concerns for the client authentication requests](https://github.com/claucece/draft-celi-wiggers-tls-authkem/issues/16).
 
 
 ## More efficient AuthKEM if you've already got the keys
@@ -277,12 +276,11 @@ Clients do not need to manage a secret key, and servers do not need to keep trac
 Also, because this just requires plain KEM public keys rather than (stateful) opaque session tickets, we expect fewer privacy or tracking concerns.
 
 > [!NOTE]
-> 
-We sometimes call this "pre-distributed keys" (or PDK) because:
-
- * PSK is already taken
- * PSK typically refers to symmetric keys
- * Server public keys might be cached by clients, but they could also be installed (_i.e. pre-distributed_) through, for example, firmware.
+> We sometimes call this "pre-distributed keys" (or PDK) because:
+>
+>  * PSK is already taken
+>  * PSK typically refers to symmetric keys
+>  * Server public keys might be cached by clients, but they could also be installed (_i.e. pre-distributed_) through, for example, firmware.
 
 
 ### Server authentication in the abbreviated handshake
@@ -363,7 +361,7 @@ parties, it is possible to forge transcripts indistinguishable from real ones pr
 
 ## Further reading
 
-* peterschwabe, douglasstebila and me. **Post-Quantum TLS Without Handshake Signatures**, ACM CCS 2020. https://ia.cr/2020/534
-* peterschwabe, douglasstebila and me. **More efficient KEMTLS with pre-distributed keys**, ESORICS 2021. https://ia.cr/2021/779
-* sofiaceli, Armando Faz-Hernández, Nick Sullivan, Goutam Tamvada, Luke Valenta, Bas Westerbaan,  me, Chris Wood. **Implementing and Measuring KEMTLS** Latincrypt 2021, https://ia.cr/2021/1019
-* sofiaceli, peterschwabe, douglasstebila, Nick Sullivan, me. **[draft-celi-wiggers-authkem][]**, IETF draft
+* Peter Schwabe, Douglas Stebila and Thom Wiggers. **Post-Quantum TLS Without Handshake Signatures**, ACM CCS 2020. https://ia.cr/2020/534
+* Peter Schwabe, Douglas Stebila and Thom Wiggers. **More efficient KEMTLS with pre-distributed keys**, ESORICS 2021. https://ia.cr/2021/779
+* Sofia Celi, Armando Faz-Hernández, Nick Sullivan, Goutam Tamvada, Luke Valenta, Bas Westerbaan, Thom Wiggers, Chris Wood. **Implementing and Measuring KEMTLS** Latincrypt 2021, https://ia.cr/2021/1019
+* Sofia Celi, Peter Schwabe, Douglas Stebila, Nick Sullivan, Thom Wiggers. **[draft-celi-wiggers-authkem][]**, IETF draft
