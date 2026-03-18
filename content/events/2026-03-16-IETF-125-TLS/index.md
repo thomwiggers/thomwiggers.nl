@@ -9,7 +9,7 @@ address:
   postcode: null
   country: China
 summary: |
-  I presented a FATT (Follow-up Action item Task Team) report on Extended Key Usage (EKU) in the TLS working group session.
+  I presented a Formal Analysis Triage Team report on Extended Key Usage (EKU) in the TLS working group session.
 abstract: null
 date: 2026-03-18T00:00:00+01:00
 authors:
@@ -35,3 +35,4 @@ event_end: 2026-03-16T13:30:00+08:00
 event_all_day: false
 event_name: IETF 125 Shenzhen
 ---
+I presented a Formal Analysis Triage Team report on Extended Key Usage (EKU) in the TLS working group session.
