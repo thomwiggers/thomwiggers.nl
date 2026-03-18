@@ -20,3 +20,12 @@ fnm default 20
 eval "$(fnm env)"
 npm install -g "pnpm@${PNPM_VERSION}"
 echo "==> pnpm $(pnpm --version)"
+
+# Add fnm to shell so pnpm is available in new terminals
+CONTAINER_ZSHRC="${HOME}/.zshrc"
+if ! grep -q "fnm env" "${CONTAINER_ZSHRC}" 2>/dev/null; then
+    echo "" >> "${CONTAINER_ZSHRC}"
+    echo "# fnm (Node version manager)" >> "${CONTAINER_ZSHRC}"
+    echo 'eval "$(fnm env --use-on-cd)"' >> "${CONTAINER_ZSHRC}"
+    echo "==> Configured .zshrc to initialize fnm"
+fi
