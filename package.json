@@ -1,9 +1,9 @@
 {
-  "name": "hugo-blox-academic-cv-starter",
+  "name": "thomwiggers.nl",
   "version": "1.0.0",
   "private": true,
   "packageManager": "pnpm@10.14.0",
-  "description": "Academic CV starter template for Hugo Blox with Tailwind CSS v4",
+  "description": "Thom Wiggers' Personal Website",
   "scripts": {
     "dev": "hugo server --disableFastRender",
     "build": "hugo --minify && pnpm run pagefind",
