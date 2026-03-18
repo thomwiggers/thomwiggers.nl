@@ -68,3 +68,4 @@ Desktop.ini
 *.log
 npm-debug.log*
 nanobanana-output/
+_vendor/
