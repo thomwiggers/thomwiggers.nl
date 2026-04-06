@@ -1,11 +1,11 @@
 # Automatically generated
 # See layouts/index.redirects
 {{- $aliases := slice -}}
-{{- range $page := where site.AllPages ".Aliases" "!=" nil -}}
+{{- range $site := hugo.Sites }}{{- range $page := where $site.Pages ".Aliases" "!=" nil -}}
   {{- range $page.Aliases -}}
     {{- $aliases = $aliases | append (printf "%s %s 301" (.|relLangURL) $page.RelPermalink) -}}
   {{- end -}}
-{{- end -}}
+{{- end -}}{{- end -}}
 {{- range ($aliases | uniq | sort) }}
 {{ . }}
 {{- end }}

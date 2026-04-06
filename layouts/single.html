@@ -68,7 +68,7 @@
       {{ $display_date := .Params.event_start | default .Date }}
       <div class="mt-4 mb-16">
       <div class="text-gray-500 dark:text-gray-300 text-sm flex items-center flex-wrap gap-y-2">
-        {{- if $display_date | and (not .Params.hide_date) -}}
+        {{- if $display_date | and (not .Params.show_date) -}}
         <span class="mr-1">{{- (time $display_date) | time.Format (site.Params.hugoblox.locale.date_format | default ":date_long") -}}</span>
         {{- if .Params.authors }}<span class="mx-1">·</span>{{ end -}}
         {{- end -}}
@@ -85,11 +85,11 @@
           <div class="group inline-flex items-center text-current gap-x-1.5 mx-1">
             {{ with $avatar }}
               {{ $avatar_32 := .Process "Fill 32x32 Center webp" }}
-              <img src="{{ $avatar_32.RelPermalink }}" 
+              <img src="{{ $avatar_32.RelPermalink }}"
                    width="16"
                    height="16"
-                   alt="{{ $profile.title }}" 
-                   class="inline-block h-4 w-4 rounded-full border border-current" 
+                   alt="{{ $profile.title }}"
+                   class="inline-block h-4 w-4 rounded-full border border-current"
                    loading="lazy" />
             {{ end }}
             <div>
@@ -184,7 +184,7 @@
         {{ $responsive_sizes = slice 320 480 640 720 960 }}
         {{ $sizes_attr = "(max-width: 480px) 100vw, (max-width: 640px) 90vw, (max-width: 720px) 80vw, 720px" }}
       {{end}}
-      
+
       {{/* Process featured image using utility with placement-specific constraints */}}
       {{ if strings.Contains $featured.MediaType.SubType "svg" }}
         {{/* SVGs cannot be processed by Hugo (Fit/Fill). Render directly. */}}
@@ -208,23 +208,23 @@
         {{else}}
           {{ $fitted_image = $featured.Fit "720x2500" }}
         {{end}}
-        
-        {{ $responsive := partial "functions/process_responsive_image.html" (dict 
-            "image" $fitted_image 
+
+        {{ $responsive := partial "functions/process_responsive_image.html" (dict
+            "image" $fitted_image
             "mode" "responsive"
             "sizes" $responsive_sizes
         ) }}
-        
+
         {{/* Featured image - use fitted image dimensions for container, responsive for srcset */}}
         <div class="article-header {{$image_container}} featured-image-wrapper mt-4 mb-16" style="max-width: {{$fitted_image.Width}}px; max-height: {{$fitted_image.Height}}px;">
           <div style="position: relative">
             <img srcset="{{ $responsive.srcset }}"
                  sizes="{{ $sizes_attr }}"
-                 src="{{ $responsive.fallback.RelPermalink }}" 
+                 src="{{ $responsive.fallback.RelPermalink }}"
                  data-pagefind-meta="image[src]"
-                 width="{{ $fitted_image.Width }}" 
-                 height="{{ $fitted_image.Height }}" 
-                 alt="{{ with $image_params.alt_text }}{{.}}{{ end }}" 
+                 width="{{ $fitted_image.Width }}"
+                 height="{{ $fitted_image.Height }}"
+                 alt="{{ with $image_params.alt_text }}{{.}}{{ end }}"
                  class="featured-image"
                  fetchpriority="high">
             {{ with $image_params.caption }}<span class="article-header-caption">{{ . | markdownify | emojify }}</span>{{ end }}
@@ -242,11 +242,11 @@
         {{end}}
         <div class="article-header {{$image_container}} featured-image-wrapper mt-4 mb-16" style="max-width: {{$image.Width}}px; max-height: {{$image.Height}}px;">
           <div style="position: relative">
-            <img src="{{ $image.RelPermalink }}" 
+            <img src="{{ $image.RelPermalink }}"
                  data-pagefind-meta="image[src]"
-                 width="{{ $image.Width }}" 
-                 height="{{ $image.Height }}" 
-                 alt="{{ with $image_params.alt_text }}{{.}}{{ end }}" 
+                 width="{{ $image.Width }}"
+                 height="{{ $image.Height }}"
+                 alt="{{ with $image_params.alt_text }}{{.}}{{ end }}"
                  class="featured-image"
                  fetchpriority="high">
             {{ with $image_params.caption }}<span class="article-header-caption">{{ . | markdownify | emojify }}</span>{{ end }}

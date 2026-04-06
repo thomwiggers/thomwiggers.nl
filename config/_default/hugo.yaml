@@ -28,7 +28,7 @@ permalinks:
   publication_types: '/publication-type/:slug/'
 
 cascade:
-  - _target:
+  - target:
       path: /slides/**
       kind: page
     outputs: [HTML, present]
