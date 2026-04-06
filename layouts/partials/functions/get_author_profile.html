@@ -38,7 +38,7 @@ Output (dict):
 
 {{- $slug = $slug | urlize -}}
 
-{{- $data := index site.Data.authors $slug -}}
+{{- $data := index hugo.Data.authors $slug -}}
 {{- $hasData := $data -}}
 
 {{/* Structured name resolution */}}
