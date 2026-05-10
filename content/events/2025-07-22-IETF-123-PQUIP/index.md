@@ -11,7 +11,7 @@ address:
 summary: |
   I presented a status update on our IETF draft on stateful HBS state management, now adopted as a PQUIP working group document.
 abstract: null
-date: 2026-03-18T00:00:00+01:00
+date: 2025-07-22T00:00:00+01:00
 authors:
   - thom
 tags:
