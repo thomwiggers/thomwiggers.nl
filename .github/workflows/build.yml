@@ -60,20 +60,20 @@ jobs:
         fi
         sudo mv /tmp/yq /usr/local/bin/yq
         sudo chmod +x /usr/local/bin/yq
-        
+
         # Read hugo_version from hugoblox.yaml
         VERSION=$(yq '.hugo_version // ""' hugoblox.yaml 2>/dev/null | grep -v '^null$' || true)
-        
+
         # Fallback to a known stable version if not specified
         DEFAULT_VERSION="0.154.5"
         VERSION=${VERSION:-$DEFAULT_VERSION}
-        
+
         # Validate version format (basic check)
         if [[ ! "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
           echo "::warning::Invalid hugo_version format '$VERSION', using default $DEFAULT_VERSION"
           VERSION="$DEFAULT_VERSION"
         fi
-        
+
         echo "HUGO_VERSION=$VERSION" >> $GITHUB_ENV
         echo "Using Hugo version: $VERSION"
 
