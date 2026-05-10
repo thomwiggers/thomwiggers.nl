@@ -11,7 +11,7 @@ address:
 summary: |
   Invited talk for Comcast Research's Monthly Research Presentation Series on the costs and challenges of post-quantum authentication.
 abstract: null
-date: 2026-03-18T00:00:00+01:00
+date: 2025-05-29T00:00:00+01:00
 authors:
   - thom
 tags:

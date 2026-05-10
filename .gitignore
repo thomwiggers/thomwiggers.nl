@@ -69,3 +69,4 @@ Desktop.ini
 npm-debug.log*
 nanobanana-output/
 _vendor/
+.claude/settings.local.json

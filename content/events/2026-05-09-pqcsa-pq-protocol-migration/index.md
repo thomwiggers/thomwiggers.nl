@@ -1,6 +1,6 @@
 ---
 title: "Migrating protocols to PQ: the good, the bad, and the ugly"
-date: '2026-06-10T10:00:00+02:00'
+date: '2026-05-09T14:30:00+02:00'
 
 event_name: "PQCSA workshop on Post-Quantum Cryptographic Protocols (Eurocrypt 2026 affiliated event)"
 event_url: https://www.esat.kuleuven.be/cosic/events/pqcsa-workshop-cryptographic-protocols/
