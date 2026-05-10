@@ -13,7 +13,7 @@ summary: |
   on recommendations for state management in stateful
   hash-based signature schemes.
 abstract: null
-date: 2024-03-07T15:58:11+01:00
+date: 2024-03-04
 authors:
   - thom
 tags: []

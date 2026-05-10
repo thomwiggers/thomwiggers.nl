@@ -12,7 +12,7 @@ summary: |
   I gave a guest lecture on TLS and the challenges and ongoing efforts to make
   it work with post-quantum primitives.
 abstract: null
-date: 2024-05-28T10:43:00+02:00
+date: 2024-05-27
 authors:
   - thom
 tags:

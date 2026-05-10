@@ -12,7 +12,7 @@ summary: |
   Workshop on getting around on the command line.
   As a good prep for the course Hacking in C, I will show you how to get around on the command line, how to manage your files and how to run programs.
 abstract: null
-date: 2021-02-26T14:37:31+01:00
+date: 2021-03-08
 authors:
   - thom
 tags:

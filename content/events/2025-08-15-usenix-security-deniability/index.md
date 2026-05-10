@@ -11,7 +11,7 @@ address:
 summary: |
   Conference talk presenting a unified framework for deniability analysis of Signal handshake protocols, including a deniable ring signature from Falcon/MAYO.
 abstract: null
-date: 2026-03-18T00:00:00+01:00
+date: 2025-08-15
 authors:
   - thom
 tags:

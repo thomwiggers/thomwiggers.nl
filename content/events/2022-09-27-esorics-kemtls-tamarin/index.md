@@ -9,7 +9,7 @@ address:
   postcode: 1704
   country: Denmark
 summary: Conference presentation of our KEMTLS formal analysis paper at ESORICS 2022
-date: 2022-09-19T15:15:29+02:00
+date: 2022-09-27
 authors:
   - thom
 tags:

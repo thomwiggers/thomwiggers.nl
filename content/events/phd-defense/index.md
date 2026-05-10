@@ -10,7 +10,7 @@ address:
   country: Netherlands
 summary: Ph.D. defense of me' thesis entitled "Post-Quantum TLS".
 abstract: null
-date: 2023-12-05T21:56:39+01:00
+date: 2024-01-09
 authors:
   - thom
 tags:

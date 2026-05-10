@@ -10,7 +10,7 @@ address:
 summary: null
 abstract: |
   The TLS protocol (famous for `https://`) is perhaps the most-used cryptographic protocol. As such, it is extremely important that it gets migrated to post-quantum cryptography. Fortunately, the TLS working group, browsers like Chrome and Firefox, and service providers like Cloudflare are making headway to solve the problem. Chrome on desktop computer already prefers `Kyber768+X25519` key exchange by default! So, just migrate the certificates, and we’re done, right?
-date: 2024-05-15T14:56:37+02:00
+date: 2024-06-11
 authors:
   - thom
 tags:

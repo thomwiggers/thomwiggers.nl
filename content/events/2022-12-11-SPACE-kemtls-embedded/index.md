@@ -10,7 +10,7 @@ address:
   country: India
 summary: "Conference talk about our publication KEMTLS vs. Post-Quantum TLS: Performance on Embedded Systems at SPACE 2022"
 abstract: null
-date: 2022-12-06T13:25:43+01:00
+date: 2022-12-11
 authors:
   - thom
 tags:

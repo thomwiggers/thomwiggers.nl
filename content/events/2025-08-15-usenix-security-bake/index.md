@@ -11,7 +11,7 @@ address:
 summary: |
   Conference talk presenting the BAKE framework for Signal's handshake protocols, covering X3DH, PQXDH, and the fully post-quantum RingXKEM.
 abstract: null
-date: 2026-03-18T00:00:00+01:00
+date: 2025-08-15
 authors:
   - thom
 tags:

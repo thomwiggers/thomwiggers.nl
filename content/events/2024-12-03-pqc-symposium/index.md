@@ -11,7 +11,7 @@ address:
 summary: |
   In this talk, I explain that although the focus on and progress with post-quantum key exchange is great, that does not mean that we should relax about post-quantum authentication. Post-quantum authentication is going to be hard and expensive (in most importantly bandwidth), and this will likely remain the case.
 abstract: null
-date: 2024-12-04T09:24:54+01:00
+date: 2024-12-03
 authors:
   - thom
 tags:

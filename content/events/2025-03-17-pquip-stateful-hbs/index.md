@@ -11,7 +11,7 @@ address:
 summary: |
   I presented a status update on our IETF draft on stateful HBS state management.
 abstract: null
-date: 2025-03-31T14:59:53+02:00
+date: 2025-03-17
 authors:
   - thom
 tags:

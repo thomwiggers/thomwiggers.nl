@@ -10,7 +10,7 @@ address:
   country: Germany
 summary: I gave an overview of the challenges for transitioning TLS to PQC, and highlighted a number of proposals to mitigate the impact of large post-quantum signatures.
 abstract: null
-date: 2024-01-17T11:58:40+01:00
+date: 2024-01-16
 authors:
   - thom
 tags:

@@ -11,7 +11,7 @@ address:
 summary: Conference talk about KEMTLS-PDK
 abstract: |
   Paper presentation of _More Efficient KEMTLS with Pre-Distributed Keys_.
-date: 2021-12-01T17:12:34+01:00
+date: 2021-10-07
 authors:
   - thom
 tag:
