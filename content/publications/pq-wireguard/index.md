@@ -8,7 +8,7 @@ authors:
   - guilhem
   - thom
 date: 2026-05-18T08:00:00-07:00
-hugoblox.ids: {doi: ""}
+hugoblox.ids: {doi: "10.1109/SP63933.2026.00057"}
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2025-10-29T11:35:38+01:00
