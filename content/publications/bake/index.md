@@ -56,8 +56,6 @@ featured: false
 #   icon: twitter
 
 links:
-  - type: pdf
-    url: "https://eprint.iacr.org/2025/040.pdf"
   - type: preprint
     url: "https://eprint.iacr.org/2025/040"
 
