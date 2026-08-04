@@ -39,4 +39,6 @@ image:
 projects: []
 ---
 
+{{< youtube x9anktfdZCg >}}
+
 Invited talk at PQCSA workshop co-located with Eurocrypt 2026 in Rome.
